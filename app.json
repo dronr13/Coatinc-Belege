@@ -1,0 +1,64 @@
+{
+  "id": "3aa1cbba-843e-4241-8fb7-ba4e74b279d1",
+  "name": "The Coatinc Company Holding GmbH",
+  "publisher": "Markmann + Müller Datensysteme GmbH",
+  "version": "26.0.360637.15",
+  "application": "26.0.0.0",
+  "platform": "26.0.0.0",
+  "screenshots": [],
+  "dependencies": [
+  {
+            "id": "ad4972b1-5c08-4081-87f8-7a9bd9fe9c08",
+            "name": "m+m Production Campaign",
+            "publisher": "Markmann + Müller Datensysteme GmbH",
+            "version": "26.0.0.0"
+        },
+        {
+            "id": "5dbd52e1-10e6-50e1-9d1c-adbf3e4a75c6",
+            "name": "m+m Material Properties",
+            "publisher": "Markmann + Müller Datensysteme GmbH",
+            "version": "26.0.0.0"
+        },
+        {
+            "id": "5dbd52e1-20e6-51e1-9d1c-adbf2e4a85c6",
+            "name": "m+m Production Order Overview",
+            "publisher": "Markmann + Müller Datensysteme GmbH",
+            "version": "26.0.0.0"
+        },
+        {
+            "id": "bbce4805-da6a-4c29-94a4-0e828959dbd3",
+            "name": "m+m Goods Receipt",
+            "publisher": "Markmann + Müller Datensysteme GmbH",
+            "version": "26.0.0.0"
+        },
+        {
+            "id": "dea4ebab-6006-403c-a7cd-9f954c20c3f4",
+            "name": "m+m Goods Receipt with material properties",
+            "publisher": "Markmann + Müller Datensysteme GmbH",
+            "version": "26.0.0.0"
+        },
+        {
+            "id": "5dbd52e1-20e6-49e1-9d1c-adbf2e4a75c6",
+            "name": "m+m Logistic Management",
+            "publisher": "Markmann + Müller Datensysteme GmbH",
+            "version": "26.0.0.0"
+        }
+  ],
+  
+  
+  "idRanges": [
+    {
+      "from": 60000,
+      "to": 60250
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "15.0",
+  "features": [
+    "NoImplicitWith"
+  ]
+}

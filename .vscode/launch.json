@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "al",
+            "request": "launch",
+            "name": "Coatinc Sandbox",
+            "server": "https://businesscentral.dynamics.com/",
+            "serverInstance": "Sandbox",
+            "authentication": "AAD",
+            "tenant": "c552a67c-40c8-4eab-a6de-7be06cbb739c",
+            "startupObjectId": 22,
+            "startupObjectType": "Page",
+            "schemaUpdateMode": "ForceSync"
+        }
+    ]
+}
