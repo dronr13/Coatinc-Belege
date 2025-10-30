@@ -28,7 +28,7 @@ codeunit 60124 "CO Print Label"
         LabelBuffer."Value 1" := ReceiptHeader."No.";
         LabelBuffer."Caption 2" := 'Kunde';
         LabelBuffer."Value 2" := ReceiptHeader."Sell-to Customer Name";
-        LabelBuffer."Caption 3" := 'Arbeitsplan';
+        // LabelBuffer."Caption 3" := 'Arbeitsplan';
         // LabelBuffer."Value 3" := Properties."Bearbeitung(en)" where (TableID = Database::"MuM GR Whse. Receipt Header") and (No = ReceiptHeader."No.");
         LabelBuffer."Caption 4" := 'Externe Bestell-nr';
         LabelBuffer."Value 4" := ReceiptHeader."External Order No.";

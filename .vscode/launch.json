@@ -9,7 +9,7 @@
             "serverInstance": "Sandbox",
             "authentication": "AAD",
             "tenant": "c552a67c-40c8-4eab-a6de-7be06cbb739c",
-            "startupObjectId": 22,
+            "startupObjectId": 9006,
             "startupObjectType": "Page",
             "schemaUpdateMode": "ForceSync"
         }
