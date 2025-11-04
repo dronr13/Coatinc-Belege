@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+      "CRS.ObjectNamePrefix": "CO",
+      "CRS.OnSaveAlFileAction": "Rename",
+      "CRS.RemovePrefixFromFilename": true,
+      "CRS.FileNamePattern": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+      "CRS.FileNamePatternExtensions": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al"
+	}
+}

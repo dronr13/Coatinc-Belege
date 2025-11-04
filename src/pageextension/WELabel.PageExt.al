@@ -22,7 +22,7 @@ pageextension 60112 "CO WE Label" extends "MuM GR Whse. Receipt"
             action("CO WE Label Prega")
             {
                 ApplicationArea = all;
-                Caption = 'WE Label';
+                Caption = 'WE Label Prega';
                 Image = Print;
                 ToolTip = 'We label wird gedruckt';
                 trigger OnAction()
