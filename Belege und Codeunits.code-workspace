@@ -9,6 +9,7 @@
       "CRS.OnSaveAlFileAction": "Rename",
       "CRS.RemovePrefixFromFilename": true,
       "CRS.FileNamePattern": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
-      "CRS.FileNamePatternExtensions": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al"
+	"CRS.FileNamePatternExtensions": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+	"sarif-viewer.connectToGithubCodeScanning": "off"
 	}
 }

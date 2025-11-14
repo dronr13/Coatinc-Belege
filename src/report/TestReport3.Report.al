@@ -2,7 +2,9 @@ report 60121 "CO Test Report 3"
 {
     ApplicationArea = All;
     Caption = 'Test Report 3';
-    RDLCLayout = './src/report/TestReport3.rdl';
+
+    // RDLCLayout = './src/report/TestReport3.rdl';
+    WordLayout = './src/report/TestReport3.docx';
     UsageCategory = Lists;
     dataset
     {

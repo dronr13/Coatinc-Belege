@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2016/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <AutoRefresh>0</AutoRefresh>
+  <DataSources>
+    <DataSource Name="DataSource">
+      <ConnectionProperties>
+        <DataProvider>SQL</DataProvider>
+        <ConnectString />
+      </ConnectionProperties>
+      <rd:SecurityType>None</rd:SecurityType>
+    </DataSource>
+  </DataSources>
+  <ReportSections>
+    <ReportSection>
+      <Body>
+        <Height>2in</Height>
+        <Style />
+      </Body>
+      <Width>6.5in</Width>
+      <Page>
+        <Style />
+      </Page>
+    </ReportSection>
+  </ReportSections>
+  <Code>Public Function BlankZero(ByVal Value As Decimal)
+    if Value = 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankPos(ByVal Value As Decimal)
+    if Value &gt; 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankZeroAndPos(ByVal Value As Decimal)
+    if Value &gt;= 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankNeg(ByVal Value As Decimal)
+    if Value &lt; 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankNegAndZero(ByVal Value As Decimal)
+    if Value &lt;= 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+</Code>
+  <Language>=User!Language</Language>
+  <ConsumeContainerWhitespace>true</ConsumeContainerWhitespace>
+  <rd:ReportUnitType>Inch</rd:ReportUnitType>
+  <rd:ReportID>0eeb6585-38ae-40f1-885b-8d50088d51b4</rd:ReportID>
+  <DataSets>
+    <DataSet Name="DataSet_Result">
+      <Fields>
+        <Field Name="Picture">
+          <DataField>Picture</DataField>
+        </Field>
+        <Field Name="Bestell_Nr_Caption">
+          <DataField>Bestell_Nr_Caption</DataField>
+        </Field>
+        <Field Name="Bestell_Nr">
+          <DataField>Bestell_Nr</DataField>
+        </Field>
+        <Field Name="Einkäufer_name_Caption">
+          <DataField>Einkäufer_name_Caption</DataField>
+        </Field>
+        <Field Name="Einkäufer_name">
+          <DataField>Einkäufer_name</DataField>
+        </Field>
+        <Field Name="Einkäufer_email_Caption">
+          <DataField>Einkäufer_email_Caption</DataField>
+        </Field>
+        <Field Name="Einkäufer_email">
+          <DataField>Einkäufer_email</DataField>
+        </Field>
+        <Field Name="Einkäufer_telefon_Caption">
+          <DataField>Einkäufer_telefon_Caption</DataField>
+        </Field>
+        <Field Name="Einkäufer_telefon">
+          <DataField>Einkäufer_telefon</DataField>
+        </Field>
+        <Field Name="Einkäufer_funktion_Caption">
+          <DataField>Einkäufer_funktion_Caption</DataField>
+        </Field>
+        <Field Name="Einkäufer_function">
+          <DataField>Einkäufer_function</DataField>
+        </Field>
+        <Field Name="Firma_name">
+          <DataField>Firma_name</DataField>
+        </Field>
+        <Field Name="Firma_adres">
+          <DataField>Firma_adres</DataField>
+        </Field>
+        <Field Name="PLZ_Stadt">
+          <DataField>PLZ_Stadt</DataField>
+        </Field>
+        <Field Name="Bestellung_Nr">
+          <DataField>Bestellung_Nr</DataField>
+        </Field>
+        <Field Name="GesamtBetrag">
+          <DataField>GesamtBetrag</DataField>
+        </Field>
+        <Field Name="GesamtBetragFormat">
+          <DataField>GesamtBetragFormat</DataField>
+        </Field>
+        <Field Name="Zeilennr">
+          <DataField>Zeilennr</DataField>
+        </Field>
+        <Field Name="Artikelnr">
+          <DataField>Artikelnr</DataField>
+        </Field>
+        <Field Name="Beschreibung">
+          <DataField>Beschreibung</DataField>
+        </Field>
+        <Field Name="Einkaufspreis">
+          <DataField>Einkaufspreis</DataField>
+        </Field>
+        <Field Name="EinkaufspreisFormat">
+          <DataField>EinkaufspreisFormat</DataField>
+        </Field>
+        <Field Name="Zielenbetrag">
+          <DataField>Zielenbetrag</DataField>
+        </Field>
+        <Field Name="ZielenbetragFormat">
+          <DataField>ZielenbetragFormat</DataField>
+        </Field>
+        <Field Name="Menge">
+          <DataField>Menge</DataField>
+        </Field>
+        <Field Name="MengeFormat">
+          <DataField>MengeFormat</DataField>
+        </Field>
+      </Fields>
+      <Query>
+        <DataSourceName>DataSource</DataSourceName>
+        <CommandText />
+      </Query>
+    </DataSet>
+  </DataSets>
+</Report>

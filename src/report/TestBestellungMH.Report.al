@@ -1,8 +1,8 @@
-report 60123 "CO Test Bestellung MH"
+report 60123 "CO Sales "
 {
     UsageCategory = Documents;
     ApplicationArea = All;
-    RDLCLayout = './src/report/TestBestellung.rdl';
+    RDLCLayout = './src/report/Sales Quotation.rdl';
     Caption = 'Bestellung';
 
 
@@ -101,11 +101,6 @@ report 60123 "CO Test Bestellung MH"
                 begin
                     Zwischensumme += "Line Amount";
                 end;
-
-
-
-
-
 
 
             }
