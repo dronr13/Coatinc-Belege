@@ -9,14 +9,21 @@ report 60126 "CO Sales Quotation"
     {
         dataitem("Company Information"; "Company Information")
         {
+
             column(Logo; Picture)
             {
             }
+
         }
         dataitem(SalesHeader; "Sales Header")
         {
-            DataItemTableView = sorting("Document Type", "No.") where("Document Type" = const(Quote));
 
+            DataItemTableView = sorting("Document Type", "No.") where("Document Type" = const(Quote));
+            RequestFilterFields = "No.";
+
+            column(Sender; Sender)
+            {
+            }
             column(DocNo; "No.")
             {
             }
@@ -100,15 +107,31 @@ report 60126 "CO Sales Quotation"
                 column(RCEmail; "E-Mail")
                 {
                 }
-//                column(RCTaxNo; "CO Tax Identification No.")
-//                {
-//                }
+                column(RCTaxNo; "CO VAT-ID")
+                {
+                }
                 column(RCWebsite; "Home Page")
                 {
                 }
-//                column(RCManager; RespCenter."CO Manager")
-//                {
-//                }
+                column(RCManager; RespCenter."CO Manager")
+                {
+                }
+                column(RCTradereg; "CO Trade Register")
+                {
+                }
+                // Field not yet there
+                // column(RCBankName; "CO Bank Name")
+                // {
+                // }
+                // column(RCBankNo; "CO Bank No.")
+                // {
+                // }
+                // column(RCIBAN; "CO IBAN")
+                // {
+                // }
+                // column(RCBIC; "CO BIC")
+                // {
+                // }
 
             }
 
@@ -127,14 +150,17 @@ report 60126 "CO Sales Quotation"
             }
             trigger OnAfterGetRecord()
             begin
+                Sender := RespCenter.Name + ' ' + RespCenter.Address + ', ' + RespCenter."Post Code" + ' ' + RespCenter.City;
+
             end;
 
         }
-        
+
     }
     var
         Einkäufer: Record "Salesperson/purchaser";
         Firma: Record "Responsibility Center";
+        Sender: text;
 
         Salutation: text;
 

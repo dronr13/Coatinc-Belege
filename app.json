@@ -72,6 +72,12 @@
             "name": "m+m Dropzone",
             "publisher": "Markmann + Müller Datensysteme GmbH",
             "version": "27.0.0.0"
+        },
+        {
+            "id": "1258d166-b9aa-46ba-8250-6ede8323626e",
+            "name": "The Coatinc Company Holding GmbH",
+            "publisher": "Markmann + Müller Datensysteme GmbH",
+            "version": "27.0.0.0"
         }
   ],
   
