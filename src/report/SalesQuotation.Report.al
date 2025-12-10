@@ -9,159 +9,81 @@ report 60126 "CO Sales Quotation"
     {
         dataitem("Company Information"; "Company Information")
         {
-
-            column(Logo; Picture)
-            {
-            }
-
+            column(Logo; Picture) { }
         }
+
         dataitem(SalesHeader; "Sales Header")
         {
-
-            DataItemTableView = sorting("Document Type", "No.") where("Document Type" = const(Quote));
+            DataItemTableView = sorting("Document Type", "No.")
+                                where("Document Type" = const(Quote));
             RequestFilterFields = "No.";
 
-            column(Sender; Sender)
-            {
-            }
-            column(DocNo; "No.")
-            {
-            }
-            column(ResponsibilityCenter; "Responsibility Center")
-            {
-            }
-            column(SalespersonCode; "Salesperson Code")
-            {
-            }
-            column(CustomerName; "Bill-to Name")
-            {
-            }
-            column(CustomerAddress; "Bill-to Address")
-            {
-            }
-            column(CustomerPostCode; "Bill-to Post Code")
-            {
-            }
-            column(CustomerCity; "Bill-to City")
-            {
-            }
-            column(No; "No.")
-            {
-            }
-            Column(Ref; "Your Reference")
-            {
-            }
-            column(QuoteDate; "Prepmt. Pmt. Discount Date")
-            {
-            }
-            column(contact; "Bill-to Contact")
-            {
-            }
+            column(Sender; Sender) { }
+            column(DocNo; "No.") { }
+            column(ResponsibilityCenter; "Responsibility Center") { }
+            column(SalespersonCode; "Salesperson Code") { }
+            column(CustomerName; "Bill-to Name") { }
+            column(CustomerAddress; "Bill-to Address") { }
+            column(CustomerPostCodeCity; "Bill-to Post Code" + ' ' + "Bill-to City") { }
+            column(No; "No.") { }
+            column(Ref; "Your Reference") { }
+            column(QuoteDate; "Prepmt. Pmt. Discount Date") { }
+            column(contact; "Bill-to Contact") { }
+            column(Annotation; 'Sehr geehrter Herr/Frau ' + "Bill-to Contact" + ',') { }
+
             dataitem(SalesLine; "Sales Line")
             {
-
                 DataItemLink = "Document Type" = field("Document Type"),
                                "Document No." = field("No.");
-                column(LineNo; "Line No.")
-                {
-                }
-                column(Artikel; "Type")
-                {
-                }
-                column(Description; Description)
-                {
-                }
-                column(Quantity; Quantity)
-                {
-                }
-                column(UnitOfMeasure; "Unit of Measure")
-                {
-                }
-                column(UnitPrice; "Unit Price")
-                {
-                }
-
+                column(LineNo; "Line No.") { }
+                column(Artikel; "Type") { }
+                column(Description; Description) { }
+                column(Quantity; Quantity) { }
+                column(UnitOfMeasure; "Unit of Measure") { }
+                column(UnitPrice; "Unit Price") { }
             }
 
             dataitem(RespCenter; "Responsibility Center")
             {
                 DataItemLink = Code = field("Responsibility Center");
-                column(RCName; Name)
-                {
-                }
-                column(RCAddress; "Address")
-                {
-                }
-                column(RCPostCode; "Post Code")
-                {
-                }
-                column(RCCity; City)
-                {
-                }
-                column(RCPhoneNo; "Phone No.")
-                {
-                }
-                column(RCFaxNo; "Fax No.")
-                {
-                }
-                column(RCEmail; "E-Mail")
-                {
-                }
-                column(RCTaxNo; "CO VAT-ID")
-                {
-                }
-                column(RCWebsite; "Home Page")
-                {
-                }
-                column(RCManager; RespCenter."CO Manager")
-                {
-                }
-                column(RCTradereg; "CO Trade Register")
-                {
-                }
-                // Field not yet there
-                // column(RCBankName; "CO Bank Name")
-                // {
-                // }
-                // column(RCBankNo; "CO Bank No.")
-                // {
-                // }
-                // column(RCIBAN; "CO IBAN")
-                // {
-                // }
-                // column(RCBIC; "CO BIC")
-                // {
-                // }
-
+                column(RCName; Name) { }
+                column(RCAddress; "Address") { }
+                column(RCPostCode; "Post Code") { }
+                column(RCCity; City) { }
+                column(RCPhoneNo; "Phone No.") { }
+                column(RCFaxNo; "Fax No.") { }
+                column(RCEmail; "E-Mail") { }
+                column(RCTaxNo; "CO VAT-ID") { }
+                column(RCWebsite; "Home Page") { }
+                column(RCManager; "CO Manager") { }
+                column(RCTradereg; "CO Trade Register") { }
             }
 
             dataitem("Salesperson/Purchaser"; "Salesperson/Purchaser")
             {
                 DataItemLink = "Code" = field("Salesperson Code");
-                column(Name; Name)
-                {
-                }
-                column(Email; "E-Mail")
-                {
-                }
-                column(PhoneNo; "Phone No.")
-                {
-                }
+                column(BeraterName; Name) { }
+                column(BeraterEmail; "E-Mail") { }
+                column(BeraterPhoneNo; "Phone No.") { }
             }
+
             trigger OnAfterGetRecord()
             begin
-                Sender := RespCenter.Name + ' ' + RespCenter.Address + ', ' + RespCenter."Post Code" + ' ' + RespCenter.City;
-
+                // Haal het Responsibility Center record expliciet op
+                if Firma.Get("Responsibility Center") then
+                    Sender :=
+                        Firma.Name + ' ' +
+                        Firma.Address + ', ' +
+                        Firma."Post Code" + ' ' +
+                        Firma.City
+                else
+                    Sender := '';
             end;
-
         }
-
     }
+
     var
-        Einkäufer: Record "Salesperson/purchaser";
         Firma: Record "Responsibility Center";
-        Sender: text;
-
-        Salutation: text;
-
+        Sender: Text;
+        Salutation: Text;
 }
