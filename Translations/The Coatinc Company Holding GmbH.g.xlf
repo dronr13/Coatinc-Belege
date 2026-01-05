@@ -1,0 +1,309 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="en-US" original="The Coatinc Company Holding GmbH">
+    <body>
+      <group id="body">
+        <trans-unit id="Table 2888829414 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Label Buffer</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CO Label Buffer - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2888829414 - Field 1650050144 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Barcode</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CO Label Buffer - Field Barcode - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2888829414 - Field 1452773769 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Caption 1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CO Label Buffer - Field Caption 1 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2888829414 - Field 2131847497 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Caption 10</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CO Label Buffer - Field Caption 10 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2888829414 - Field 2769544114 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Caption 11</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CO Label Buffer - Field Caption 11 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2888829414 - Field 856454263 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Caption 12</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CO Label Buffer - Field Caption 12 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2888829414 - Field 1494150880 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Caption 13</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CO Label Buffer - Field Caption 13 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2888829414 - Field 387666669 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Caption 14</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CO Label Buffer - Field Caption 14 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2888829414 - Field 1025363286 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Caption 15</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CO Label Buffer - Field Caption 15 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2888829414 - Field 3407240731 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Caption 16</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CO Label Buffer - Field Caption 16 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2888829414 - Field 4044937348 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Caption 17</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CO Label Buffer - Field Caption 17 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2888829414 - Field 815077152 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Caption 2</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CO Label Buffer - Field Caption 2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2888829414 - Field 177380535 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Caption 3</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CO Label Buffer - Field Caption 3 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2888829414 - Field 346289558 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Caption 4</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CO Label Buffer - Field Caption 4 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2888829414 - Field 4003560237 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Caption 5</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CO Label Buffer - Field Caption 5 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2888829414 - Field 3365863620 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Caption 6</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CO Label Buffer - Field Caption 6 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2888829414 - Field 2728167003 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Caption 7</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CO Label Buffer - Field Caption 7 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2888829414 - Field 1283864746 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Caption 8</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CO Label Buffer - Field Caption 8 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2888829414 - Field 646168129 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Caption 9</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CO Label Buffer - Field Caption 9 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2888829414 - Field 2010576282 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>PKID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CO Label Buffer - Field PKID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2888829414 - Field 2146116886 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Value 1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CO Label Buffer - Field Value 1 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2888829414 - Field 2608124670 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Value 10</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CO Label Buffer - Field Value 10 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2888829414 - Field 1970428053 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Value 11</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CO Label Buffer - Field Value 11 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2888829414 - Field 1332731436 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Value 12</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CO Label Buffer - Field Value 12 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2888829414 - Field 695034819 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Value 13</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CO Label Buffer - Field Value 13 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2888829414 - Field 57338202 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Value 14</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CO Label Buffer - Field Value 14 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2888829414 - Field 3714608881 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Value 15</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CO Label Buffer - Field Value 15 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2888829414 - Field 3076912264 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Value 16</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CO Label Buffer - Field Value 16 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2888829414 - Field 2439215647 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Value 17</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CO Label Buffer - Field Value 17 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2888829414 - Field 233027035 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Value 2</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CO Label Buffer - Field Value 2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2888829414 - Field 870723652 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Value 3</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CO Label Buffer - Field Value 3 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2888829414 - Field 3252601097 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Value 4</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CO Label Buffer - Field Value 4 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2888829414 - Field 3890297714 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Value 5</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CO Label Buffer - Field Value 5 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2888829414 - Field 1977207863 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Value 6</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CO Label Buffer - Field Value 6 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2888829414 - Field 2614904480 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Value 7</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CO Label Buffer - Field Value 7 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2888829414 - Field 701814629 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Value 8</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CO Label Buffer - Field Value 8 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2888829414 - Field 1339511246 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Value 9</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CO Label Buffer - Field Value 9 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3533932463 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Label Warenannahmen</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CO Label Waren Annahme - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3533932463 - Action 1800097419 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Start</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CO Label Waren Annahme - Action Verwerken - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 4138326048 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Label Warenannahmen</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CO Label Waren Annahme Prega - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 4138326048 - Action 1800097419 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Start</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CO Label Waren Annahme Prega - Action Verwerken - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 3834575376 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bestellung</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CO Sales  - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1565158889 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Test Report 3</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CO Test Report 3 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 433882219 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Test Report MH</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CO Test Report MH - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1388557178 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Quotation</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Sales Quotation - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3040218067 - Action 2841954534 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3448049138">
+          <source>LO wird gedruckt</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension CO Test LO - Action CO LO MH - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3040218067 - Action 2841954534 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3448049138">
+          <source>LO MH</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension CO Test LO - Action CO LO MH - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1565158889 - Action 2691444073 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3195034673">
+          <source>Hier werden bestellungen ausgegeben</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension CO Test Report 3 - Action CO Test MH - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1565158889 - Action 2691444073 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3195034673">
+          <source>Test MH</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension CO Test Report 3 - Action CO Test MH - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 433882219 - Action 2691444073 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3332899200">
+          <source>Hier werden bestellungen ausgegeben</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension CO Test Report MH - Action CO Test MH - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 433882219 - Action 2691444073 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3332899200">
+          <source>Test MH</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension CO Test Report MH - Action CO Test MH - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2874925908 - Action 2874925908 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1566602949">
+          <source>We label wird gedruckt</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension CO WE Label - Action CO WE Label - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2874925908 - Action 2874925908 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1566602949">
+          <source>WE Label</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension CO WE Label - Action CO WE Label - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2874925908 - Action 343077043 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1566602949">
+          <source>We label wird gedruckt</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension CO WE Label - Action CO WE Label Prega - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2874925908 - Action 343077043 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1566602949">
+          <source>WE Label Prega</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension CO WE Label - Action CO WE Label Prega - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2874925908 - Change 747683197 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1566602949">
+          <source>Freigeben</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension TTCCMuM GR Whse. Receipt - Change Notify - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 4072668533 - Field 1267408499 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2247850105">
+          <source>Account nr</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension TCCResponsibilityCenter - Field Account - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 4072668533 - Field 1732083938 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2247850105">
+          <source>Bank name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension TCCResponsibilityCenter - Field Bank - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 4072668533 - Field 1621335372 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2247850105">
+          <source>BIC</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension TCCResponsibilityCenter - Field BIC - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 4072668533 - Field 1176583840 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2247850105">
+          <source>IBAN</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension TCCResponsibilityCenter - Field IBAN - Property Caption</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

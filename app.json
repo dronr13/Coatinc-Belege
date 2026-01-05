@@ -1,7 +1,7 @@
 {
   "id": "3aa1cbba-843e-4241-8fb7-ba4e74b279d1",
   "name": "The Coatinc Company Holding GmbH",
-  "publisher": "CO - M.Holkamp",
+  "publisher": "TCC - M.Holkamp",
   "version": "27.0.38460.01",
   "application": "27.0.0.0",
   "platform": "27.0.0.0",
@@ -95,6 +95,7 @@
   },
   "runtime": "15.0",
   "features": [
-    "NoImplicitWith"
+    "NoImplicitWith",
+    "TranslationFile"
   ]
 }
