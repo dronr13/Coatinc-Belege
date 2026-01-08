@@ -3,6 +3,7 @@ report 60126 "TCC Sales Quotation"
     UsageCategory = Documents;
     ApplicationArea = All;
     RDLCLayout = './src/report/SalesQuotation.rdl';
+    WordLayout = './src/report/SalesQuotation.docx';
     Caption = 'Quotation';
 
     dataset
@@ -22,42 +23,89 @@ report 60126 "TCC Sales Quotation"
             column(CustomerName; "Bill-to Name") { }
             column(CustomerAddress; "Bill-to Address") { }
             column(CustomerPostCodeCity; "Bill-to Post Code" + ' ' + "Bill-to City") { }
-            column(No; "No.") { }
-            column(Ref; "Your Reference") { }
-            column(QuoteDate; "Prepmt. Pmt. Discount Date") { }
+            column("QuotationNo"; "No.")
+            {
+                Caption = 'Quotation Number';
+            }
+            column(Ref; "Your Reference")
+            {
+                Caption = 'Your Reference';
+            }
+            column(QuoteDate; "Prepmt. Pmt. Discount Date")
+            {
+                Caption = 'Quotation Date';
+            }
             column(contact; "Bill-to Contact") { }
             column(Annotation; 'Sehr geehrter Herr/Frau ' + "Bill-to Contact" + ',') { }
 
-            column(SalesPersonName; PurchasePerson) { }
-            column(SalesPersonPhone; PurchasePhone) { }
-            column(SalesPersonEmail; PurchaseEmail) { }
+            column(SalesPersonName; PurchasePerson)
+            {
+                Caption = 'Sales Person';
+            }
+            column(SalesPersonPhone; PurchasePhone)
+            {
+                Caption = 'Sales Phone';
+            }
+            column(SalesPersonEmail; PurchaseEmail)
+            {
+                Caption = 'Sales Phone';
+            }
 
-                column(RCName; RCName) { }
-                column(RCAddress; RCAddress) { }
-                column(RCPostCode; RCPostCode) { }
-                column(RCCity; RCCity) { }
-                column(RCPhoneNo; RCPhoneNo) { }
-                column(RCFaxNo; RCFaxno) { }
-                column(RCEmail; RCEmail) { }
-                column(RCTaxNo; RCTaxNo) { }
-                column(RCWebsite; RCWebsite) { }
-                column(RCManager; "RCManager") { }
-                column(RCTradereg; "RCTradeReg") { }
-                column(RCBank; "RCBank") { }
-                column(RCBankAccount; "RCBankAccount") { }
-                column(RCIBAN; "RCIBAN") { }
-                column(RCBIN; "RCBIC") { }
+            column(RCName; RCName) { }
+            column(RCAddress; RCAddress) { }
+            column(RCPostCode; RCPostCode) { }
+            column(RCCity; RCCity) { }
+            column(RCPhoneNo; RCPhoneNo) { }
+            column(RCFaxNo; RCFaxno) { }
+            column(RCEmail; RCEmail) { }
+            column(RCTaxNo; RCTaxNo) { }
+            column(RCWebsite; RCWebsite) { }
+            column(RCManager; "RCManager") { }
+            column(RCTradereg; "RCTradeReg") { }
+            column(RCBank; "RCBank") { }
+            column(RCBankAccount; "RCBankAccount")
+            {
+                Caption = 'Bank account';
+            }
+            column(RCIBAN; "RCIBAN")
+            {
+                Caption = 'IBAN';
+            }
+            column(RCBIC; "RCBIC")
+            {
+                Caption = 'BIC';
+            }
 
             dataitem(SalesLine; "Sales Line")
             {
                 DataItemLink = "Document Type" = field("Document Type"),
                                "Document No." = field("No.");
                 column(LineNo; "Line No.") { }
-                column(Artikel; "Type") { }
-                column(Description; Description) { }
-                column(Quantity; Quantity) { }
-                column(UnitOfMeasure; "Unit of Measure") { }
-                column(UnitPrice; "Unit Price") { }
+                column("ArtikelCode"; "No.")
+                {
+                    Caption = 'Artikel Code';
+                }
+                column(Artikel; "Type")
+                {
+                    Caption = 'Artikel Type';
+                }
+                column(Description; Description)
+                {
+                    Caption = 'Artikel Description';
+                }
+                column(Quantity; Quantity)
+                {
+                    Caption = 'Quantity'
+;
+                }
+                column(UnitOfMeasure; "Unit of Measure")
+                {
+                    Caption = 'Unit of measure';
+                }
+                column(UnitPrice; "Unit Price")
+                {
+                    Caption = 'Unit Price';
+                }
             }
 
 
@@ -86,12 +134,12 @@ report 60126 "TCC Sales Quotation"
 
                 if Company.Get() then
                     Company.CalcFields(Picture);
-                
+
 
                 if ResponsebilityCenter.Get(SalesHeader."Responsibility Center") then begin
                     RCName := ResponsebilityCenter.Name;
                     RCAddress := ResponsebilityCenter.Address;
-                    RCPostCode :=  ResponsebilityCenter."Post Code";
+                    RCPostCode := ResponsebilityCenter."Post Code";
                     RCCity := ResponsebilityCenter.City;
                     RCPhoneNo := ResponsebilityCenter."Phone No.";
                     RCFaxNo := ResponsebilityCenter."Fax No.";

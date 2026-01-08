@@ -1,4 +1,4 @@
-pageextension 60127 "TTCCMuM GR Whse. Receipt" extends "MuM GR Whse. Receipt"
+pageextension 60127 "TCCMuM GR Whse. Receipt" extends "MuM GR Whse. Receipt"
 {
     actions
     {
@@ -6,7 +6,7 @@ pageextension 60127 "TTCCMuM GR Whse. Receipt" extends "MuM GR Whse. Receipt"
             Visible = false;
         }
         modify(Notify){
-            Caption = 'Freigeben';
+            Caption = 'Release';
             // CaptionML = DEU = 'Freigegeben', ENU = 'Release';
         }
     }

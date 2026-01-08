@@ -11,7 +11,7 @@
       <am:Name>MSRB</am:Name>
       <am:Version>15.1.30001.02</am:Version>
     </am:UpdatedBy>
-    <am:LastModifiedTimestamp>2025-12-18T13:35:46.3558691Z</am:LastModifiedTimestamp>
+    <am:LastModifiedTimestamp>2026-01-06T11:39:37.7321680Z</am:LastModifiedTimestamp>
   </am:AuthoringMetadata>
   <AutoRefresh>0</AutoRefresh>
   <DataSources>
@@ -499,15 +499,15 @@
                                       </TablixCell>
                                       <TablixCell>
                                         <CellContents>
-                                          <Textbox Name="SalesPersonEmail1">
-                                            <rd:DefaultName>SalesPersonEmail1</rd:DefaultName>
+                                          <Textbox Name="SalesPersonPhone">
+                                            <rd:DefaultName>SalesPersonPhone</rd:DefaultName>
                                             <CanGrow>true</CanGrow>
                                             <KeepTogether>true</KeepTogether>
                                             <Paragraphs>
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value>=Fields!SalesPersonEmail.Value</Value>
+                                                    <Value>=Fields!SalesPersonPhone.Value</Value>
                                                     <Style />
                                                   </TextRun>
                                                 </TextRuns>
@@ -914,7 +914,7 @@
                                 </Paragraph>
                               </Paragraphs>
                               <Top>7.06121cm</Top>
-                              <Left>0.09666cm</Left>
+                              <Left>0.12312cm</Left>
                               <Height>2.32833cm</Height>
                               <Width>17.83395cm</Width>
                               <ZIndex>4</ZIndex>
@@ -1139,15 +1139,15 @@
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
-                                          <Textbox Name="Artikel">
-                                            <rd:DefaultName>Artikel</rd:DefaultName>
+                                          <Textbox Name="ArtikelCode">
+                                            <rd:DefaultName>ArtikelCode</rd:DefaultName>
                                             <CanGrow>true</CanGrow>
                                             <KeepTogether>true</KeepTogether>
                                             <Paragraphs>
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value>=Fields!Artikel.Value</Value>
+                                                    <Value>=Fields!ArtikelCode.Value</Value>
                                                     <Style />
                                                   </TextRun>
                                                 </TextRuns>
@@ -1510,7 +1510,9 @@
                   <TextRuns>
                     <TextRun>
                       <Value>=First(Fields!RCManager.Value, "DataSet_Result")</Value>
-                      <Style />
+                      <Style>
+                        <FontSize>7pt</FontSize>
+                      </Style>
                     </TextRun>
                   </TextRuns>
                   <Style />
@@ -1521,6 +1523,289 @@
               <Height>0.36187cm</Height>
               <Width>4.80188cm</Width>
               <ZIndex>2</ZIndex>
+              <Style>
+                <Border>
+                  <Style>None</Style>
+                </Border>
+                <PaddingLeft>2pt</PaddingLeft>
+                <PaddingRight>2pt</PaddingRight>
+                <PaddingTop>2pt</PaddingTop>
+                <PaddingBottom>2pt</PaddingBottom>
+              </Style>
+            </Textbox>
+            <Textbox Name="Textbox16">
+              <rd:DefaultName>Textbox12</rd:DefaultName>
+              <CanGrow>true</CanGrow>
+              <KeepTogether>true</KeepTogether>
+              <Paragraphs>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value>=First(Fields!RCBank.Value, "DataSet_Result")</Value>
+                      <Style>
+                        <FontSize>7pt</FontSize>
+                      </Style>
+                    </TextRun>
+                  </TextRuns>
+                  <Style />
+                </Paragraph>
+              </Paragraphs>
+              <Top>0.53827cm</Top>
+              <Left>13.12873cm</Left>
+              <Height>0.36187cm</Height>
+              <Width>4.80188cm</Width>
+              <ZIndex>3</ZIndex>
+              <Style>
+                <Border>
+                  <Style>None</Style>
+                </Border>
+                <PaddingLeft>2pt</PaddingLeft>
+                <PaddingRight>2pt</PaddingRight>
+                <PaddingTop>2pt</PaddingTop>
+                <PaddingBottom>2pt</PaddingBottom>
+              </Style>
+            </Textbox>
+            <Textbox Name="Textbox20">
+              <rd:DefaultName>Textbox12</rd:DefaultName>
+              <CanGrow>true</CanGrow>
+              <KeepTogether>true</KeepTogether>
+              <Paragraphs>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value>="Konto: " &amp; First(Fields!RCBankAccount.Value, "DataSet_Result")</Value>
+                      <Style>
+                        <FontSize>7pt</FontSize>
+                      </Style>
+                    </TextRun>
+                  </TextRuns>
+                  <Style />
+                </Paragraph>
+              </Paragraphs>
+              <Top>0.93542cm</Top>
+              <Left>13.12873cm</Left>
+              <Height>0.36187cm</Height>
+              <Width>4.80188cm</Width>
+              <ZIndex>4</ZIndex>
+              <Style>
+                <Border>
+                  <Style>None</Style>
+                </Border>
+                <PaddingLeft>2pt</PaddingLeft>
+                <PaddingRight>2pt</PaddingRight>
+                <PaddingTop>2pt</PaddingTop>
+                <PaddingBottom>2pt</PaddingBottom>
+              </Style>
+            </Textbox>
+            <Textbox Name="Textbox21">
+              <rd:DefaultName>Textbox12</rd:DefaultName>
+              <CanGrow>true</CanGrow>
+              <KeepTogether>true</KeepTogether>
+              <Paragraphs>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value>="IBAN: " &amp; First(Fields!RCIBAN.Value, "DataSet_Result")</Value>
+                      <Style>
+                        <FontSize>7pt</FontSize>
+                      </Style>
+                    </TextRun>
+                  </TextRuns>
+                  <Style />
+                </Paragraph>
+              </Paragraphs>
+              <Top>1.29729cm</Top>
+              <Left>13.12873cm</Left>
+              <Height>0.36187cm</Height>
+              <Width>4.80188cm</Width>
+              <ZIndex>5</ZIndex>
+              <Style>
+                <Border>
+                  <Style>None</Style>
+                </Border>
+                <PaddingLeft>2pt</PaddingLeft>
+                <PaddingRight>2pt</PaddingRight>
+                <PaddingTop>2pt</PaddingTop>
+                <PaddingBottom>2pt</PaddingBottom>
+              </Style>
+            </Textbox>
+            <Textbox Name="Textbox22">
+              <rd:DefaultName>Textbox12</rd:DefaultName>
+              <CanGrow>true</CanGrow>
+              <KeepTogether>true</KeepTogether>
+              <Paragraphs>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value>="BIC: " &amp; First(Fields!RCBIN.Value, "DataSet_Result")</Value>
+                      <Style>
+                        <FontSize>7pt</FontSize>
+                      </Style>
+                    </TextRun>
+                  </TextRuns>
+                  <Style />
+                </Paragraph>
+              </Paragraphs>
+              <Top>1.65916cm</Top>
+              <Left>13.12873cm</Left>
+              <Height>0.36187cm</Height>
+              <Width>4.80188cm</Width>
+              <ZIndex>6</ZIndex>
+              <Style>
+                <Border>
+                  <Style>None</Style>
+                </Border>
+                <PaddingLeft>2pt</PaddingLeft>
+                <PaddingRight>2pt</PaddingRight>
+                <PaddingTop>2pt</PaddingTop>
+                <PaddingBottom>2pt</PaddingBottom>
+              </Style>
+            </Textbox>
+            <Textbox Name="Textbox23">
+              <rd:DefaultName>Textbox3</rd:DefaultName>
+              <CanGrow>true</CanGrow>
+              <KeepTogether>true</KeepTogether>
+              <Paragraphs>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value>=First(Fields!RCName.Value, "DataSet_Result")</Value>
+                      <Style>
+                        <FontSize>7pt</FontSize>
+                      </Style>
+                    </TextRun>
+                  </TextRuns>
+                  <Style />
+                </Paragraph>
+              </Paragraphs>
+              <Top>0.17639cm</Top>
+              <Height>0.36188cm</Height>
+              <Width>4.80188cm</Width>
+              <ZIndex>7</ZIndex>
+              <Style>
+                <Border>
+                  <Style>None</Style>
+                </Border>
+                <PaddingLeft>2pt</PaddingLeft>
+                <PaddingRight>2pt</PaddingRight>
+                <PaddingTop>2pt</PaddingTop>
+                <PaddingBottom>2pt</PaddingBottom>
+              </Style>
+            </Textbox>
+            <Textbox Name="Textbox24">
+              <rd:DefaultName>Textbox3</rd:DefaultName>
+              <CanGrow>true</CanGrow>
+              <KeepTogether>true</KeepTogether>
+              <Paragraphs>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value>=First(Fields!RCAddress.Value, "DataSet_Result")</Value>
+                      <Style>
+                        <FontSize>7pt</FontSize>
+                      </Style>
+                    </TextRun>
+                  </TextRuns>
+                  <Style />
+                </Paragraph>
+              </Paragraphs>
+              <Top>0.53826cm</Top>
+              <Height>0.36188cm</Height>
+              <Width>4.80188cm</Width>
+              <ZIndex>8</ZIndex>
+              <Style>
+                <Border>
+                  <Style>None</Style>
+                </Border>
+                <PaddingLeft>2pt</PaddingLeft>
+                <PaddingRight>2pt</PaddingRight>
+                <PaddingTop>2pt</PaddingTop>
+                <PaddingBottom>2pt</PaddingBottom>
+              </Style>
+            </Textbox>
+            <Textbox Name="Textbox25">
+              <rd:DefaultName>Textbox3</rd:DefaultName>
+              <CanGrow>true</CanGrow>
+              <KeepTogether>true</KeepTogether>
+              <Paragraphs>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value>=First(Fields!RCPostCode.Value, "DataSet_Result") &amp; " " &amp; First(Fields!RCCity.Value, "DataSet_Result")</Value>
+                      <Style>
+                        <FontSize>7pt</FontSize>
+                      </Style>
+                    </TextRun>
+                  </TextRuns>
+                  <Style />
+                </Paragraph>
+              </Paragraphs>
+              <Top>0.93542cm</Top>
+              <Height>0.36188cm</Height>
+              <Width>4.80188cm</Width>
+              <ZIndex>9</ZIndex>
+              <Style>
+                <Border>
+                  <Style>None</Style>
+                </Border>
+                <PaddingLeft>2pt</PaddingLeft>
+                <PaddingRight>2pt</PaddingRight>
+                <PaddingTop>2pt</PaddingTop>
+                <PaddingBottom>2pt</PaddingBottom>
+              </Style>
+            </Textbox>
+            <Textbox Name="Textbox26">
+              <rd:DefaultName>Textbox3</rd:DefaultName>
+              <CanGrow>true</CanGrow>
+              <KeepTogether>true</KeepTogether>
+              <Paragraphs>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value>=First(Fields!RCPhoneNo.Value, "DataSet_Result")</Value>
+                      <Style>
+                        <FontSize>7pt</FontSize>
+                      </Style>
+                    </TextRun>
+                  </TextRuns>
+                  <Style />
+                </Paragraph>
+              </Paragraphs>
+              <Top>1.33258cm</Top>
+              <Height>0.36188cm</Height>
+              <Width>4.80188cm</Width>
+              <ZIndex>10</ZIndex>
+              <Style>
+                <Border>
+                  <Style>None</Style>
+                </Border>
+                <PaddingLeft>2pt</PaddingLeft>
+                <PaddingRight>2pt</PaddingRight>
+                <PaddingTop>2pt</PaddingTop>
+                <PaddingBottom>2pt</PaddingBottom>
+              </Style>
+            </Textbox>
+            <Textbox Name="Textbox27">
+              <rd:DefaultName>Textbox3</rd:DefaultName>
+              <CanGrow>true</CanGrow>
+              <KeepTogether>true</KeepTogether>
+              <Paragraphs>
+                <Paragraph>
+                  <TextRuns>
+                    <TextRun>
+                      <Value>=First(Fields!RCEmail.Value, "DataSet_Result")</Value>
+                      <Style>
+                        <FontSize>7pt</FontSize>
+                      </Style>
+                    </TextRun>
+                  </TextRuns>
+                  <Style />
+                </Paragraph>
+              </Paragraphs>
+              <Top>1.65915cm</Top>
+              <Height>0.36188cm</Height>
+              <Width>4.80188cm</Width>
+              <ZIndex>11</ZIndex>
               <Style>
                 <Border>
                   <Style>None</Style>
@@ -1615,8 +1900,8 @@ End Function
         <Field Name="CustomerPostCodeCity">
           <DataField>CustomerPostCodeCity</DataField>
         </Field>
-        <Field Name="No">
-          <DataField>No</DataField>
+        <Field Name="QuotationNo">
+          <DataField>QuotationNo</DataField>
         </Field>
         <Field Name="Ref">
           <DataField>Ref</DataField>
@@ -1681,11 +1966,14 @@ End Function
         <Field Name="RCIBAN">
           <DataField>RCIBAN</DataField>
         </Field>
-        <Field Name="RCBIN">
-          <DataField>RCBIN</DataField>
+        <Field Name="RCBIC">
+          <DataField>RCBIC</DataField>
         </Field>
         <Field Name="LineNo">
           <DataField>LineNo</DataField>
+        </Field>
+        <Field Name="ArtikelCode">
+          <DataField>ArtikelCode</DataField>
         </Field>
         <Field Name="Artikel">
           <DataField>Artikel</DataField>

@@ -7,8 +7,8 @@ codeunit 60126 RequeredFieldsWa
     Begin
         // if (not rec."CO Photo Available") then
         //     Error('Bitte mache photo!');
-        if (rec."Location Code" = '') then
-            Error('Die lagerplaze ist lehr!');
+        if (rec."Receipt Bin Code" = '') then //Wareneingangslagerplazecode in page
+            Error('Receipt Bin Code is empty');
         
     End;   
 }
