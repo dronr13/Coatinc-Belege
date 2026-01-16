@@ -9,7 +9,7 @@ Codeunit 60000 "CCTGRProWhsRcpt Business Event"
         BusinessEventMuMGRProWhseRcptHeaderInsert(Rec.SystemId, Rec."No.");
     end;
 
-    [ExternalBusinessEvent('MuMGRProWhseRcptHeader', 'Insert MuM GR Pro. Whse. Rcpt. Header', 'This business event is triggered when a MuM GR Pro. Whse. Rcpt. Header Record is inserted', Enum::EventCategory::"CCT MuM GR Pro. Whse. Rcpt. Events", '1.0')]
+    [ExternalBusinessEvent('MuMGRProWhseRcptHeader', 'goods receipt created', 'This business event is triggered when a MuM GR Pro. Whse. Rcpt. Header Record is inserted', Enum::EventCategory::"CCT MuM GR Pro. Whse. Rcpt. Events", '1.0')]
     local procedure BusinessEventMuMGRProWhseRcptHeaderInsert(MuMGRProWhseRcptHeaderId: Guid; MuMGRProWhseRcptHeaderNo: Code[20])
     begin
     end;
