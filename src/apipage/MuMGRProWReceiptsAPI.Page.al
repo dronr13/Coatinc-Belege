@@ -7,8 +7,8 @@ page 60001 "MuM GR Pro. W. Receipts API"
     APIPublisher = 'thecoatinccompanyholding';
     APIGroup = 'tcc';
 
-    EntityCaption = 'MuM GR Pro. W. Rcpt. Header';
-    EntitySetCaption = 'MuM GR Pro. W. Rcpt. Headers';
+    EntityCaption = 'MuM Processed Goods Receipt Whse. Receipt Header';
+    EntitySetCaption = 'MuM Processed Goods Receipt Whse. Receipt Headers';
     EntityName = 'mumGrProWhseReceiptHeader';
     EntitySetName = 'mumGrProWhseReceiptHeaders';
 
@@ -16,7 +16,7 @@ page 60001 "MuM GR Pro. W. Receipts API"
     SourceTable = "MuM GR Pro. W. Rcpt. Header";
 
     Extensible = false;
-    DelayedInsert = true;
+    Editable = false;
 
     layout
     {

@@ -7,8 +7,8 @@ page 60000 "MuM GR Whse. Receipts API"
     APIPublisher = 'thecoatinccompanyholding';
     APIGroup = 'tcc';
 
-    EntityCaption = 'MuM GR Whse. Receipt Header';
-    EntitySetCaption = 'MuM GR Whse. Receipt Headers';
+    EntityCaption = 'MuM Goods Receipt Whse. Receipt Header';
+    EntitySetCaption = 'MuM Goods Receipt Whse. Receipt Headers';
     EntityName = 'mumGrWhseReceiptHeader';
     EntitySetName = 'mumGrWhseReceiptHeaders';
 
