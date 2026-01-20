@@ -1,0 +1,1019 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="de-DE" original="The Coatinc Company Holding GmbH.g.xlf">
+    <body>
+      <group id="body">
+        <trans-unit id="Page 2488227719 - Property 3446740159" size-unit="char" translate="yes" xml:space="preserve">
+          <source>MuM GR Pro. W. Rcpt. Header</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MuM GR Pro. W. Receipts API - Property EntityCaption</note>
+        </trans-unit>
+        <trans-unit id="Page 2488227719 - Property 631549417" size-unit="char" translate="yes" xml:space="preserve">
+          <source>MuM GR Pro. W. Rcpt. Headers</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MuM GR Pro. W. Receipts API - Property EntitySetCaption</note>
+        </trans-unit>
+        <trans-unit id="Page 2488227719 - Control 2366585140 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Blocked Bin Code</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MuM GR Pro. W. Receipts API - Control blockedBinCode - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2488227719 - Control 1433150556 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Blocked Location Code</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MuM GR Pro. W. Receipts API - Control blockedLocationCode - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2488227719 - Control 326003978 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Correction</source>
+          <target>Korrektur</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MuM GR Pro. W. Receipts API - Control correction - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2488227719 - Control 943136216 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create Assembly Order</source>
+          <target>Montageauftrag erstellen</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MuM GR Pro. W. Receipts API - Control createAssemblyOrder - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2488227719 - Control 2475235959 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Created at</source>
+          <target>Erstellt am</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MuM GR Pro. W. Receipts API - Control createdAt - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2488227719 - Control 4096799193 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Created by User ID</source>
+          <target>Erstellt von Benutzer-ID</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MuM GR Pro. W. Receipts API - Control createdByUserId - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2488227719 - Control 3843576979 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create Production Order</source>
+          <target>Fertigungsauftrag erstellen</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MuM GR Pro. W. Receipts API - Control createProductionOrder - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2488227719 - Control 3144638894 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create Sales Order</source>
+          <target>Verkaufsauftrag erstellen</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MuM GR Pro. W. Receipts API - Control createSalesOrder - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2488227719 - Control 515850677 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document Date</source>
+          <target>Belegdatum</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MuM GR Pro. W. Receipts API - Control documentDate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2488227719 - Control 217513166 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>External Order No.</source>
+          <target>Externe Bestelnummer</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MuM GR Pro. W. Receipts API - Control externalOrderNo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2488227719 - Control 156898843 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>External Shipment Date</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MuM GR Pro. W. Receipts API - Control externalShipmentDate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2488227719 - Control 4054328752 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>External Shipment No.</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MuM GR Pro. W. Receipts API - Control externalShipmentNo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2488227719 - Control 2686962215 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Id</source>
+          <target>[NAB: SUGGESTION]ID</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MuM GR Pro. W. Receipts API - Control id - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2488227719 - Control 517178826 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Last Modified at</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MuM GR Pro. W. Receipts API - Control lastModifiedAt - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2488227719 - Control 932257384 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Last Modified by User ID</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MuM GR Pro. W. Receipts API - Control lastModifiedByUserId - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2488227719 - Control 2626499740 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Location Code</source>
+          <target>[NAB: SUGGESTION]Lagerortcode</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MuM GR Pro. W. Receipts API - Control locationCode - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2488227719 - Control 3179096107 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No.</source>
+          <target>[NAB: SUGGESTION]Nr.</target>
+          <target>[NAB: SUGGESTION]Anz.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MuM GR Pro. W. Receipts API - Control no - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2488227719 - Control 3040900216 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Post Components</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MuM GR Pro. W. Receipts API - Control postComponents - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2488227719 - Control 1246254057 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Processed at</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MuM GR Pro. W. Receipts API - Control processedAt - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2488227719 - Control 1207318087 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Processed by User ID</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MuM GR Pro. W. Receipts API - Control processedByUserId - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2488227719 - Control 3526933559 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Production Order Type</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MuM GR Pro. W. Receipts API - Control productionOrderType - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2488227719 - Control 3988227600 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Receipt Bin Code</source>
+          <target>[NAB: SUGGESTION]Wareneingangslagerplatzcode</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MuM GR Pro. W. Receipts API - Control receiptBinCode - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2488227719 - Control 1030168324 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Receipt Date</source>
+          <target>[NAB: SUGGESTION]Wareneingangsdatum</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MuM GR Pro. W. Receipts API - Control receiptDate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2488227719 - Control 55094360 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Receipt Location Code</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MuM GR Pro. W. Receipts API - Control receiptLocationCode - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2488227719 - Control 125901060 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Requested Delivery Date</source>
+          <target>[NAB: SUGGESTION]Gewünschtes Lieferdatum</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MuM GR Pro. W. Receipts API - Control requestedDeliveryDate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2488227719 - Control 555313658 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sell-to Customer Name</source>
+          <target>[NAB: SUGGESTION]Verk. an Name</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MuM GR Pro. W. Receipts API - Control sellToCustomerName - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2488227719 - Control 3111526132 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sell-to Customer No.</source>
+          <target>[NAB: SUGGESTION]Verk. an Deb.-Nr.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MuM GR Pro. W. Receipts API - Control sellToCustomerNo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2488227719 - Control 1999593414 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shipment Method Code</source>
+          <target>Lieferbedingungscode</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MuM GR Pro. W. Receipts API - Control shipmentMethodCode - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2488227719 - Control 476472346 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shipping Agent Code</source>
+          <target>Zustellercode</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MuM GR Pro. W. Receipts API - Control shippingAgentCode - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2488227719 - Control 928158141 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shipping Agent Service Code</source>
+          <target>Zustellertransportartencode</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MuM GR Pro. W. Receipts API - Control shippingAgentServiceCode - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2488227719 - Control 2749486753 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shipping Time</source>
+          <target>Transportzeit</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MuM GR Pro. W. Receipts API - Control shippingTime - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2488227719 - Control 3424017913 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ship-to Address</source>
+          <target>Lief. an</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MuM GR Pro. W. Receipts API - Control shipToAddress - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2488227719 - Control 3379414791 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ship-to Address 2</source>
+          <target>Lief. an 2</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MuM GR Pro. W. Receipts API - Control shipToAddress2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2488227719 - Control 1336190306 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ship-to City</source>
+          <target>[NAB: SUGGESTION]Lief. an Ort</target>
+          <target>[NAB: SUGGESTION]Lieferung an Ort</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MuM GR Pro. W. Receipts API - Control shipToCity - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2488227719 - Control 1971564552 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ship-to Code</source>
+          <target>[NAB: SUGGESTION]Lief. an Code</target>
+          <target>[NAB: SUGGESTION]Lieferung an Code</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MuM GR Pro. W. Receipts API - Control shipToCode - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2488227719 - Control 1979445219 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ship-to Contact</source>
+          <target>[NAB: SUGGESTION]Lief. an Kontakt</target>
+          <target>[NAB: SUGGESTION]Lieferung an Kontakt</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MuM GR Pro. W. Receipts API - Control shipToContact - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2488227719 - Control 3377121152 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ship-to Country/Region Code</source>
+          <target>[NAB: SUGGESTION]Lief. an Länder-/Regionscode</target>
+          <target>[NAB: SUGGESTION]Lieferung an Länder-/Regionscode</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MuM GR Pro. W. Receipts API - Control shipToCountryRegionCode - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2488227719 - Control 3910966429 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ship-to County</source>
+          <target>[NAB: SUGGESTION]Lief. an Bundesregion</target>
+          <target>[NAB: SUGGESTION]Lieferung an Bundesregion</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MuM GR Pro. W. Receipts API - Control shipToCounty - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2488227719 - Control 1889388274 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ship-to Name</source>
+          <target>[NAB: SUGGESTION]Lief. an Name</target>
+          <target>[NAB: SUGGESTION]Lieferung an Name</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MuM GR Pro. W. Receipts API - Control shipToName - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2488227719 - Control 2498789160 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ship-to Name 2</source>
+          <target>[NAB: SUGGESTION]Lief. an Name 2</target>
+          <target>[NAB: SUGGESTION]Lieferung an Name 2</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MuM GR Pro. W. Receipts API - Control shipToName2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2488227719 - Control 2208491120 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ship-to Phone No.</source>
+          <target>[NAB: SUGGESTION]Lief. an Telefonnr.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MuM GR Pro. W. Receipts API - Control shipToPhoneNo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2488227719 - Control 2895959832 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ship-to Post Code</source>
+          <target>[NAB: SUGGESTION]Lief. an PLZ</target>
+          <target>[NAB: SUGGESTION]Lief. an PLZ-Code</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MuM GR Pro. W. Receipts API - Control shipToPostCode - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2488227719 - Control 2923758037 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source Document No.</source>
+          <target>[NAB: SUGGESTION]Herkunftsbelegnr.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MuM GR Pro. W. Receipts API - Control sourceDocumentNo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2488227719 - Control 3721440749 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Status set at</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MuM GR Pro. W. Receipts API - Control statusSetAt - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2488227719 - Control 1599541067 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Status set by User ID</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MuM GR Pro. W. Receipts API - Control statusSetByUserId - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1922438980 - Property 3446740159" size-unit="char" translate="yes" xml:space="preserve">
+          <source>MuM GR Whse. Receipt Header</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MuM GR Whse. Receipts API - Property EntityCaption</note>
+        </trans-unit>
+        <trans-unit id="Page 1922438980 - Property 631549417" size-unit="char" translate="yes" xml:space="preserve">
+          <source>MuM GR Whse. Receipt Headers</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MuM GR Whse. Receipts API - Property EntitySetCaption</note>
+        </trans-unit>
+        <trans-unit id="Page 1922438980 - Control 2366585140 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Blocked Bin Code</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MuM GR Whse. Receipts API - Control blockedBinCode - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1922438980 - Control 1433150556 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Blocked Location Code</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MuM GR Whse. Receipts API - Control blockedLocationCode - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1922438980 - Control 943136216 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create Assembly Order</source>
+          <target>[NAB: SUGGESTION]Montageauftrag erstellen</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MuM GR Whse. Receipts API - Control createAssemblyOrder - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1922438980 - Control 2475235959 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Created at</source>
+          <target>[NAB: SUGGESTION]Erstellt am</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MuM GR Whse. Receipts API - Control createdAt - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1922438980 - Control 4096799193 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Created by User ID</source>
+          <target>[NAB: SUGGESTION]Erstellt von Benutzer-ID</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MuM GR Whse. Receipts API - Control createdByUserId - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1922438980 - Control 3843576979 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create Production Order</source>
+          <target>[NAB: SUGGESTION]Fertigungsauftrag erstellen</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MuM GR Whse. Receipts API - Control createProductionOrder - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1922438980 - Control 3144638894 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create Sales Order</source>
+          <target>[NAB: SUGGESTION]Verkaufsauftrag erstellen</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MuM GR Whse. Receipts API - Control createSalesOrder - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1922438980 - Control 515850677 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document Date</source>
+          <target>[NAB: SUGGESTION]Belegdatum</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MuM GR Whse. Receipts API - Control documentDate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1922438980 - Control 217513166 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>External Order No.</source>
+          <target>[NAB: SUGGESTION]Externe Bestelnummer</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MuM GR Whse. Receipts API - Control externalOrderNo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1922438980 - Control 156898843 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>External Shipment Date</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MuM GR Whse. Receipts API - Control externalShipmentDate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1922438980 - Control 4054328752 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>External Shipment No.</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MuM GR Whse. Receipts API - Control externalShipmentNo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1922438980 - Control 2686962215 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Id</source>
+          <target>[NAB: SUGGESTION]ID</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MuM GR Whse. Receipts API - Control id - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1922438980 - Control 517178826 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Last Modified at</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MuM GR Whse. Receipts API - Control lastModifiedAt - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1922438980 - Control 932257384 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Last Modified by User ID</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MuM GR Whse. Receipts API - Control lastModifiedByUserId - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1922438980 - Control 2626499740 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Location Code</source>
+          <target>[NAB: SUGGESTION]Lagerortcode</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MuM GR Whse. Receipts API - Control locationCode - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1922438980 - Control 3179096107 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No.</source>
+          <target>[NAB: SUGGESTION]Nr.</target>
+          <target>[NAB: SUGGESTION]Anz.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MuM GR Whse. Receipts API - Control no - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1922438980 - Control 1048998478 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No. Series</source>
+          <target>[NAB: SUGGESTION]Nummernserie</target>
+          <target>[NAB: SUGGESTION]Anz. Serie</target>
+          <target>[NAB: SUGGESTION]Nr.-Serie</target>
+          <target>[NAB: SUGGESTION]Nummernserien</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MuM GR Whse. Receipts API - Control noSeries - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1922438980 - Control 3040900216 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Post Components</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MuM GR Whse. Receipts API - Control postComponents - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1922438980 - Control 3526933559 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Production Order Type</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MuM GR Whse. Receipts API - Control productionOrderType - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1922438980 - Control 3988227600 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Receipt Bin Code</source>
+          <target>[NAB: SUGGESTION]Wareneingangslagerplatzcode</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MuM GR Whse. Receipts API - Control receiptBinCode - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1922438980 - Control 1030168324 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Receipt Date</source>
+          <target>[NAB: SUGGESTION]Wareneingangsdatum</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MuM GR Whse. Receipts API - Control receiptDate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1922438980 - Control 55094360 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Receipt Location Code</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MuM GR Whse. Receipts API - Control receiptLocationCode - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1922438980 - Control 125901060 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Requested Delivery Date</source>
+          <target>[NAB: SUGGESTION]Gewünschtes Lieferdatum</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MuM GR Whse. Receipts API - Control requestedDeliveryDate - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1922438980 - Control 555313658 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sell-to Customer Name</source>
+          <target>[NAB: SUGGESTION]Verk. an Name</target>
+          <target>[NAB: SUGGESTION]Verk. an Debitorname</target>
+          <target>[NAB: SUGGESTION]Verkauf an Debitorenname</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MuM GR Whse. Receipts API - Control sellToCustomerName - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1922438980 - Control 3111526132 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sell-to Customer No.</source>
+          <target>[NAB: SUGGESTION]Verk. an Deb.-Nr.</target>
+          <target>[NAB: SUGGESTION]Verkauf an Deb.-Nr.</target>
+          <target>[NAB: SUGGESTION]Verkauf an Debitorennr.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MuM GR Whse. Receipts API - Control sellToCustomerNo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1922438980 - Control 1999593414 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shipment Method Code</source>
+          <target>[NAB: SUGGESTION]Lieferungsmethodencode</target>
+          <target>[NAB: SUGGESTION]Lieferbedingungscode</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MuM GR Whse. Receipts API - Control shipmentMethodCode - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1922438980 - Control 476472346 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shipping Agent Code</source>
+          <target>[NAB: SUGGESTION]Zustellercode</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MuM GR Whse. Receipts API - Control shippingAgentCode - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1922438980 - Control 928158141 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shipping Agent Service Code</source>
+          <target>[NAB: SUGGESTION]Zustellertransportartencode</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MuM GR Whse. Receipts API - Control shippingAgentServiceCode - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1922438980 - Control 2749486753 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shipping Time</source>
+          <target>[NAB: SUGGESTION]Transportzeit</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MuM GR Whse. Receipts API - Control shippingTime - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1922438980 - Control 3424017913 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ship-to Address</source>
+          <target>[NAB: SUGGESTION]Lieferadresse</target>
+          <target>[NAB: SUGGESTION]Lief. an Adresse</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MuM GR Whse. Receipts API - Control shipToAddress - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1922438980 - Control 3379414791 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ship-to Address 2</source>
+          <target>[NAB: SUGGESTION]Lief. an Adresse 2</target>
+          <target>[NAB: SUGGESTION]Lieferung an Adresse 2</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MuM GR Whse. Receipts API - Control shipToAddress2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1922438980 - Control 1336190306 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ship-to City</source>
+          <target>[NAB: SUGGESTION]Lief. an Ort</target>
+          <target>[NAB: SUGGESTION]Lieferung an Ort</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MuM GR Whse. Receipts API - Control shipToCity - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1922438980 - Control 1971564552 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ship-to Code</source>
+          <target>[NAB: SUGGESTION]Lief. an Code</target>
+          <target>[NAB: SUGGESTION]Lieferung an Code</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MuM GR Whse. Receipts API - Control shipToCode - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1922438980 - Control 1979445219 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ship-to Contact</source>
+          <target>[NAB: SUGGESTION]Lief. an Kontakt</target>
+          <target>[NAB: SUGGESTION]Lieferung an Kontakt</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MuM GR Whse. Receipts API - Control shipToContact - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1922438980 - Control 3377121152 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ship-to Country/Region Code</source>
+          <target>[NAB: SUGGESTION]Lief. an Länder-/Regionscode</target>
+          <target>[NAB: SUGGESTION]Lieferung an Länder-/Regionscode</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MuM GR Whse. Receipts API - Control shipToCountryRegionCode - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1922438980 - Control 3910966429 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ship-to County</source>
+          <target>[NAB: SUGGESTION]Lief. an Bundesregion</target>
+          <target>[NAB: SUGGESTION]Lieferung an Bundesregion</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MuM GR Whse. Receipts API - Control shipToCounty - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1922438980 - Control 1889388274 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ship-to Name</source>
+          <target>[NAB: SUGGESTION]Lief. an Name</target>
+          <target>[NAB: SUGGESTION]Lieferung an Name</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MuM GR Whse. Receipts API - Control shipToName - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1922438980 - Control 2498789160 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ship-to Name 2</source>
+          <target>[NAB: SUGGESTION]Lief. an Name 2</target>
+          <target>[NAB: SUGGESTION]Lieferung an Name 2</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MuM GR Whse. Receipts API - Control shipToName2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1922438980 - Control 2208491120 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ship-to Phone No.</source>
+          <target>[NAB: SUGGESTION]Lief. an Telefonnr.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MuM GR Whse. Receipts API - Control shipToPhoneNo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1922438980 - Control 2895959832 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ship-to Post Code</source>
+          <target>[NAB: SUGGESTION]Lief. an PLZ</target>
+          <target>[NAB: SUGGESTION]Lief. an PLZ-Code</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MuM GR Whse. Receipts API - Control shipToPostCode - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1922438980 - Control 998393528 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Status</source>
+          <target>[NAB: SUGGESTION]Status</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MuM GR Whse. Receipts API - Control status - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1922438980 - Control 3721440749 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Status set at</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MuM GR Whse. Receipts API - Control statusSetAt - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1922438980 - Control 1599541067 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Status set by User ID</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MuM GR Whse. Receipts API - Control statusSetByUserId - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1439077842 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Goods receipt label</source>
+          <target>Warenannahmen</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Goods receipt label - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1439077842 - ReportLabel 873438131" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer name:</source>
+          <target>Kunde</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Goods receipt label - ReportLabel CustomerNameLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1439077842 - ReportLabel 2898685577" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer no.:</source>
+          <target>Kunde nr.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Goods receipt label - ReportLabel CustomerNoLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1439077842 - ReportLabel 3063662051" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date in:</source>
+          <target>Eingangsdatum</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Goods receipt label - ReportLabel DateInLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1439077842 - ReportLabel 2448900585" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Receipt No:</source>
+          <target>WAN No:</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Goods receipt label - ReportLabel ReceiptNoLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1439077842 - ReportLabel 1162595851" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reference:</source>
+          <target>Referenz</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Goods receipt label - ReportLabel ReferenceLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1439077842 - Action 1800097419 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Start</source>
+          <target>Starten</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Goods receipt label - Action Verwerken - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 599076775 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Order Confirmation</source>
+          <target>Auftragsbestätigung</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Order confirmation - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 599076775 - ReportLabel 2910675959" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Dear sir/madam </source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Order confirmation - ReportLabel AnnotationLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 599076775 - ReportLabel 3048460138" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Article</source>
+          <target>Artikel</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Order confirmation - ReportLabel ArticleLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 599076775 - ReportLabel 35151109" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Coating</source>
+          <target>Beschichten:</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Order confirmation - ReportLabel CoatingLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 599076775 - ReportLabel 3122609273" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Color</source>
+          <target>Farbe:</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Order confirmation - ReportLabel ColorLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 599076775 - ReportLabel 3490088608" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Confirmation Number</source>
+          <target>Bestätigungsnummer</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Order confirmation - ReportLabel ConfirmationNoLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 599076775 - ReportLabel 3063662051" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date goods in</source>
+          <target>Eingangsdatum:</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Order confirmation - ReportLabel DateInLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 599076775 - ReportLabel 2954366404" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Delivery Address</source>
+          <target>Ablieferaddress:</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Order confirmation - ReportLabel DeliveryAddressLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 599076775 - ReportLabel 3353220415" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Estimated Delivery Date</source>
+          <target>Erwarte Leiferdatum:</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Order confirmation - ReportLabel EstimatedDeliceryDateLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 599076775 - ReportLabel 1585474590" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Galvenizing</source>
+          <target>Verzinken:</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Order confirmation - ReportLabel GalvanizingLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 599076775 - ReportLabel 2963208439" size-unit="char" translate="yes" xml:space="preserve">
+          <source>H</source>
+          <target>H</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Order confirmation - ReportLabel HeightLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 599076775 - ReportLabel 4280004770" size-unit="char" translate="yes" xml:space="preserve">
+          <source>L</source>
+          <target>L</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Order confirmation - ReportLabel LengthLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 599076775 - ReportLabel 477454936" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Operations</source>
+          <target>Bearbeitungen</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Order confirmation - ReportLabel OperationsLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 599076775 - ReportLabel 1877187315" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Page</source>
+          <target>Seite</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Order confirmation - ReportLabel PageLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 599076775 - ReportLabel 3322886315" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Passivation</source>
+          <target>Passiveren:</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Order confirmation - ReportLabel PassivationLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 599076775 - ReportLabel 1700094357" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Pieces</source>
+          <target>Stuck</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Order confirmation - ReportLabel PiecesLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 599076775 - ReportLabel 3712033653" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Registration plate</source>
+          <target>Kenzeichen:</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Order confirmation - ReportLabel RegistrationPlatebl</note>
+        </trans-unit>
+        <trans-unit id="Report 599076775 - ReportLabel 2832953782" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sanding</source>
+          <target>Fineverputzen:</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Order confirmation - ReportLabel SandingLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 599076775 - ReportLabel 197972371" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sinc Stripping</source>
+          <target>ENtzinken:</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Order confirmation - ReportLabel SincStrippingLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 599076775 - ReportLabel 4002367168" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Warrenty order</source>
+          <target>Reklamationsauftrag</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Order confirmation - ReportLabel WarentyOrder</note>
+        </trans-unit>
+        <trans-unit id="Report 599076775 - ReportLabel 265833505" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Weight Card No</source>
+          <target>Wiegekartenummer:</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Order confirmation - ReportLabel WeightCartNoLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 599076775 - ReportLabel 1154098152" size-unit="char" translate="yes" xml:space="preserve">
+          <source>W</source>
+          <target>B</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Order confirmation - ReportLabel WidthLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 599076775 - ReportLabel 1757598358" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Your Reference</source>
+          <target>Ihre Referenz:</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Order confirmation - ReportLabel YourRefLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1388557178 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Quotation</source>
+          <target>Angebot :</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Sales Quotation - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 1388557178 - ReportLabel 2910675959" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Dear sir/madam </source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Sales Quotation - ReportLabel AnnotationLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1388557178 - ReportLabel 350268877" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item No.</source>
+          <target>Artikelnr.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Sales Quotation - ReportLabel ArtikelCodeLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1388557178 - ReportLabel 3062266610" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Type</source>
+          <target>Artikel</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Sales Quotation - ReportLabel ArtikelTypeLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1388557178 - ReportLabel 3569966352" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target>Beschreibung</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Sales Quotation - ReportLabel DescriptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1388557178 - ReportLabel 1877187315" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Page</source>
+          <target>Seite</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Sales Quotation - ReportLabel PageLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1388557178 - ReportLabel 2174691427" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Quantity</source>
+          <target>Menge</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Sales Quotation - ReportLabel QuantityLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1388557178 - ReportLabel 1027875411" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Quotation Number</source>
+          <target>Angebot :</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Sales Quotation - ReportLabel QuotationNoLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1388557178 - ReportLabel 4116304336" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Quotation Date</source>
+          <target>Belegdatum :</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Sales Quotation - ReportLabel QuoteDateLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1388557178 - ReportLabel 3549466904" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bank account</source>
+          <target>Bankkonto</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Sales Quotation - ReportLabel RCBankAccountLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1388557178 - ReportLabel 2581829319" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bank Name</source>
+          <target>Bankname</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Sales Quotation - ReportLabel RCBankLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1388557178 - ReportLabel 4035868269" size-unit="char" translate="yes" xml:space="preserve">
+          <source>BIC</source>
+          <target>BIC</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Sales Quotation - ReportLabel RCBICLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1388557178 - ReportLabel 555408313" size-unit="char" translate="yes" xml:space="preserve">
+          <source>IBAN</source>
+          <target>IBAN</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Sales Quotation - ReportLabel RCIBANLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1388557178 - ReportLabel 1230672861" size-unit="char" translate="yes" xml:space="preserve">
+          <source>E-Mail</source>
+          <target>E-Mail :</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Sales Quotation - ReportLabel SalesPersonEmailLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1388557178 - ReportLabel 3628036828" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Salesperson</source>
+          <target>Verkäufer :</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Sales Quotation - ReportLabel SalesPersonNameLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1388557178 - ReportLabel 2794767005" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Phone</source>
+          <target>Telefon :</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Sales Quotation - ReportLabel SalesPersonPhoneLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1388557178 - ReportLabel 2705943359" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unit of Measure</source>
+          <target>Einheit</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Sales Quotation - ReportLabel UnitOfMeasureLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1388557178 - ReportLabel 2786556803" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unit Price</source>
+          <target>VK-Preis</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Sales Quotation - ReportLabel UnitPriceLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 1388557178 - ReportLabel 1757598358" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Your Reference</source>
+          <target>Ihre Referenz :</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Sales Quotation - ReportLabel YourRefLbl</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3979214416 - Action 3979214416 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1566602949">
+          <source>Goods Receipt Label</source>
+          <target>Warenannahmen label</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension TCC Print Goods Receipts Label - Action TCC Print Goods Receipts Label - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3979214416 - Change 747683197 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1566602949">
+          <source>Release</source>
+          <target>Freigeben</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension TCCMuM GR Whse. Receipt - Change Notify - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 4072668533 - Field 1267408499 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2247850105">
+          <source>Account nr</source>
+          <target>Bankkonto</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension TCCResponsibilityCenter - Field Account - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 4072668533 - Field 1732083938 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2247850105">
+          <source>Bank name</source>
+          <target>Bank</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension TCCResponsibilityCenter - Field Bank - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 4072668533 - Field 1621335372 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2247850105">
+          <source>BIC</source>
+          <target>BIC</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension TCCResponsibilityCenter - Field BIC - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 4072668533 - Field 1176583840 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2247850105">
+          <source>IBAN</source>
+          <target>IBAN</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension TCCResponsibilityCenter - Field IBAN - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="EnumExtension 3363602660 - EnumValue 1517649600 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Enum 1178123344">
+          <source>MuM GR Pro. Wharehouse Receipt</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">EnumExtension CCT Event Category - EnumValue CCT MuM GR Pro. Whse. Rcpt. Events - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 821216785 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1566602949">
+          <source>Release</source>
+          <target>Freigeben</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension TCCMuM GR Whse. Receipt - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3979214416 - Action 1148941636 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1566602949">
+          <source>Order Confermation</source>
+          <target>Auftragsbestätigung</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension TCC Print Goods Receipts Label - Action TCC Print Order Confermation - Property Caption</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
