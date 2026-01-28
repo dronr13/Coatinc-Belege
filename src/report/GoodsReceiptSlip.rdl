@@ -11,7 +11,7 @@
       <am:Name>MSRB</am:Name>
       <am:Version>15.1.30001.02</am:Version>
     </am:UpdatedBy>
-    <am:LastModifiedTimestamp>2026-01-19T10:37:59.5576549Z</am:LastModifiedTimestamp>
+    <am:LastModifiedTimestamp>2026-01-28T07:41:20.3149912Z</am:LastModifiedTimestamp>
   </am:AuthoringMetadata>
   <AutoRefresh>0</AutoRefresh>
   <DataSources>
@@ -37,6 +37,18 @@
         <Field Name="Sender">
           <DataField>Sender</DataField>
         </Field>
+        <Field Name="CustomerName">
+          <DataField>CustomerName</DataField>
+        </Field>
+        <Field Name="CustomerContact">
+          <DataField>CustomerContact</DataField>
+        </Field>
+        <Field Name="CustomerAddress">
+          <DataField>CustomerAddress</DataField>
+        </Field>
+        <Field Name="CustomerPostcodeCity">
+          <DataField>CustomerPostcodeCity</DataField>
+        </Field>
         <Field Name="DocNo">
           <DataField>DocNo</DataField>
         </Field>
@@ -60,6 +72,9 @@
         </Field>
         <Field Name="Ref">
           <DataField>Ref</DataField>
+        </Field>
+        <Field Name="ReceiptHeaderTxt">
+          <DataField>ReceiptHeaderTxt</DataField>
         </Field>
         <Field Name="RCName">
           <DataField>RCName</DataField>
@@ -147,12 +162,12 @@
             <TablixBody>
               <TablixColumns>
                 <TablixColumn>
-                  <Width>18.4215cm</Width>
+                  <Width>18.42151cm</Width>
                 </TablixColumn>
               </TablixColumns>
               <TablixRows>
                 <TablixRow>
-                  <Height>13.80893cm</Height>
+                  <Height>11.82456cm</Height>
                   <TablixCells>
                     <TablixCell>
                       <CellContents>
@@ -246,15 +261,15 @@
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
-                                          <Textbox Name="contact">
-                                            <rd:DefaultName>contact</rd:DefaultName>
+                                          <Textbox Name="CustomerContact">
+                                            <rd:DefaultName>CustomerContact</rd:DefaultName>
                                             <CanGrow>true</CanGrow>
                                             <KeepTogether>true</KeepTogether>
                                             <Paragraphs>
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value>=Fields!contact.Value</Value>
+                                                    <Value>=Fields!CustomerContact.Value</Value>
                                                     <Style />
                                                   </TextRun>
                                                 </TextRuns>
@@ -316,15 +331,15 @@
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
-                                          <Textbox Name="CustomerPostCodeCity">
-                                            <rd:DefaultName>CustomerPostCodeCity</rd:DefaultName>
+                                          <Textbox Name="CustomerPostcodeCity">
+                                            <rd:DefaultName>CustomerPostcodeCity</rd:DefaultName>
                                             <CanGrow>true</CanGrow>
                                             <KeepTogether>true</KeepTogether>
                                             <Paragraphs>
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value>=Fields!CustomerPostCodeCity.Value</Value>
+                                                    <Value>=Fields!CustomerPostcodeCity.Value</Value>
                                                     <Style />
                                                   </TextRun>
                                                 </TextRuns>
@@ -378,10 +393,10 @@
                               <TablixBody>
                                 <TablixColumns>
                                   <TablixColumn>
-                                    <Width>2.80052cm</Width>
+                                    <Width>4.00989cm</Width>
                                   </TablixColumn>
                                   <TablixColumn>
-                                    <Width>5.13802cm</Width>
+                                    <Width>4.02908cm</Width>
                                   </TablixColumn>
                                 </TablixColumns>
                                 <TablixRows>
@@ -585,71 +600,6 @@
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
-                                          <Textbox Name="Textbox11">
-                                            <rd:DefaultName>Textbox11</rd:DefaultName>
-                                            <CanGrow>true</CanGrow>
-                                            <KeepTogether>true</KeepTogether>
-                                            <Paragraphs>
-                                              <Paragraph>
-                                                <TextRuns>
-                                                  <TextRun>
-                                                    <Value>=Parameters!SalesPersonPhoneLbl.Value</Value>
-                                                    <Style />
-                                                  </TextRun>
-                                                </TextRuns>
-                                                <Style />
-                                              </Paragraph>
-                                            </Paragraphs>
-                                            <Style>
-                                              <Border>
-                                                <Color>LightGrey</Color>
-                                                <Style>None</Style>
-                                              </Border>
-                                              <PaddingLeft>2pt</PaddingLeft>
-                                              <PaddingRight>2pt</PaddingRight>
-                                              <PaddingTop>2pt</PaddingTop>
-                                              <PaddingBottom>2pt</PaddingBottom>
-                                            </Style>
-                                          </Textbox>
-                                        </CellContents>
-                                      </TablixCell>
-                                      <TablixCell>
-                                        <CellContents>
-                                          <Textbox Name="SalesPersonPhone">
-                                            <rd:DefaultName>SalesPersonPhone</rd:DefaultName>
-                                            <CanGrow>true</CanGrow>
-                                            <KeepTogether>true</KeepTogether>
-                                            <Paragraphs>
-                                              <Paragraph>
-                                                <TextRuns>
-                                                  <TextRun>
-                                                    <Value>=Fields!SalesPersonPhone.Value</Value>
-                                                    <Style />
-                                                  </TextRun>
-                                                </TextRuns>
-                                                <Style />
-                                              </Paragraph>
-                                            </Paragraphs>
-                                            <Style>
-                                              <Border>
-                                                <Color>LightGrey</Color>
-                                                <Style>None</Style>
-                                              </Border>
-                                              <PaddingLeft>2pt</PaddingLeft>
-                                              <PaddingRight>2pt</PaddingRight>
-                                              <PaddingTop>2pt</PaddingTop>
-                                              <PaddingBottom>2pt</PaddingBottom>
-                                            </Style>
-                                          </Textbox>
-                                        </CellContents>
-                                      </TablixCell>
-                                    </TablixCells>
-                                  </TablixRow>
-                                  <TablixRow>
-                                    <Height>0.6cm</Height>
-                                    <TablixCells>
-                                      <TablixCell>
-                                        <CellContents>
                                           <Textbox Name="Textbox32">
                                             <rd:DefaultName>Textbox32</rd:DefaultName>
                                             <CanGrow>true</CanGrow>
@@ -724,14 +674,13 @@
                                   <TablixMember />
                                   <TablixMember />
                                   <TablixMember />
-                                  <TablixMember />
                                 </TablixMembers>
                               </TablixRowHierarchy>
                               <DataSetName>DataSet_Result</DataSetName>
                               <Top>3.62162cm</Top>
                               <Left>10.38254cm</Left>
-                              <Height>3cm</Height>
-                              <Width>7.93855cm</Width>
+                              <Height>2.4cm</Height>
+                              <Width>8.03897cm</Width>
                               <ZIndex>1</ZIndex>
                               <Style>
                                 <Border>
@@ -743,10 +692,10 @@
                               <TablixBody>
                                 <TablixColumns>
                                   <TablixColumn>
-                                    <Width>2.5926cm</Width>
+                                    <Width>3.9649cm</Width>
                                   </TablixColumn>
                                   <TablixColumn>
-                                    <Width>7.17293cm</Width>
+                                    <Width>6.1146cm</Width>
                                   </TablixColumn>
                                 </TablixColumns>
                                 <TablixRows>
@@ -1035,7 +984,7 @@
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value>=iffFields!Warrenty.Value,"Ja",Parameters!WarentyOrder.Value,""</Value>
+                                                    <Value>=Parameters!WarentyOrder.Value</Value>
                                                     <Style />
                                                   </TextRun>
                                                 </TextRuns>
@@ -1080,7 +1029,7 @@
                               <Top>3.62162cm</Top>
                               <Left>0.12312cm</Left>
                               <Height>3cm</Height>
-                              <Width>9.76553cm</Width>
+                              <Width>10.0795cm</Width>
                               <ZIndex>2</ZIndex>
                               <Style>
                                 <Border>
@@ -1088,15 +1037,15 @@
                                 </Border>
                               </Style>
                             </Tablix>
-                            <Textbox Name="Textbox4">
-                              <rd:DefaultName>Textbox4</rd:DefaultName>
+                            <Textbox Name="ReceiptHeaderTxt">
+                              <rd:DefaultName>ReceiptHeaderTxt</rd:DefaultName>
                               <CanGrow>true</CanGrow>
                               <KeepTogether>true</KeepTogether>
                               <Paragraphs>
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value>Erweiterte text vorlage functionieren noch nicht guht in Business Centeral.</Value>
+                                      <Value>=First(Fields!ReceiptHeaderTxt.Value)</Value>
                                       <Style />
                                     </TextRun>
                                   </TextRuns>
@@ -1105,7 +1054,7 @@
                               </Paragraphs>
                               <Top>7.0612cm</Top>
                               <Left>0.12312cm</Left>
-                              <Height>2.32833cm</Height>
+                              <Height>0.55562cm</Height>
                               <Width>18.19796cm</Width>
                               <ZIndex>3</ZIndex>
                               <Style>
@@ -1125,19 +1074,19 @@
                                     <Width>1.85446cm</Width>
                                   </TablixColumn>
                                   <TablixColumn>
-                                    <Width>7.93753cm</Width>
+                                    <Width>8.89543cm</Width>
                                   </TablixColumn>
                                   <TablixColumn>
-                                    <Width>1.3723cm</Width>
+                                    <Width>2.03916cm</Width>
                                   </TablixColumn>
                                   <TablixColumn>
-                                    <Width>1.3199cm</Width>
+                                    <Width>1.10282cm</Width>
                                   </TablixColumn>
                                   <TablixColumn>
-                                    <Width>1.81158cm</Width>
+                                    <Width>1.07076cm</Width>
                                   </TablixColumn>
                                   <TablixColumn>
-                                    <Width>1.84705cm</Width>
+                                    <Width>1.07976cm</Width>
                                   </TablixColumn>
                                   <TablixColumn>
                                     <Width>2.18203cm</Width>
@@ -1157,7 +1106,7 @@
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value>=Parameters!ArtikelCodeLbl.Value</Value>
+                                                    <Value>=Parameters!ArticleLbl.Value</Value>
                                                     <Style>
                                                       <FontWeight>Bold</FontWeight>
                                                     </Style>
@@ -1192,7 +1141,7 @@
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value>=Parameters!DescriptionLbl.Value</Value>
+                                                    <Value>=Parameters!DiscriptionLbl.Value</Value>
                                                     <Style>
                                                       <FontWeight>Bold</FontWeight>
                                                     </Style>
@@ -1227,7 +1176,7 @@
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value>Pieces</Value>
+                                                    <Value>=Parameters!PiecesLbl.Value</Value>
                                                     <Style>
                                                       <FontWeight>Bold</FontWeight>
                                                     </Style>
@@ -1264,7 +1213,7 @@
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value>Lenght</Value>
+                                                    <Value>=Parameters!LengthLbl.Value</Value>
                                                     <Style>
                                                       <FontWeight>Bold</FontWeight>
                                                     </Style>
@@ -1301,7 +1250,7 @@
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value>Height</Value>
+                                                    <Value>=Parameters!HeightLbl.Value</Value>
                                                     <Style>
                                                       <FontWeight>Bold</FontWeight>
                                                     </Style>
@@ -1338,7 +1287,7 @@
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value>Widht</Value>
+                                                    <Value>=Parameters!WidthLbl.Value</Value>
                                                     <Style>
                                                       <FontWeight>Bold</FontWeight>
                                                     </Style>
@@ -1375,7 +1324,7 @@
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value>Operations</Value>
+                                                    <Value>=Parameters!OperationsLbl.Value</Value>
                                                     <Style>
                                                       <FontWeight>Bold</FontWeight>
                                                     </Style>
@@ -1409,15 +1358,15 @@
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
-                                          <Textbox Name="ArtikelCode">
-                                            <rd:DefaultName>ArtikelCode</rd:DefaultName>
+                                          <Textbox Name="Artikel">
+                                            <rd:DefaultName>Artikel</rd:DefaultName>
                                             <CanGrow>true</CanGrow>
                                             <KeepTogether>true</KeepTogether>
                                             <Paragraphs>
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value>=Fields!ArtikelCode.Value</Value>
+                                                    <Value>=Fields!Artikel.Value</Value>
                                                     <Style />
                                                   </TextRun>
                                                 </TextRuns>
@@ -1651,10 +1600,10 @@
                                 </TablixMembers>
                               </TablixRowHierarchy>
                               <DataSetName>DataSet_Result</DataSetName>
-                              <Top>9.91871cm</Top>
+                              <Top>7.90788cm</Top>
                               <Left>0.09666cm</Left>
                               <Height>1.2cm</Height>
-                              <Width>18.32484cm</Width>
+                              <Width>18.22442cm</Width>
                               <ZIndex>4</ZIndex>
                               <Style>
                                 <Border>
@@ -1681,8 +1630,8 @@
                                   <Style />
                                 </Paragraph>
                               </Paragraphs>
-                              <Top>11.4806cm</Top>
-                              <Left>0.12312cm</Left>
+                              <Top>9.28427cm</Top>
+                              <Left>0.19708cm</Left>
                               <Height>2.32833cm</Height>
                               <Width>18.19796cm</Width>
                               <ZIndex>5</ZIndex>
@@ -1727,8 +1676,8 @@
               </TablixMembers>
             </TablixRowHierarchy>
             <DataSetName>DataSet_Result</DataSetName>
-            <Height>13.80893cm</Height>
-            <Width>18.4215cm</Width>
+            <Height>11.82456cm</Height>
+            <Width>18.42151cm</Width>
             <Style>
               <Border>
                 <Style>None</Style>
@@ -1736,10 +1685,10 @@
             </Style>
           </Tablix>
         </ReportItems>
-        <Height>13.80893cm</Height>
+        <Height>11.82456cm</Height>
         <Style />
       </Body>
-      <Width>18.4215cm</Width>
+      <Width>18.42151cm</Width>
       <Page>
         <PageHeader>
           <Height>3.11667cm</Height>
@@ -2301,6 +2250,15 @@
       </DefaultValue>
       <Prompt>ArticleLbl</Prompt>
     </ReportParameter>
+    <ReportParameter Name="DiscriptionLbl">
+      <DataType>String</DataType>
+      <DefaultValue>
+        <Values>
+          <Value>DiscriptionLbl</Value>
+        </Values>
+      </DefaultValue>
+      <Prompt>DiscriptionLbl</Prompt>
+    </ReportParameter>
     <ReportParameter Name="PiecesLbl">
       <DataType>String</DataType>
       <DefaultValue>
@@ -2359,7 +2317,7 @@
   <ReportParametersLayout>
     <GridLayoutDefinition>
       <NumberOfColumns>1</NumberOfColumns>
-      <NumberOfRows>17</NumberOfRows>
+      <NumberOfRows>18</NumberOfRows>
       <CellDefinitions>
         <CellDefinition>
           <ColumnIndex>0</ColumnIndex>
@@ -2419,31 +2377,36 @@
         <CellDefinition>
           <ColumnIndex>0</ColumnIndex>
           <RowIndex>11</RowIndex>
-          <ParameterName>PiecesLbl</ParameterName>
+          <ParameterName>DiscriptionLbl</ParameterName>
         </CellDefinition>
         <CellDefinition>
           <ColumnIndex>0</ColumnIndex>
           <RowIndex>12</RowIndex>
-          <ParameterName>LengthLbl</ParameterName>
+          <ParameterName>PiecesLbl</ParameterName>
         </CellDefinition>
         <CellDefinition>
           <ColumnIndex>0</ColumnIndex>
           <RowIndex>13</RowIndex>
-          <ParameterName>WidthLbl</ParameterName>
+          <ParameterName>LengthLbl</ParameterName>
         </CellDefinition>
         <CellDefinition>
           <ColumnIndex>0</ColumnIndex>
           <RowIndex>14</RowIndex>
-          <ParameterName>HeightLbl</ParameterName>
+          <ParameterName>WidthLbl</ParameterName>
         </CellDefinition>
         <CellDefinition>
           <ColumnIndex>0</ColumnIndex>
           <RowIndex>15</RowIndex>
-          <ParameterName>PageLbl</ParameterName>
+          <ParameterName>HeightLbl</ParameterName>
         </CellDefinition>
         <CellDefinition>
           <ColumnIndex>0</ColumnIndex>
           <RowIndex>16</RowIndex>
+          <ParameterName>PageLbl</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>0</ColumnIndex>
+          <RowIndex>17</RowIndex>
           <ParameterName>AnnotationLbl</ParameterName>
         </CellDefinition>
       </CellDefinitions>

@@ -1,8 +1,8 @@
 {
   "id": "3aa1cbba-843e-4241-8fb7-ba4e74b279d1",
   "name": "The Coatinc Company Holding GmbH",
-  "publisher": "TCC - M.Holkamp",
-  "version": "27.26.0120.01",
+  "publisher": "M.Holkamp",
+  "version": "27.26.0128.02",
   "application": "27.0.0.0",
   "platform": "27.0.0.0",
   "screenshots": [],
@@ -76,6 +76,12 @@
         {
             "id": "1258d166-b9aa-46ba-8250-6ede8323626e",
             "name": "The Coatinc Company Holding GmbH",
+            "publisher": "Markmann + Müller Datensysteme GmbH",
+            "version": "27.0.0.0"
+        },
+        {
+            "id": "546c64ff-5a9a-4e6a-89f5-79b6725f270d",
+            "name": "m+m Ext. Text Module",
             "publisher": "Markmann + Müller Datensysteme GmbH",
             "version": "27.0.0.0"
         }

@@ -968,6 +968,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report TCC Goods Receipt Slip - ReportLabel DeliveryAddressLbl</note>
         </trans-unit>
+        <trans-unit id="Report 820218778 - ReportLabel 2031087404" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Discription</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Goods Receipt Slip - ReportLabel DiscriptionLbl</note>
+        </trans-unit>
         <trans-unit id="Report 820218778 - ReportLabel 3353220415" size-unit="char" translate="yes" xml:space="preserve">
           <source>Estimated Delivery Date</source>
           <note from="Developer" annotates="general" priority="2"></note>
