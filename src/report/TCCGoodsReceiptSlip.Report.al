@@ -1,3 +1,4 @@
+#if Publish
 report 60129 "TCC Goods Receipt Slip"
 {
     UsageCategory = Documents;
@@ -24,7 +25,7 @@ report 60129 "TCC Goods Receipt Slip"
             column(LicensePlate; "CO Truck License Plate") { }
             column(DeliveryAddress; "Ship-to Address") { }
             column(expectedDeliveryDate; "Requested Delivery Date") { }
-            column(Warrenty; "CO Name GRH Property 6") { }
+            column(Warrenty; "CO Name GRH Property 7") { }
             column(Ref; "External Order No.") { }
 
             // Header text (base English + optional country-specific translation from Media)
@@ -124,61 +125,7 @@ report 60129 "TCC Goods Receipt Slip"
                     RCBIC := ResponsibilityCenter.BIC;
                 end;
 
-                // -----------------------------------------
-                // Header text from Media:
-                // 1) Base English from MuM ET Tempate (Media)
-                // 2) If translation exists in MuM ET Translatation Text
-                //    for the customer's 3-letter country code, override with that
-                // -----------------------------------------
-                Clear(ReceiptHeaderTxt);
-                StdTextCode := 'HEADER';
-
-                // 1) Base English media in MuM ET Tempate
-                TemplateText.Reset();
-                TemplateText.SetRange("Template No.", StdTextCode);
-                // Assume English template stored WITHOUT any language/country filter
-
-                if TemplateText.FindFirst() then
-                    if TemplateText."Template Text".HasValue then begin
-                        TenantMedia.Get(TemplateText."Template Text".MediaId);
-                        TenantMedia.CalcFields(Content);
-                        TenantMedia.Content.CreateInStream(InStr);
-
-                        while not InStr.EOS do begin
-                            InStr.ReadText(LineTxt);
-                            if ReceiptHeaderTxt <> '' then
-                                ReceiptHeaderTxt += '\';
-                            ReceiptHeaderTxt += LineTxt;
-                        end;
-                    end;
-
-                // 2) Country-specific translation in MuM ET Translatation Text (Media)
-                HasTranslations := false;
-                if CustCountryCode3 <> '' then begin
-                    TranslationText.Reset();
-                    TranslationText.SetRange("Template No.", StdTextCode);
-                    TranslationText.SetRange("Language Code", CustCountryCode3);
-
-                    if TranslationText.FindFirst() then
-                        if TranslationText."Template Text".HasValue then begin
-                            Clear(ReceiptHeaderTxt);
-                            HasTranslations := true;
-
-                            TenantMedia.Get(TranslationText."Template Text".MediaId);
-                            TenantMedia.CalcFields(Content);
-                            TenantMedia.Content.CreateInStream(InStr);
-
-                            while not InStr.EOS do begin
-                                InStr.ReadText(LineTxt);
-                                if ReceiptHeaderTxt <> '' then
-                                    ReceiptHeaderTxt += '\';
-                                ReceiptHeaderTxt += LineTxt;
-                            end;
-                        end;
-                end;
-
-
-                // If no translation found, ReceiptHeaderTxt remains the base English text
+                
             end;
         }
     }
@@ -207,6 +154,9 @@ report 60129 "TCC Goods Receipt Slip"
         HeightLbl = 'H';
         PageLbl = 'Page';
         AnnotationLbl = 'Dear sir/madam ';
+        DeliverySignage = 'Singature Delivery';
+        DateDelivery = 'Date Delivery';
+        LocationSignage = 'Signature Plant';
     }
 
     var
@@ -237,4 +187,6 @@ report 60129 "TCC Goods Receipt Slip"
 
         // Header text
         ReceiptHeaderTxt: Text;
+        RecieptFooterTxt: Text;
 }
+#endif

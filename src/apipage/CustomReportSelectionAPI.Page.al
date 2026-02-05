@@ -1,3 +1,4 @@
+#if Publish
 page 60002 "Custom Report Selection API"
 {
     PageType = API;
@@ -113,3 +114,4 @@ page 60002 "Custom Report Selection API"
         }
     }
 }
+#endif

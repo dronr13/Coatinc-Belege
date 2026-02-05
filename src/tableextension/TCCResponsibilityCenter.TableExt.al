@@ -1,3 +1,4 @@
+#if Publish
 tableextension 60150 TCCResponsibilityCenter extends "Responsibility Center"
 {
     fields
@@ -24,3 +25,4 @@ tableextension 60150 TCCResponsibilityCenter extends "Responsibility Center"
         }
     }
 }
+#endif

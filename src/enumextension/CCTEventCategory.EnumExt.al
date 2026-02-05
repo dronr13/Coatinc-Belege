@@ -1,3 +1,4 @@
+#if Publish
 enumextension 60000 "CCT Event Category" extends EventCategory
 {
     value(60000; "CCT MuM GR Pro. Whse. Rcpt. Events")
@@ -9,3 +10,4 @@ enumextension 60000 "CCT Event Category" extends EventCategory
         Caption = 'MuM Goods Receipt Whse. Receipt Header';
     }
 }
+#endif

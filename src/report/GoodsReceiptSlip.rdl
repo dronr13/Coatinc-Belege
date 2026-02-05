@@ -11,7 +11,7 @@
       <am:Name>MSRB</am:Name>
       <am:Version>15.1.30001.02</am:Version>
     </am:UpdatedBy>
-    <am:LastModifiedTimestamp>2026-01-28T07:41:20.3149912Z</am:LastModifiedTimestamp>
+    <am:LastModifiedTimestamp>2026-01-28T09:59:42.0065216Z</am:LastModifiedTimestamp>
   </am:AuthoringMetadata>
   <AutoRefresh>0</AutoRefresh>
   <DataSources>
@@ -24,136 +24,6 @@
       <rd:DataSourceID>a12ead64-3270-4dd0-941e-98f8e5fb1c3f</rd:DataSourceID>
     </DataSource>
   </DataSources>
-  <DataSets>
-    <DataSet Name="DataSet_Result">
-      <Query>
-        <DataSourceName>DataSource</DataSourceName>
-        <CommandText />
-      </Query>
-      <Fields>
-        <Field Name="Logo">
-          <DataField>Logo</DataField>
-        </Field>
-        <Field Name="Sender">
-          <DataField>Sender</DataField>
-        </Field>
-        <Field Name="CustomerName">
-          <DataField>CustomerName</DataField>
-        </Field>
-        <Field Name="CustomerContact">
-          <DataField>CustomerContact</DataField>
-        </Field>
-        <Field Name="CustomerAddress">
-          <DataField>CustomerAddress</DataField>
-        </Field>
-        <Field Name="CustomerPostcodeCity">
-          <DataField>CustomerPostcodeCity</DataField>
-        </Field>
-        <Field Name="DocNo">
-          <DataField>DocNo</DataField>
-        </Field>
-        <Field Name="OrderNo">
-          <DataField>OrderNo</DataField>
-        </Field>
-        <Field Name="Datein">
-          <DataField>Datein</DataField>
-        </Field>
-        <Field Name="LicensePlate">
-          <DataField>LicensePlate</DataField>
-        </Field>
-        <Field Name="DeliveryAddress">
-          <DataField>DeliveryAddress</DataField>
-        </Field>
-        <Field Name="expectedDeliveryDate">
-          <DataField>expectedDeliveryDate</DataField>
-        </Field>
-        <Field Name="Warrenty">
-          <DataField>Warrenty</DataField>
-        </Field>
-        <Field Name="Ref">
-          <DataField>Ref</DataField>
-        </Field>
-        <Field Name="ReceiptHeaderTxt">
-          <DataField>ReceiptHeaderTxt</DataField>
-        </Field>
-        <Field Name="RCName">
-          <DataField>RCName</DataField>
-        </Field>
-        <Field Name="RCAddress">
-          <DataField>RCAddress</DataField>
-        </Field>
-        <Field Name="RCPostCode">
-          <DataField>RCPostCode</DataField>
-        </Field>
-        <Field Name="RCCity">
-          <DataField>RCCity</DataField>
-        </Field>
-        <Field Name="RCPhoneNo">
-          <DataField>RCPhoneNo</DataField>
-        </Field>
-        <Field Name="RCFaxNo">
-          <DataField>RCFaxNo</DataField>
-        </Field>
-        <Field Name="RCEmail">
-          <DataField>RCEmail</DataField>
-        </Field>
-        <Field Name="RCTaxNo">
-          <DataField>RCTaxNo</DataField>
-        </Field>
-        <Field Name="RCWebsite">
-          <DataField>RCWebsite</DataField>
-        </Field>
-        <Field Name="RCManager">
-          <DataField>RCManager</DataField>
-        </Field>
-        <Field Name="RCTradereg">
-          <DataField>RCTradereg</DataField>
-        </Field>
-        <Field Name="RCBank">
-          <DataField>RCBank</DataField>
-        </Field>
-        <Field Name="RCBankAccount">
-          <DataField>RCBankAccount</DataField>
-        </Field>
-        <Field Name="RCIBAN">
-          <DataField>RCIBAN</DataField>
-        </Field>
-        <Field Name="RCBIC">
-          <DataField>RCBIC</DataField>
-        </Field>
-        <Field Name="LineNo">
-          <DataField>LineNo</DataField>
-        </Field>
-        <Field Name="Artikel">
-          <DataField>Artikel</DataField>
-        </Field>
-        <Field Name="Description">
-          <DataField>Description</DataField>
-        </Field>
-        <Field Name="Quantity">
-          <DataField>Quantity</DataField>
-        </Field>
-        <Field Name="QuantityFormat">
-          <DataField>QuantityFormat</DataField>
-        </Field>
-        <Field Name="Pieces">
-          <DataField>Pieces</DataField>
-        </Field>
-        <Field Name="Lenght">
-          <DataField>Lenght</DataField>
-        </Field>
-        <Field Name="Widht">
-          <DataField>Widht</DataField>
-        </Field>
-        <Field Name="Height">
-          <DataField>Height</DataField>
-        </Field>
-        <Field Name="Operations">
-          <DataField>Operations</DataField>
-        </Field>
-      </Fields>
-    </DataSet>
-  </DataSets>
   <ReportSections>
     <ReportSection>
       <Body>
@@ -167,11 +37,10 @@
               </TablixColumns>
               <TablixRows>
                 <TablixRow>
-                  <Height>11.82456cm</Height>
+                  <Height>14.37338cm</Height>
                   <TablixCells>
                     <TablixCell>
                       <CellContents>
-                        <rd:Selected>true</rd:Selected>
                         <Rectangle Name="Rectangle1">
                           <ReportItems>
                             <Tablix Name="Tablix2">
@@ -991,6 +860,9 @@
                                                 <Style />
                                               </Paragraph>
                                             </Paragraphs>
+                                            <Visibility>
+                                              <Hidden>= IIF(Fields!Warrenty.Value = "Ja", False, True)</Hidden>
+                                            </Visibility>
                                             <Style>
                                               <Border>
                                                 <Color>LightGrey</Color>
@@ -1074,13 +946,13 @@
                                     <Width>1.85446cm</Width>
                                   </TablixColumn>
                                   <TablixColumn>
-                                    <Width>8.89543cm</Width>
+                                    <Width>8.53974cm</Width>
                                   </TablixColumn>
                                   <TablixColumn>
-                                    <Width>2.03916cm</Width>
+                                    <Width>2.11312cm</Width>
                                   </TablixColumn>
                                   <TablixColumn>
-                                    <Width>1.10282cm</Width>
+                                    <Width>1.38455cm</Width>
                                   </TablixColumn>
                                   <TablixColumn>
                                     <Width>1.07076cm</Width>
@@ -1645,6 +1517,102 @@
                                 <PaddingBottom>2pt</PaddingBottom>
                               </Style>
                             </Textbox>
+                            <Textbox Name="Textbox4">
+                              <rd:DefaultName>Textbox4</rd:DefaultName>
+                              <CanGrow>true</CanGrow>
+                              <KeepTogether>true</KeepTogether>
+                              <Paragraphs>
+                                <Paragraph>
+                                  <TextRuns>
+                                    <TextRun>
+                                      <Value>=Parameters!DeliverySignage.Value</Value>
+                                      <Style>
+                                        <TextDecoration>Underline</TextDecoration>
+                                      </Style>
+                                    </TextRun>
+                                  </TextRuns>
+                                  <Style />
+                                </Paragraph>
+                              </Paragraphs>
+                              <Top>12.19953cm</Top>
+                              <Left>0.19708cm</Left>
+                              <Height>0.6cm</Height>
+                              <Width>6.07188cm</Width>
+                              <ZIndex>6</ZIndex>
+                              <Style>
+                                <Border>
+                                  <Style>None</Style>
+                                </Border>
+                                <PaddingLeft>2pt</PaddingLeft>
+                                <PaddingRight>2pt</PaddingRight>
+                                <PaddingTop>2pt</PaddingTop>
+                                <PaddingBottom>2pt</PaddingBottom>
+                              </Style>
+                            </Textbox>
+                            <Textbox Name="Textbox11">
+                              <rd:DefaultName>Textbox4</rd:DefaultName>
+                              <CanGrow>true</CanGrow>
+                              <KeepTogether>true</KeepTogether>
+                              <Paragraphs>
+                                <Paragraph>
+                                  <TextRuns>
+                                    <TextRun>
+                                      <Value>=Parameters!DateDelivery.Value</Value>
+                                      <Style>
+                                        <TextDecoration>Underline</TextDecoration>
+                                      </Style>
+                                    </TextRun>
+                                  </TextRuns>
+                                  <Style />
+                                </Paragraph>
+                              </Paragraphs>
+                              <Top>12.19953cm</Top>
+                              <Left>7.71341cm</Left>
+                              <Height>0.6cm</Height>
+                              <Width>3.38879cm</Width>
+                              <ZIndex>7</ZIndex>
+                              <Style>
+                                <Border>
+                                  <Style>None</Style>
+                                </Border>
+                                <PaddingLeft>2pt</PaddingLeft>
+                                <PaddingRight>2pt</PaddingRight>
+                                <PaddingTop>2pt</PaddingTop>
+                                <PaddingBottom>2pt</PaddingBottom>
+                              </Style>
+                            </Textbox>
+                            <Textbox Name="Textbox30">
+                              <rd:DefaultName>Textbox4</rd:DefaultName>
+                              <CanGrow>true</CanGrow>
+                              <KeepTogether>true</KeepTogether>
+                              <Paragraphs>
+                                <Paragraph>
+                                  <TextRuns>
+                                    <TextRun>
+                                      <Value>=Parameters!LocationSignage.Value</Value>
+                                      <Style>
+                                        <TextDecoration>Underline</TextDecoration>
+                                      </Style>
+                                    </TextRun>
+                                  </TextRuns>
+                                  <Style />
+                                </Paragraph>
+                              </Paragraphs>
+                              <Top>12.19953cm</Top>
+                              <Left>12.32316cm</Left>
+                              <Height>0.6cm</Height>
+                              <Width>6.07188cm</Width>
+                              <ZIndex>8</ZIndex>
+                              <Style>
+                                <Border>
+                                  <Style>None</Style>
+                                </Border>
+                                <PaddingLeft>2pt</PaddingLeft>
+                                <PaddingRight>2pt</PaddingRight>
+                                <PaddingTop>2pt</PaddingTop>
+                                <PaddingBottom>2pt</PaddingBottom>
+                              </Style>
+                            </Textbox>
                           </ReportItems>
                           <KeepTogether>true</KeepTogether>
                           <Style>
@@ -1676,7 +1644,7 @@
               </TablixMembers>
             </TablixRowHierarchy>
             <DataSetName>DataSet_Result</DataSetName>
-            <Height>11.82456cm</Height>
+            <Height>14.37338cm</Height>
             <Width>18.42151cm</Width>
             <Style>
               <Border>
@@ -1685,7 +1653,7 @@
             </Style>
           </Tablix>
         </ReportItems>
-        <Height>11.82456cm</Height>
+        <Height>14.37338cm</Height>
         <Style />
       </Body>
       <Width>18.42151cm</Width>
@@ -2313,11 +2281,38 @@
       </DefaultValue>
       <Prompt>AnnotationLbl</Prompt>
     </ReportParameter>
+    <ReportParameter Name="DeliverySignage">
+      <DataType>String</DataType>
+      <DefaultValue>
+        <Values>
+          <Value>DeliverySignage</Value>
+        </Values>
+      </DefaultValue>
+      <Prompt>DeliverySignage</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="DateDelivery">
+      <DataType>String</DataType>
+      <DefaultValue>
+        <Values>
+          <Value>DateDelivery</Value>
+        </Values>
+      </DefaultValue>
+      <Prompt>DateDelivery</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="LocationSignage">
+      <DataType>String</DataType>
+      <DefaultValue>
+        <Values>
+          <Value>LocationSignage</Value>
+        </Values>
+      </DefaultValue>
+      <Prompt>LocationSignage</Prompt>
+    </ReportParameter>
   </ReportParameters>
   <ReportParametersLayout>
     <GridLayoutDefinition>
       <NumberOfColumns>1</NumberOfColumns>
-      <NumberOfRows>18</NumberOfRows>
+      <NumberOfRows>21</NumberOfRows>
       <CellDefinitions>
         <CellDefinition>
           <ColumnIndex>0</ColumnIndex>
@@ -2409,6 +2404,21 @@
           <RowIndex>17</RowIndex>
           <ParameterName>AnnotationLbl</ParameterName>
         </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>0</ColumnIndex>
+          <RowIndex>18</RowIndex>
+          <ParameterName>DeliverySignage</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>0</ColumnIndex>
+          <RowIndex>19</RowIndex>
+          <ParameterName>DateDelivery</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>0</ColumnIndex>
+          <RowIndex>20</RowIndex>
+          <ParameterName>LocationSignage</ParameterName>
+        </CellDefinition>
       </CellDefinitions>
     </GridLayoutDefinition>
   </ReportParametersLayout>
@@ -2449,4 +2459,134 @@ End Function
 </Code>
   <Language>=User!Language</Language>
   <ConsumeContainerWhitespace>true</ConsumeContainerWhitespace>
+  <DataSets>
+    <DataSet Name="DataSet_Result">
+      <Fields>
+        <Field Name="Logo">
+          <DataField>Logo</DataField>
+        </Field>
+        <Field Name="Sender">
+          <DataField>Sender</DataField>
+        </Field>
+        <Field Name="CustomerName">
+          <DataField>CustomerName</DataField>
+        </Field>
+        <Field Name="CustomerContact">
+          <DataField>CustomerContact</DataField>
+        </Field>
+        <Field Name="CustomerAddress">
+          <DataField>CustomerAddress</DataField>
+        </Field>
+        <Field Name="CustomerPostcodeCity">
+          <DataField>CustomerPostcodeCity</DataField>
+        </Field>
+        <Field Name="DocNo">
+          <DataField>DocNo</DataField>
+        </Field>
+        <Field Name="OrderNo">
+          <DataField>OrderNo</DataField>
+        </Field>
+        <Field Name="Datein">
+          <DataField>Datein</DataField>
+        </Field>
+        <Field Name="LicensePlate">
+          <DataField>LicensePlate</DataField>
+        </Field>
+        <Field Name="DeliveryAddress">
+          <DataField>DeliveryAddress</DataField>
+        </Field>
+        <Field Name="expectedDeliveryDate">
+          <DataField>expectedDeliveryDate</DataField>
+        </Field>
+        <Field Name="Warrenty">
+          <DataField>Warrenty</DataField>
+        </Field>
+        <Field Name="Ref">
+          <DataField>Ref</DataField>
+        </Field>
+        <Field Name="ReceiptHeaderTxt">
+          <DataField>ReceiptHeaderTxt</DataField>
+        </Field>
+        <Field Name="RCName">
+          <DataField>RCName</DataField>
+        </Field>
+        <Field Name="RCAddress">
+          <DataField>RCAddress</DataField>
+        </Field>
+        <Field Name="RCPostCode">
+          <DataField>RCPostCode</DataField>
+        </Field>
+        <Field Name="RCCity">
+          <DataField>RCCity</DataField>
+        </Field>
+        <Field Name="RCPhoneNo">
+          <DataField>RCPhoneNo</DataField>
+        </Field>
+        <Field Name="RCFaxNo">
+          <DataField>RCFaxNo</DataField>
+        </Field>
+        <Field Name="RCEmail">
+          <DataField>RCEmail</DataField>
+        </Field>
+        <Field Name="RCTaxNo">
+          <DataField>RCTaxNo</DataField>
+        </Field>
+        <Field Name="RCWebsite">
+          <DataField>RCWebsite</DataField>
+        </Field>
+        <Field Name="RCManager">
+          <DataField>RCManager</DataField>
+        </Field>
+        <Field Name="RCTradereg">
+          <DataField>RCTradereg</DataField>
+        </Field>
+        <Field Name="RCBank">
+          <DataField>RCBank</DataField>
+        </Field>
+        <Field Name="RCBankAccount">
+          <DataField>RCBankAccount</DataField>
+        </Field>
+        <Field Name="RCIBAN">
+          <DataField>RCIBAN</DataField>
+        </Field>
+        <Field Name="RCBIC">
+          <DataField>RCBIC</DataField>
+        </Field>
+        <Field Name="LineNo">
+          <DataField>LineNo</DataField>
+        </Field>
+        <Field Name="Artikel">
+          <DataField>Artikel</DataField>
+        </Field>
+        <Field Name="Description">
+          <DataField>Description</DataField>
+        </Field>
+        <Field Name="Quantity">
+          <DataField>Quantity</DataField>
+        </Field>
+        <Field Name="QuantityFormat">
+          <DataField>QuantityFormat</DataField>
+        </Field>
+        <Field Name="Pieces">
+          <DataField>Pieces</DataField>
+        </Field>
+        <Field Name="Lenght">
+          <DataField>Lenght</DataField>
+        </Field>
+        <Field Name="Widht">
+          <DataField>Widht</DataField>
+        </Field>
+        <Field Name="Height">
+          <DataField>Height</DataField>
+        </Field>
+        <Field Name="Operations">
+          <DataField>Operations</DataField>
+        </Field>
+      </Fields>
+      <Query>
+        <DataSourceName>DataSource</DataSourceName>
+        <CommandText />
+      </Query>
+    </DataSet>
+  </DataSets>
 </Report>

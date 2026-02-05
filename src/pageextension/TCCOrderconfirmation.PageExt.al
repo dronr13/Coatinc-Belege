@@ -1,3 +1,4 @@
+#if Publish
 pageextension 60113 "TCC Orderconfirmation" extends "MuM GR Pro. Whse. Receipt"
 {
     actions
@@ -28,3 +29,4 @@ pageextension 60113 "TCC Orderconfirmation" extends "MuM GR Pro. Whse. Receipt"
         }
     }
 }
+#endif

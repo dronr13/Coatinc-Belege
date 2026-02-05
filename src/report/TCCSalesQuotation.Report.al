@@ -1,3 +1,4 @@
+#if Publish
 report 60126 "TCC Sales Quotation"
 {
     UsageCategory = Documents;
@@ -214,3 +215,4 @@ report 60126 "TCC Sales Quotation"
     RCBIC: text;
     Annotation: text;
 }
+#endif

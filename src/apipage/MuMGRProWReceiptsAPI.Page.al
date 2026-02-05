@@ -1,3 +1,4 @@
+#if Publish
 
 page 60001 "MuM GR Pro. W. Receipts API"
 {
@@ -219,3 +220,4 @@ page 60001 "MuM GR Pro. W. Receipts API"
 
     actions { }
 }
+#endif

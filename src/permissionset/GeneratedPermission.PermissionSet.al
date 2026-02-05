@@ -1,3 +1,4 @@
+#if Publish
 permissionset 60000 GeneratedPermission
 {
     Assignable = true;
@@ -6,6 +7,6 @@ permissionset 60000 GeneratedPermission
         codeunit RequeredFieldsWa=X,
         page "MuM GR Pro. W. Receipts API"=X,
         page "MuM GR Whse. Receipts API"=X,
-        query ItemInventoryQuery=X,
         report "TCC Goods receipt label"=X;
 }
+#endif

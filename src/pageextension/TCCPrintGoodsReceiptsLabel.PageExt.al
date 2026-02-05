@@ -1,3 +1,4 @@
+#if Publish
 pageextension 60112 "TCC Print Goods Receipts Label" extends "MuM GR Whse. Receipt"
 {
     actions
@@ -48,3 +49,4 @@ pageextension 60112 "TCC Print Goods Receipts Label" extends "MuM GR Whse. Recei
         }
     }
 }
+#endif

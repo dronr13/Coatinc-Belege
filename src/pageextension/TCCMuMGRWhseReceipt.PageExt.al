@@ -1,3 +1,4 @@
+#if Publish
 pageextension 60127 "TCCMuM GR Whse. Receipt" extends "MuM GR Whse. Receipt"
 {
 /*     layout
@@ -30,3 +31,4 @@ pageextension 60127 "TCCMuM GR Whse. Receipt" extends "MuM GR Whse. Receipt"
     
     
 }
+#endif
