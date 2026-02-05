@@ -1278,30 +1278,45 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report TCC Weight Cart - ReportLabel ColorLbl</note>
         </trans-unit>
+        <trans-unit id="Report 3353495132 - ReportLabel 3534265827" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Comment</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Weight Cart - ReportLabel CommentLbl</note>
+        </trans-unit>
         <trans-unit id="Report 3353495132 - ReportLabel 3490088608" size-unit="char" translate="yes" xml:space="preserve">
           <source>Confirmation Number</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report TCC Weight Cart - ReportLabel ConfirmationNoLbl</note>
         </trans-unit>
-        <trans-unit id="Report 3353495132 - ReportLabel 1126961196" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 3353495132 - ReportLabel 3910937446" size-unit="char" translate="yes" xml:space="preserve">
           <source>Date Delivery</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Weight Cart - ReportLabel DateDelivery</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Weight Cart - ReportLabel DateDeliveryLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3353495132 - ReportLabel 3849054664" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date First Weight</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Weight Cart - ReportLabel DateFirstWeightLbl</note>
         </trans-unit>
         <trans-unit id="Report 3353495132 - ReportLabel 3063662051" size-unit="char" translate="yes" xml:space="preserve">
           <source>Date goods in</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report TCC Weight Cart - ReportLabel DateInLbl</note>
         </trans-unit>
+        <trans-unit id="Report 3353495132 - ReportLabel 1111484458" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date Second Weight</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Weight Cart - ReportLabel DateSecondWeightLbl</note>
+        </trans-unit>
         <trans-unit id="Report 3353495132 - ReportLabel 2954366404" size-unit="char" translate="yes" xml:space="preserve">
           <source>Delivery Address</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report TCC Weight Cart - ReportLabel DeliveryAddressLbl</note>
         </trans-unit>
-        <trans-unit id="Report 3353495132 - ReportLabel 2842591552" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 3353495132 - ReportLabel 602986266" size-unit="char" translate="yes" xml:space="preserve">
           <source>Singature Delivery</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Weight Cart - ReportLabel DeliverySignage</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Weight Cart - ReportLabel DeliverySignageLbl</note>
         </trans-unit>
         <trans-unit id="Report 3353495132 - ReportLabel 2031087404" size-unit="char" translate="yes" xml:space="preserve">
           <source>Discription</source>
@@ -1313,6 +1328,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report TCC Weight Cart - ReportLabel EstimatedDeliceryDateLbl</note>
         </trans-unit>
+        <trans-unit id="Report 3353495132 - ReportLabel 915548396" size-unit="char" translate="yes" xml:space="preserve">
+          <source>First Weight</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Weight Cart - ReportLabel FirstWeightLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3353495132 - ReportLabel 983219472" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Good Receipt Number</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Weight Cart - ReportLabel GoodReceiptNoLbl</note>
+        </trans-unit>
         <trans-unit id="Report 3353495132 - ReportLabel 2963208439" size-unit="char" translate="yes" xml:space="preserve">
           <source>H</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1323,10 +1348,10 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report TCC Weight Cart - ReportLabel LengthLbl</note>
         </trans-unit>
-        <trans-unit id="Report 3353495132 - ReportLabel 258347871" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 3353495132 - ReportLabel 1311008961" size-unit="char" translate="yes" xml:space="preserve">
           <source>Signature Plant</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Weight Cart - ReportLabel LocationSignage</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Weight Cart - ReportLabel LocationSignageLbl</note>
         </trans-unit>
         <trans-unit id="Report 3353495132 - ReportLabel 477454936" size-unit="char" translate="yes" xml:space="preserve">
           <source>Operations</source>
@@ -1343,10 +1368,15 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report TCC Weight Cart - ReportLabel PiecesLbl</note>
         </trans-unit>
-        <trans-unit id="Report 3353495132 - ReportLabel 3712033653" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 3353495132 - ReportLabel 2409218073" size-unit="char" translate="yes" xml:space="preserve">
           <source>Registration plate</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Weight Cart - ReportLabel RegistrationPlatebl</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Weight Cart - ReportLabel RegistrationPlateLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3353495132 - ReportLabel 1885488289" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Second Weight</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Weight Cart - ReportLabel SecondeWeightLbl</note>
         </trans-unit>
         <trans-unit id="Report 3353495132 - ReportLabel 4002367168" size-unit="char" translate="yes" xml:space="preserve">
           <source>Warrenty order</source>
@@ -1357,6 +1387,21 @@
           <source>Weight Card No</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report TCC Weight Cart - ReportLabel WeightCartNoLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3353495132 - ReportLabel 2188438293" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Weighted Weight</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Weight Cart - ReportLabel WeightedWeightLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3353495132 - ReportLabel 238383578" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Weight Master</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Weight Cart - ReportLabel WeightMasterLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 3353495132 - ReportLabel 1354974198" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Weight Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Weight Cart - ReportLabel WeightTypeLbl</note>
         </trans-unit>
         <trans-unit id="Report 3353495132 - ReportLabel 1154098152" size-unit="char" translate="yes" xml:space="preserve">
           <source>W</source>
@@ -1382,6 +1427,11 @@
           <source>Goods Receipt Slip</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension TCC Print Goods Receipts Label - Action TCC Print Goods Receipts Slip - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3979214416 - Action 3353495132 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1566602949">
+          <source>Weight Cart</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension TCC Print Goods Receipts Label - Action TCC Weight Cart - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 1247649385 - Control 598818045 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1673401186">
           <source>Warehouse receipt reference for this sales order.</source>

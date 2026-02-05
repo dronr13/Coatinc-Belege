@@ -1,4 +1,4 @@
-#if Publish
+
 pageextension 60150 TCCResponsibilityCenter extends "Responsibility Center Card"
 {
     layout
@@ -24,4 +24,3 @@ pageextension 60150 TCCResponsibilityCenter extends "Responsibility Center Card"
         }
     }
 }
-#endif

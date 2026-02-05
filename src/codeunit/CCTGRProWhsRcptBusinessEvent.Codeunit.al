@@ -1,4 +1,4 @@
-#if Publish
+
 Codeunit 60005 "CCTGRProWhsRcpt Business Event"
 {
     //OBSOLET - to delete !!!
@@ -14,4 +14,3 @@ Codeunit 60005 "CCTGRProWhsRcpt Business Event"
     begin
     end;
 }
-#endif

@@ -22,6 +22,11 @@ report 60130 "TCC Weight Cart"
             column(OrderNo; OrderNo) { }
             column(Datein; "Receipt Date") { }
             column(LicensePlate; "CO Truck License Plate") { }
+            column(CO_Weighing_Type_Values; "CO Weighing Type Values") { }
+            column(CO_Initial_Weight; "CO Initial Weight") { }
+            column(CO_Second_Weight; "CO Second Weight") { }
+            column(CO_Weighed_Weight; "CO Weighed Weight") { }
+            column(CO_comment; "CO Comment") { }
             column(DeliveryAddress; "Ship-to Address") { }
             column(expectedDeliveryDate; "Requested Delivery Date") { }
             column(Warrenty; "CO Name GRH Property 7") { }
@@ -29,6 +34,8 @@ report 60130 "TCC Weight Cart"
 
             // Header text (base English + optional country-specific translation from Media)
             column(ReceiptHeaderTxt; ReceiptHeaderTxt) { }
+
+
 
             // Footer info
             column(RCName; RCName) { }
@@ -79,6 +86,8 @@ report 60130 "TCC Weight Cart"
 
                 InStr: InStream;
                 LineTxt: Text;
+
+                
             begin
                 // Sender based on Responsibility Center
                 if Firma.Get(ReceiptHeader."CO Responsibility Center") then
@@ -134,10 +143,19 @@ report 60130 "TCC Weight Cart"
     labels
     {
         ConfirmationNoLbl = 'Confirmation Number';
+        GoodReceiptNoLbl = 'Good Receipt Number';
         YourRefLbl = 'Your Reference';
         DateInLbl = 'Date goods in';
         WeightCartNoLbl = 'Weight Card No';
-        RegistrationPlatebl = 'Registration plate';
+        RegistrationPlateLbl = 'Registration plate';
+        FirstWeightLbl = 'First Weight';
+        SecondeWeightLbl = 'Second Weight';
+        WeightedWeightLbl = 'Weighted Weight';
+        WeightTypeLbl = 'Weight Type';
+        CommentLbl = 'Comment';
+        WeightMasterLbl = 'Weight Master';
+        DateFirstWeightLbl = 'Date First Weight';
+        DateSecondWeightLbl = 'Date Second Weight';
         DeliveryAddressLbl = 'Delivery Address';
         EstimatedDeliceryDateLbl = 'Estimated Delivery Date';
         OperationsLbl = 'Operations';
@@ -151,9 +169,9 @@ report 60130 "TCC Weight Cart"
         HeightLbl = 'H';
         PageLbl = 'Page';
         AnnotationLbl = 'Dear sir/madam ';
-        DeliverySignage = 'Singature Delivery';
-        DateDelivery = 'Date Delivery';
-        LocationSignage = 'Signature Plant';
+        DeliverySignageLbl = 'Singature Delivery';
+        DateDeliveryLbl = 'Date Delivery';
+        LocationSignageLbl = 'Signature Plant';
     }
 
     var
@@ -185,4 +203,6 @@ report 60130 "TCC Weight Cart"
         // Header text
         ReceiptHeaderTxt: Text;
         ReceiptFooterTxt: Text;
+
+
 }

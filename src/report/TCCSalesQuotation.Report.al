@@ -1,4 +1,3 @@
-#if Publish
 report 60126 "TCC Sales Quotation"
 {
     UsageCategory = Documents;
@@ -10,7 +9,7 @@ report 60126 "TCC Sales Quotation"
     {
         dataitem(SalesHeader; "Sales Header")
         {
-            DataItemTableView = sorting("Document Type", "No.")where("Document Type"=const(Quote));
+            DataItemTableView = sorting("Document Type", "No.") where("Document Type" = const(Quote));
             RequestFilterFields = "No.";
 
             column(Logo; Company.Picture)
@@ -49,7 +48,7 @@ report 60126 "TCC Sales Quotation"
             column(contact; "Bill-to Contact")
             {
             }
-            column(Annotation;'Sehr geehrter Herr/Frau ' + "Bill-to Contact" + ',')
+            column(Annotation; 'Sehr geehrter Herr/Frau ' + "Bill-to Contact" + ',')
             {
             }
             column(SalesPersonName; PurchasePerson)
@@ -106,9 +105,12 @@ report 60126 "TCC Sales Quotation"
             column(RCBIC; "RCBIC")
             {
             }
+            column(SalesQuoteText; SalesQuoteText) { }
+            column(SalesQuoteTextFooter; SalesQuoteTextFooter) { }
+
             dataitem(SalesLine; "Sales Line")
             {
-                DataItemLink = "Document Type"=field("Document Type"), "Document No."=field("No.");
+                DataItemLink = "Document Type" = field("Document Type"), "Document No." = field("No.");
 
                 column(LineNo; "Line No.")
                 {
@@ -136,33 +138,48 @@ report 60126 "TCC Sales Quotation"
             var
                 SalesPerson: Record "Salesperson/Purchaser";
                 ResponsebilityCenter: Record "Responsibility Center";
+                MuMETExtendedTextMgt: Codeunit "MuM ET Extended Text Mgt.";
+                DocumentTextHeader: Record "MuM ET Document Text Header";
+                PrintType: Enum "MuM ET Printing Type";
+                SubPrintType: Enum "MuM ET Sub-Printing Type";
+
+
             begin
                 // Haal het Responsibility Center record expliciet op
-                if Firma.Get("Responsibility Center")then Sender:=Firma.Name + ' ' + Firma.Address + ', ' + Firma."Post Code" + ' ' + Firma.City
+                if Firma.Get("Responsibility Center") then
+                    Sender := Firma.Name + ' ' + Firma.Address + ', ' + Firma."Post Code" + ' ' + Firma.City
                 else
-                    Sender:='';
-                if SalesPerson.get(SalesHeader."Salesperson Code")then begin
-                    PurchasePerson:=SalesPerson.Name;
-                    PurchasePhone:=SalesPerson."Phone No.";
-                    PurchaseEmail:=SalesPerson."E-Mail";
+                    Sender := '';
+                if SalesPerson.get(SalesHeader."Salesperson Code") then begin
+                    PurchasePerson := SalesPerson.Name;
+                    PurchasePhone := SalesPerson."Phone No.";
+                    PurchaseEmail := SalesPerson."E-Mail";
                 end;
-                if Company.Get()then Company.CalcFields(Picture);
-                if ResponsebilityCenter.Get(SalesHeader."Responsibility Center")then begin
-                    RCName:=ResponsebilityCenter.Name;
-                    RCAddress:=ResponsebilityCenter.Address;
-                    RCPostCode:=ResponsebilityCenter."Post Code";
-                    RCCity:=ResponsebilityCenter.City;
-                    RCPhoneNo:=ResponsebilityCenter."Phone No.";
-                    RCFaxNo:=ResponsebilityCenter."Fax No.";
-                    RCEmail:=ResponsebilityCenter."E-Mail";
-                    RCTaxNo:=ResponsebilityCenter."CO VAT-ID";
-                    RCWebsite:=ResponsebilityCenter."Home Page";
-                    RCManager:=ResponsebilityCenter."CO Manager";
-                    RCTradereg:=ResponsebilityCenter."CO Trade Register";
-                    RCBank:=ResponsebilityCenter.Bank;
-                    RCBankAccount:=ResponsebilityCenter.Account;
-                    RCIBAN:=ResponsebilityCenter.IBAN;
-                    RCBIC:=ResponsebilityCenter.BIC;
+                if Company.Get() then Company.CalcFields(Picture);
+                if ResponsebilityCenter.Get(SalesHeader."Responsibility Center") then begin
+                    RCName := ResponsebilityCenter.Name;
+                    RCAddress := ResponsebilityCenter.Address;
+                    RCPostCode := ResponsebilityCenter."Post Code";
+                    RCCity := ResponsebilityCenter.City;
+                    RCPhoneNo := ResponsebilityCenter."Phone No.";
+                    RCFaxNo := ResponsebilityCenter."Fax No.";
+                    RCEmail := ResponsebilityCenter."E-Mail";
+                    RCTaxNo := ResponsebilityCenter."CO VAT-ID";
+                    RCWebsite := ResponsebilityCenter."Home Page";
+                    RCManager := ResponsebilityCenter."CO Manager";
+                    RCTradereg := ResponsebilityCenter."CO Trade Register";
+                    RCBank := ResponsebilityCenter.Bank;
+                    RCBankAccount := ResponsebilityCenter.Account;
+                    RCIBAN := ResponsebilityCenter.IBAN;
+                    RCBIC := ResponsebilityCenter.BIC;
+                end;
+                if DocumentTextHeader.Get(Database::"Sales Header", "MuM ET Document Type"::Quote, DocumentTextHeader."Document Type"::Quote, SalesHeader."No.") then begin
+                    SalesQuoteText := MUMEtExtendedTextMgt.GetDocumentMediaAsText(DocumentTextHeader, PrintType::Report, SubPrintType::Header);
+                end;
+
+                if DocumentTextHeader.Get(Database::"Sales Header", "MuM ET Document Type"::Quote, DocumentTextHeader."Document Type"::Quote, SalesHeader."No.") then begin
+                    SalesQuoteTextFooter := MUMEtExtendedTextMgt.GetDocumentMediaAsText(DocumentTextHeader, PrintType::Report, SubPrintType::Footer);
+
                 end;
             end;
         }
@@ -172,47 +189,49 @@ report 60126 "TCC Sales Quotation"
     }
     labels
     {
-    QuotationNoLbl='Quotation Number';
-    YourRefLbl='Your Reference';
-    QuoteDateLbl='Quotation Date';
-    SalesPersonNameLbl='Salesperson';
-    SalesPersonPhoneLbl='Phone';
-    SalesPersonEmailLbl='E-Mail';
-    RCBankLbl='Bank Name';
-    RCBankAccountLbl='Bank account';
-    RCIBANLbl='IBAN';
-    RCBICLbl='BIC';
-    ArtikelCodeLbl='Item No.';
-    ArtikelTypeLbl='Type';
-    DescriptionLbl='Description';
-    QuantityLbl='Quantity';
-    UnitOfMeasureLbl='Unit of Measure';
-    UnitPriceLbl='Unit Price';
-    PageLbl='Page';
-    AnnotationLbl='Dear sir/madam ';
+        QuotationNoLbl = 'Quotation Number';
+        YourRefLbl = 'Your Reference';
+        QuoteDateLbl = 'Quotation Date';
+        SalesPersonNameLbl = 'Salesperson';
+        SalesPersonPhoneLbl = 'Phone';
+        SalesPersonEmailLbl = 'E-Mail';
+        RCBankLbl = 'Bank Name';
+        RCBankAccountLbl = 'Bank account';
+        RCIBANLbl = 'IBAN';
+        RCBICLbl = 'BIC';
+        ArtikelCodeLbl = 'Item No.';
+        ArtikelTypeLbl = 'Type';
+        DescriptionLbl = 'Description';
+        QuantityLbl = 'Quantity';
+        UnitOfMeasureLbl = 'Unit of Measure';
+        UnitPriceLbl = 'Unit Price';
+        PageLbl = 'Page';
+        AnnotationLbl = 'Dear sir/madam ';
     }
-    var Firma: Record "Responsibility Center";
-    Company: Record "Company Information";
-    Sender: Text;
-    Salutation: Text;
-    PurchasePerson: text;
-    PurchasePhone: text;
-    PurchaseEmail: text;
-    RCName: text;
-    RCAddress: text;
-    RCPostCode: text;
-    RCCity: text;
-    RCPhoneNo: text;
-    RCFaxNo: text;
-    RCEmail: text;
-    RCTaxNo: text;
-    RCWebsite: text;
-    RCManager: text;
-    RCTradereg: text;
-    RCBank: text;
-    RCBankAccount: Text;
-    RCIBAN: text;
-    RCBIC: text;
-    Annotation: text;
+    var
+        Firma: Record "Responsibility Center";
+        Company: Record "Company Information";
+        Sender: Text;
+        Salutation: Text;
+        PurchasePerson: text;
+        PurchasePhone: text;
+        PurchaseEmail: text;
+        RCName: text;
+        RCAddress: text;
+        RCPostCode: text;
+        RCCity: text;
+        RCPhoneNo: text;
+        RCFaxNo: text;
+        RCEmail: text;
+        RCTaxNo: text;
+        RCWebsite: text;
+        RCManager: text;
+        RCTradereg: text;
+        RCBank: text;
+        RCBankAccount: Text;
+        RCIBAN: text;
+        RCBIC: text;
+        Annotation: text;
+        SalesQuoteText: Text;
+        SalesQuoteTextFooter: Text;
 }
-#endif

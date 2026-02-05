@@ -1,4 +1,4 @@
-#if Publish
+
 permissionset 60000 GeneratedPermission
 {
     Assignable = true;
@@ -9,4 +9,3 @@ permissionset 60000 GeneratedPermission
         page "MuM GR Whse. Receipts API"=X,
         report "TCC Goods receipt label"=X;
 }
-#endif

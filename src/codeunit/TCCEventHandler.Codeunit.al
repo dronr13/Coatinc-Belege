@@ -1,4 +1,4 @@
-#if Publish
+
 Codeunit 60128 "TCC Event Handler"
 {
     [EventSubscriber(ObjectType::Table, Database::"CO Whse. Receipt Item Charge", 'OnAfterValidateEvent', 'Status', false, false)]
@@ -33,4 +33,3 @@ Codeunit 60128 "TCC Event Handler"
         end;
     end;
 }
-#endif

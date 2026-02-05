@@ -1,5 +1,5 @@
 
-#if Publish
+
 page 60004 "MuM GR Pro. W. Rcpt. Line API"
 {
     PageType = API;
@@ -152,4 +152,3 @@ page 60004 "MuM GR Pro. W. Rcpt. Line API"
         }
     }
 }
-#endif

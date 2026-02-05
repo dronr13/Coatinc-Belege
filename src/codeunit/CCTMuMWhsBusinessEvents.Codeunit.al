@@ -1,4 +1,4 @@
-#if Publish
+
 Codeunit 60000 "CCT MuM Whs. Business Events"
 {
     [EventSubscriber(ObjectType::Table, Database::"MuM GR Pro. W. Rcpt. Header", 'OnAfterInsertEvent', '', false, false)]
@@ -38,4 +38,4 @@ Codeunit 60000 "CCT MuM Whs. Business Events"
     begin
     end;
 }
-#endif
+

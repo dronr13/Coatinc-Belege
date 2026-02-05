@@ -1,4 +1,4 @@
-#if Publish
+
 report 60128 "TCC Goods receipt label"
 {
     ApplicationArea = All;
@@ -102,4 +102,3 @@ report 60128 "TCC Goods receipt label"
     var EncodedText: Text;
     NumberOfLabels: Integer;
 }
-#endif

@@ -11,7 +11,7 @@
       <am:Name>MSRB</am:Name>
       <am:Version>15.1.30001.02</am:Version>
     </am:UpdatedBy>
-    <am:LastModifiedTimestamp>2026-01-12T10:43:46.0765436Z</am:LastModifiedTimestamp>
+    <am:LastModifiedTimestamp>2026-02-05T14:30:22.6913978Z</am:LastModifiedTimestamp>
   </am:AuthoringMetadata>
   <AutoRefresh>0</AutoRefresh>
   <DataSources>
@@ -24,6 +24,142 @@
       <rd:DataSourceID>a12ead64-3270-4dd0-941e-98f8e5fb1c3f</rd:DataSourceID>
     </DataSource>
   </DataSources>
+  <DataSets>
+    <DataSet Name="DataSet_Result">
+      <Query>
+        <DataSourceName>DataSource</DataSourceName>
+        <CommandText />
+      </Query>
+      <Fields>
+        <Field Name="Logo">
+          <DataField>Logo</DataField>
+        </Field>
+        <Field Name="Sender">
+          <DataField>Sender</DataField>
+        </Field>
+        <Field Name="DocNo">
+          <DataField>DocNo</DataField>
+        </Field>
+        <Field Name="ResponsibilityCenter">
+          <DataField>ResponsibilityCenter</DataField>
+        </Field>
+        <Field Name="SalespersonCode">
+          <DataField>SalespersonCode</DataField>
+        </Field>
+        <Field Name="CustomerName">
+          <DataField>CustomerName</DataField>
+        </Field>
+        <Field Name="CustomerAddress">
+          <DataField>CustomerAddress</DataField>
+        </Field>
+        <Field Name="CustomerPostCodeCity">
+          <DataField>CustomerPostCodeCity</DataField>
+        </Field>
+        <Field Name="QuotationNo">
+          <DataField>QuotationNo</DataField>
+        </Field>
+        <Field Name="Ref">
+          <DataField>Ref</DataField>
+        </Field>
+        <Field Name="QuoteDate">
+          <DataField>QuoteDate</DataField>
+        </Field>
+        <Field Name="contact">
+          <DataField>contact</DataField>
+        </Field>
+        <Field Name="Annotation">
+          <DataField>Annotation</DataField>
+        </Field>
+        <Field Name="SalesPersonName">
+          <DataField>SalesPersonName</DataField>
+        </Field>
+        <Field Name="SalesPersonPhone">
+          <DataField>SalesPersonPhone</DataField>
+        </Field>
+        <Field Name="SalesPersonEmail">
+          <DataField>SalesPersonEmail</DataField>
+        </Field>
+        <Field Name="RCName">
+          <DataField>RCName</DataField>
+        </Field>
+        <Field Name="RCAddress">
+          <DataField>RCAddress</DataField>
+        </Field>
+        <Field Name="RCPostCode">
+          <DataField>RCPostCode</DataField>
+        </Field>
+        <Field Name="RCCity">
+          <DataField>RCCity</DataField>
+        </Field>
+        <Field Name="RCPhoneNo">
+          <DataField>RCPhoneNo</DataField>
+        </Field>
+        <Field Name="RCFaxNo">
+          <DataField>RCFaxNo</DataField>
+        </Field>
+        <Field Name="RCEmail">
+          <DataField>RCEmail</DataField>
+        </Field>
+        <Field Name="RCTaxNo">
+          <DataField>RCTaxNo</DataField>
+        </Field>
+        <Field Name="RCWebsite">
+          <DataField>RCWebsite</DataField>
+        </Field>
+        <Field Name="RCManager">
+          <DataField>RCManager</DataField>
+        </Field>
+        <Field Name="RCTradereg">
+          <DataField>RCTradereg</DataField>
+        </Field>
+        <Field Name="RCBank">
+          <DataField>RCBank</DataField>
+        </Field>
+        <Field Name="RCBankAccount">
+          <DataField>RCBankAccount</DataField>
+        </Field>
+        <Field Name="RCIBAN">
+          <DataField>RCIBAN</DataField>
+        </Field>
+        <Field Name="RCBIC">
+          <DataField>RCBIC</DataField>
+        </Field>
+        <Field Name="SalesQuoteText">
+          <DataField>SalesQuoteText</DataField>
+        </Field>
+        <Field Name="SalesQuoteTextFooter">
+          <DataField>SalesQuoteTextFooter</DataField>
+        </Field>
+        <Field Name="LineNo">
+          <DataField>LineNo</DataField>
+        </Field>
+        <Field Name="ArtikelCode">
+          <DataField>ArtikelCode</DataField>
+        </Field>
+        <Field Name="Artikel">
+          <DataField>Artikel</DataField>
+        </Field>
+        <Field Name="Description">
+          <DataField>Description</DataField>
+        </Field>
+        <Field Name="Quantity">
+          <DataField>Quantity</DataField>
+        </Field>
+        <Field Name="QuantityFormat">
+          <DataField>QuantityFormat</DataField>
+        </Field>
+        <Field Name="UnitOfMeasure">
+          <DataField>UnitOfMeasure</DataField>
+        </Field>
+        <Field Name="UnitPrice">
+          <DataField>UnitPrice</DataField>
+        </Field>
+        <Field Name="UnitPriceFormat">
+          <DataField>UnitPriceFormat</DataField>
+        </Field>
+      </Fields>
+    </DataSet>
+  </DataSets>
   <ReportSections>
     <ReportSection>
       <Body>
@@ -906,7 +1042,8 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value>Erweiterte text vorlage functionieren noch nicht guht in Business Centeral.</Value>
+                                      <Value>=First(Fields!SalesQuoteText.Value)</Value>
+                                      <MarkupType>HTML</MarkupType>
                                       <Style />
                                     </TextRun>
                                   </TextRuns>
@@ -1340,7 +1477,7 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value>Erweiterte text vorlage functionieren noch nicht guht in Business Centeral.</Value>
+                                      <Value>=First(Fields!SalesQuoteTextFooter.Value)</Value>
                                       <Style />
                                     </TextRun>
                                   </TextRuns>
@@ -2166,134 +2303,4 @@ End Function
 </Code>
   <Language>=User!Language</Language>
   <ConsumeContainerWhitespace>true</ConsumeContainerWhitespace>
-  <DataSets>
-    <DataSet Name="DataSet_Result">
-      <Fields>
-        <Field Name="Logo">
-          <DataField>Logo</DataField>
-        </Field>
-        <Field Name="Sender">
-          <DataField>Sender</DataField>
-        </Field>
-        <Field Name="DocNo">
-          <DataField>DocNo</DataField>
-        </Field>
-        <Field Name="ResponsibilityCenter">
-          <DataField>ResponsibilityCenter</DataField>
-        </Field>
-        <Field Name="SalespersonCode">
-          <DataField>SalespersonCode</DataField>
-        </Field>
-        <Field Name="CustomerName">
-          <DataField>CustomerName</DataField>
-        </Field>
-        <Field Name="CustomerAddress">
-          <DataField>CustomerAddress</DataField>
-        </Field>
-        <Field Name="CustomerPostCodeCity">
-          <DataField>CustomerPostCodeCity</DataField>
-        </Field>
-        <Field Name="QuotationNo">
-          <DataField>QuotationNo</DataField>
-        </Field>
-        <Field Name="Ref">
-          <DataField>Ref</DataField>
-        </Field>
-        <Field Name="QuoteDate">
-          <DataField>QuoteDate</DataField>
-        </Field>
-        <Field Name="contact">
-          <DataField>contact</DataField>
-        </Field>
-        <Field Name="Annotation">
-          <DataField>Annotation</DataField>
-        </Field>
-        <Field Name="SalesPersonName">
-          <DataField>SalesPersonName</DataField>
-        </Field>
-        <Field Name="SalesPersonPhone">
-          <DataField>SalesPersonPhone</DataField>
-        </Field>
-        <Field Name="SalesPersonEmail">
-          <DataField>SalesPersonEmail</DataField>
-        </Field>
-        <Field Name="RCName">
-          <DataField>RCName</DataField>
-        </Field>
-        <Field Name="RCAddress">
-          <DataField>RCAddress</DataField>
-        </Field>
-        <Field Name="RCPostCode">
-          <DataField>RCPostCode</DataField>
-        </Field>
-        <Field Name="RCCity">
-          <DataField>RCCity</DataField>
-        </Field>
-        <Field Name="RCPhoneNo">
-          <DataField>RCPhoneNo</DataField>
-        </Field>
-        <Field Name="RCFaxNo">
-          <DataField>RCFaxNo</DataField>
-        </Field>
-        <Field Name="RCEmail">
-          <DataField>RCEmail</DataField>
-        </Field>
-        <Field Name="RCTaxNo">
-          <DataField>RCTaxNo</DataField>
-        </Field>
-        <Field Name="RCWebsite">
-          <DataField>RCWebsite</DataField>
-        </Field>
-        <Field Name="RCManager">
-          <DataField>RCManager</DataField>
-        </Field>
-        <Field Name="RCTradereg">
-          <DataField>RCTradereg</DataField>
-        </Field>
-        <Field Name="RCBank">
-          <DataField>RCBank</DataField>
-        </Field>
-        <Field Name="RCBankAccount">
-          <DataField>RCBankAccount</DataField>
-        </Field>
-        <Field Name="RCIBAN">
-          <DataField>RCIBAN</DataField>
-        </Field>
-        <Field Name="RCBIC">
-          <DataField>RCBIC</DataField>
-        </Field>
-        <Field Name="LineNo">
-          <DataField>LineNo</DataField>
-        </Field>
-        <Field Name="ArtikelCode">
-          <DataField>ArtikelCode</DataField>
-        </Field>
-        <Field Name="Artikel">
-          <DataField>Artikel</DataField>
-        </Field>
-        <Field Name="Description">
-          <DataField>Description</DataField>
-        </Field>
-        <Field Name="Quantity">
-          <DataField>Quantity</DataField>
-        </Field>
-        <Field Name="QuantityFormat">
-          <DataField>QuantityFormat</DataField>
-        </Field>
-        <Field Name="UnitOfMeasure">
-          <DataField>UnitOfMeasure</DataField>
-        </Field>
-        <Field Name="UnitPrice">
-          <DataField>UnitPrice</DataField>
-        </Field>
-        <Field Name="UnitPriceFormat">
-          <DataField>UnitPriceFormat</DataField>
-        </Field>
-      </Fields>
-      <Query>
-        <DataSourceName>DataSource</DataSourceName>
-        <CommandText />
-      </Query>
-    </DataSet>
-  </DataSets>
 </Report>

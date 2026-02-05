@@ -1,4 +1,4 @@
-#if Publish
+
 report 60129 "TCC Goods Receipt Slip"
 {
     UsageCategory = Documents;
@@ -189,4 +189,3 @@ report 60129 "TCC Goods Receipt Slip"
         ReceiptHeaderTxt: Text;
         RecieptFooterTxt: Text;
 }
-#endif

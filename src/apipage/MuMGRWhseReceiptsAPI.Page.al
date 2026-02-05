@@ -1,4 +1,4 @@
-#if Publish
+
 page 60000 "MuM GR Whse. Receipts API"
 {
     PageType = API;
@@ -203,4 +203,3 @@ page 60000 "MuM GR Whse. Receipts API"
 
     actions { }
 }
-#endif

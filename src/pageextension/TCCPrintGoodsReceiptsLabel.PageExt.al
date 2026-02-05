@@ -1,4 +1,4 @@
-#if Publish
+
 pageextension 60112 "TCC Print Goods Receipts Label" extends "MuM GR Whse. Receipt"
 {
     actions
@@ -40,7 +40,28 @@ pageextension 60112 "TCC Print Goods Receipts Label" extends "MuM GR Whse. Recei
                     // Eventueel: zorg dat er minimaal één record is
                     if ReceiptHeader.IsEmpty() then exit;
                     // Geef de gefilterde records mee aan het rapport
-                    Report.RunModal(Report::"TCC Goods receipt slip", 
+                    Report.RunModal(Report::"TCC Goods receipt slip",
+                    true, // Request page niet tonen
+                    false, // Niet forceren naar printer (gebruik standaard)
+                    ReceiptHeader);
+                end;
+            }
+            action("TCC Weight Cart")
+            {
+                ApplicationArea = All;
+                Caption = 'Weight Cart';
+                Image = Print;
+
+                trigger OnAction()
+                var
+                    ReceiptHeader: Record "MuM GR Whse. Receipt Header";
+                begin
+                    // Neem de selectie/actieve regels van de pagina over
+                    CurrPage.SetSelectionFilter(ReceiptHeader);
+                    // Eventueel: zorg dat er minimaal één record is
+                    if ReceiptHeader.IsEmpty() then exit;
+                    // Geef de gefilterde records mee aan het rapport
+                    Report.RunModal(Report::"TCC Weight Cart",
                     true, // Request page niet tonen
                     false, // Niet forceren naar printer (gebruik standaard)
                     ReceiptHeader);
@@ -49,4 +70,3 @@ pageextension 60112 "TCC Print Goods Receipts Label" extends "MuM GR Whse. Recei
         }
     }
 }
-#endif

@@ -1,4 +1,4 @@
-#if Publish
+
 codeunit 60127 "TCC Create User Task"
 {
     TableNo = "MuM GR Whse. Receipt Header";
@@ -27,4 +27,3 @@ codeunit 60127 "TCC Create User Task"
     end;
 }
 
-#endif

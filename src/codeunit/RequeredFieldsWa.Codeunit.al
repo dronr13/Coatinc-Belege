@@ -1,4 +1,4 @@
-#if Publish
+
 codeunit 60126 RequeredFieldsWa
 {
     TableNo = "MuM GR Whse. Receipt Header";
@@ -12,4 +12,3 @@ codeunit 60126 RequeredFieldsWa
  Error('Receipt Bin Code is empty');
     End;
 }
-#endif

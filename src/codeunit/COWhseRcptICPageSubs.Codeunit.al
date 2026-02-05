@@ -1,5 +1,5 @@
 
-#if Publish
+
 codeunit 60130 "CO WhseRcptIC Page Subs"
 {
     [EventSubscriber(ObjectType::Page, Page::"CO Whse. Rcpt. It Chg Lines SP", 'OnAfterActionEvent', 'ApproveCharges', false, false)]
@@ -27,5 +27,3 @@ codeunit 60130 "CO WhseRcptIC Page Subs"
         end;
     end;
 }
-
-#endif

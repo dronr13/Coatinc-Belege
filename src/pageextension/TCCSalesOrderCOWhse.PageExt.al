@@ -1,4 +1,4 @@
-#if Publish
+
 pageextension 60200 "TCC Sales Order CO Whse" extends "Sales Order"
 {
     layout
@@ -15,4 +15,3 @@ pageextension 60200 "TCC Sales Order CO Whse" extends "Sales Order"
         }
     }
 }
-#endif
