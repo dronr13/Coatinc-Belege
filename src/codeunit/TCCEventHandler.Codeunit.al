@@ -1,10 +1,10 @@
-
 Codeunit 60128 "TCC Event Handler"
 {
     [EventSubscriber(ObjectType::Table, Database::"CO Whse. Receipt Item Charge", 'OnAfterValidateEvent', 'Status', false, false)]
-    local procedure Status_OnAfterValidate(var Rec: Record "CO Whse. Receipt Item Charge"; var xRec: Record "CO Whse. Receipt Item Charge"; CurrFieldNo: Integer)
+    local procedure COWhseReceiptItemCharge_Status_OnAfterValidate(var Rec: Record "CO Whse. Receipt Item Charge"; var xRec: Record "CO Whse. Receipt Item Charge"; CurrFieldNo: Integer)
     var
         MuMGRWhseReceiptHeader: Record "MuM GR Whse. Receipt Header";
+        TCCManagement: Codeunit "TCC Management";
     begin
         if Rec.IsTemporary then
             exit;
@@ -14,22 +14,27 @@ Codeunit 60128 "TCC Event Handler"
 
         case rec.Status of
             rec.Status::Approved:
-                begin
-                    MuMGRWhseReceiptHeader.Get(rec."Document No.");
-                    if MuMGRWhseReceiptHeader."CO Status Code" <> 'FREIGABE' then begin
-                        MuMGRWhseReceiptHeader.Validate("CO Status Code", 'FREIGABE'); //auf Einrichtung umstellen
-                        MuMGRWhseReceiptHeader.Modify(true);
-                    end;
-                end;
+                TCCManagement.SetMuMGRWhseReceiptHeaderCOStatusRelease(Rec."Document No.");
 
             Rec.Status::Rejected:
-                begin
-                    MuMGRWhseReceiptHeader.Get(rec."Document No.");
-                    if MuMGRWhseReceiptHeader."CO Status Code" <> 'ZA-ABGELEHNT' then begin
-                        MuMGRWhseReceiptHeader.Validate("CO Status Code", 'ZA-ABGELEHNT'); //auf Einrichtung umstellen
-                        MuMGRWhseReceiptHeader.Modify(true);
-                    end;
-                end;
+                TCCManagement.SetMuMGRWhseReceiptHeaderCOStatusRejected(Rec."Document No.");
         end;
     end;
+
+    [EventSubscriber(ObjectType::Table, Database::"MuM GR Whse. Receipt Header", 'OnAfterValidateEvent', 'CO Mail Sent', false, false)]
+    local procedure MuMGRWhseReceiptHeader_COMailSent_OnAfterValidate(var Rec: Record "MuM GR Whse. Receipt Header"; var xRec: Record "MuM GR Whse. Receipt Header"; CurrFieldNo: Integer)
+    begin
+        if Rec.IsTemporary then
+            exit;
+
+        if Rec."CO Mail Sent" = xRec."CO Mail Sent" then
+            exit;
+
+        if not Rec."CO Mail Sent" then
+            exit;
+
+        if Rec."CO Status Code" <> 'KUNDE KONTAKTIERT' then
+            Rec.Validate("CO Status Code", 'KUNDE KONTAKTIERT'); //auf Einrichtung umstellen
+    end;
+
 }

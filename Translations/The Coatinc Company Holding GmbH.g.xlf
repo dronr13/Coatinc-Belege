@@ -1448,6 +1448,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension TCCMuM GR Whse. Receipt - Change Notify - Property Caption</note>
         </trans-unit>
+        <trans-unit id="PageExtension 4072668533 - Control 3653774230 - Method 2699620902 - NamedType 2964318471" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 4072668533">
+          <source>Select value,Empty</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension TCCResponsibilityCenter - Control User Name for User Tasks - Method OnAssistEdit - NamedType AssistLbl</note>
+        </trans-unit>
         <trans-unit id="TableExtension 4072668533 - Field 1267408499 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2247850105">
           <source>Account nr</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1468,15 +1473,25 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension TCCResponsibilityCenter - Field IBAN - Property Caption</note>
         </trans-unit>
-        <trans-unit id="EnumExtension 3363602660 - EnumValue 1517649600 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Enum 1178123344">
+        <trans-unit id="TableExtension 4072668533 - Field 244422220 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2247850105">
+          <source>User ID for User Tasks</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension TCCResponsibilityCenter - Field User ID for User Tasks - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 4072668533 - Field 3653774230 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2247850105">
+          <source>User Name for User Tasks</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension TCCResponsibilityCenter - Field User Name for User Tasks - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="EnumExtension 2337007556 - EnumValue 1517649600 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Enum 1178123344">
           <source>MuM GR Pro. Wharehouse Receipt</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">EnumExtension CCT Event Category - EnumValue CCT MuM GR Pro. Whse. Rcpt. Events - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">EnumExtension TCC Event Category - EnumValue CCT MuM GR Pro. Whse. Rcpt. Events - Property Caption</note>
         </trans-unit>
-        <trans-unit id="EnumExtension 3363602660 - EnumValue 828543148 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Enum 1178123344">
+        <trans-unit id="EnumExtension 2337007556 - EnumValue 828543148 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Enum 1178123344">
           <source>MuM Goods Receipt Whse. Receipt Header</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">EnumExtension CCT Event Category - EnumValue CCT MuM GR Whse. Receipt Events - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">EnumExtension TCC Event Category - EnumValue CCT MuM GR Whse. Receipt Events - Property Caption</note>
         </trans-unit>
       </group>
     </body>
