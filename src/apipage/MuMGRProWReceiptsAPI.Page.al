@@ -1,5 +1,5 @@
 
-page 60000 "MuM GR Whse. Receipts API"
+page 60001 "MuM GR Pro. W. Receipts API"
 {
     PageType = API;
 
@@ -7,16 +7,16 @@ page 60000 "MuM GR Whse. Receipts API"
     APIPublisher = 'thecoatinccompanyholding';
     APIGroup = 'tcc';
 
-    EntityCaption = 'MuM Goods Receipt Whse. Receipt Header';
-    EntitySetCaption = 'MuM Goods Receipt Whse. Receipt Headers';
-    EntityName = 'mumGrWhseReceiptHeader';
-    EntitySetName = 'mumGrWhseReceiptHeaders';
+    EntityCaption = 'MuM Processed Goods Receipt Whse. Receipt Header';
+    EntitySetCaption = 'MuM Processed Goods Receipt Whse. Receipt Headers';
+    EntityName = 'mumGrProWhseReceiptHeader';
+    EntitySetName = 'mumGrProWhseReceiptHeaders';
 
     ODataKeyFields = SystemId;
-    SourceTable = "MuM GR Whse. Receipt Header";
+    SourceTable = "MuM GR Pro. W. Rcpt. Header";
 
     Extensible = false;
-    DelayedInsert = true;
+    Editable = false;
 
     layout
     {
@@ -32,10 +32,6 @@ page 60000 "MuM GR Whse. Receipts API"
                 field(no; Rec."No.")
                 {
                     Caption = 'No.';
-                }
-                field(status; Rec.Status)
-                {
-                    Caption = 'Status';
                 }
                 field(documentDate; Rec."Document Date")
                 {
@@ -116,6 +112,7 @@ page 60000 "MuM GR Whse. Receipts API"
                 field(shippingTime; Rec."Shipping Time")
                 {
                     Caption = 'Shipping Time';
+                    // Typ: DateFormula
                 }
                 field(locationCode; Rec."Location Code")
                 {
@@ -149,6 +146,10 @@ page 60000 "MuM GR Whse. Receipts API"
                 {
                     Caption = 'Blocked Bin Code';
                 }
+                field(correction; Rec.Correction)
+                {
+                    Caption = 'Correction';
+                }
                 field(postComponents; Rec."Post Components")
                 {
                     Caption = 'Post Components';
@@ -168,18 +169,21 @@ page 60000 "MuM GR Whse. Receipts API"
                 field(productionOrderType; Rec."Production Order Type")
                 {
                     Caption = 'Production Order Type';
+                    // Typ: Option "Item Order", "Project Order"
                 }
-                field(noSeries; Rec."No. Series")
+                field(sourceDocumentNo; Rec."Source Document No.")
                 {
-                    Caption = 'No. Series';
+                    Caption = 'Source Document No.';
                 }
                 field(createdByUserId; Rec."Created by User ID")
                 {
                     Caption = 'Created by User ID';
+                    Editable = false;
                 }
                 field(createdAt; Rec."Created at")
                 {
                     Caption = 'Created at';
+                    Editable = false;
                 }
                 field(statusSetByUserId; Rec."Status set by User ID")
                 {
@@ -189,14 +193,62 @@ page 60000 "MuM GR Whse. Receipts API"
                 {
                     Caption = 'Status set at';
                 }
+                field(processedByUserId; Rec."Processed by User ID")
+                {
+                    Caption = 'Processed by User ID';
+                    Editable = false;
+                }
+                field(processedAt; Rec."Processed at")
+                {
+                    Caption = 'Processed at';
+                    Editable = false;
+                }
                 field(lastModifiedByUserId; Rec."Last Modified by User ID")
                 {
                     Caption = 'Last Modified by User ID';
+                    Editable = false;
                 }
                 field(lastModifiedAt; Rec."Last Modified at")
                 {
                     Caption = 'Last Modified at';
+                    Editable = false;
                 }
+                //field(coPickup; Rec."CO Pickup")
+                //{
+                //    Caption = 'CO Pickup';
+                //}
+                //field(coPickupFromDate; Rec."CO Pickup-from Date")
+                //{
+                //    Caption = 'CO Pickup-from Date';
+                //}
+                field(coPickupFromName; Rec."CO Pickup-from Name")
+                {
+                    Caption = 'CO Pickup-from Name';
+                }
+                field(coPickupFromName2; Rec."CO Pickup-from Name 2")
+                {
+                    Caption = 'CO Pickup-from Name 2';
+                }
+                field(coPickupFromAddress; Rec."CO Pickup-from Address")
+                {
+                    Caption = 'CO Pickup-from Address';
+                }
+                field(coPickupFromCity; Rec."CO Pickup-from City")
+                {
+                    Caption = 'CO Pickup-from City';
+                }
+                field(coPickupFromPostalCode; Rec."CO Pickup-from Postal Code")
+                {
+                    Caption = 'CO Pickup-from Postal Code';
+                }
+                field(coPickupToCtryRegCode; Rec."CO Pickup-to Ctry/Reg. Code")
+                {
+                    Caption = 'CO Pickup-to Ctry/Reg. Code';
+                }
+                //field(coResponsibilityCenter; Rec."CO Responsibility Center")
+                //{
+                //    Caption = 'CO Responsibility Center';
+                //}
             }
         }
     }

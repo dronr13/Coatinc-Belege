@@ -1,5 +1,5 @@
 
-codeunit 60126 RequeredFieldsWa
+codeunit 60126 "TCC RequeredFieldsWa"
 {
     TableNo = "MuM GR Whse. Receipt Header";
 

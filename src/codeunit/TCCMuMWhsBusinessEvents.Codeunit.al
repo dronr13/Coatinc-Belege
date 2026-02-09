@@ -1,5 +1,5 @@
 
-Codeunit 60000 "CCT MuM Whs. Business Events"
+Codeunit 60000 "TCC MuM Whs. Business Events"
 {
     [EventSubscriber(ObjectType::Table, Database::"MuM GR Pro. W. Rcpt. Header", 'OnAfterInsertEvent', '', false, false)]
     local procedure MuMGRProWhseRcptHeader_OnAfterInsertEventRec(var Rec: Record "MuM GR Pro. W. Rcpt. Header"; RunTrigger: Boolean)
