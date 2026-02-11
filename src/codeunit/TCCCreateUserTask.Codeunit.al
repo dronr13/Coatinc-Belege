@@ -24,6 +24,10 @@ codeunit 60127 "TCC Create User Task"
         UserTask.Validate("Object ID", Page::"MuM GR Whse. Receipt");
         UserTask.Validate("Assigned To", GetResponsibilityCenterUser(ResponsibilityCenterNo));
         UserTask.Modify(true);
+        Commit();
+ 
+        UserTask.SetRecFilter();
+        Page.RunModal(Page::"User Task Card", UserTask);
     end;
 
     local procedure GetResponsibilityCenterUser(ResponsibilityCenterNo: Code[10]): Guid

@@ -2105,20 +2105,6 @@
           <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Report TCC Weight Cart - ReportLabel YourRefLbl</note>
         </trans-unit>
-        <trans-unit id="PageExtension 3427310952 - Control 314882735 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 280137910">
-          <source>Created By</source>
-          <target>[NAB: SUGGESTION]Gemaakt door</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension TCC Extended Sales Header - Control CreatedByUserName - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="PageExtension 3427310952 - Control 400145264 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 280137910">
-          <source>Modified By</source>
-          <target>[NAB: SUGGESTION]Gewijzigd door</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension TCC Extended Sales Header - Control ModifiedByUserName - Property Caption</note>
-        </trans-unit>
         <trans-unit id="PageExtension 2687291263 - Action 485918120 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3413085212">
           <source>Order Confirmation</source>
           <target>[NAB: SUGGESTION]Orderbevestiging</target>
@@ -2181,6 +2167,20 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension TCCResponsibilityCenter - Control User Name for User Tasks - Method OnAssistEdit - NamedType AssistLbl</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 4007689046 - Field 3818038736 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1192395785">
+          <source>Created By</source>
+          <target>[NAB: SUGGESTION]Gemaakt door</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension TCC Sales Header Ext - Field Created By Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 4007689046 - Field 3545580527 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1192395785">
+          <source>Modified By</source>
+          <target>[NAB: SUGGESTION]Gewijzigd door</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension TCC Sales Header Ext - Field Modified By Name - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 3415156606 - Field 3588303830 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 225437410">
           <source>Document Status for Approve Additional Costs</source>
