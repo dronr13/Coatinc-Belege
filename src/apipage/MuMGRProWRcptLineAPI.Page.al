@@ -1,5 +1,3 @@
-
-
 page 60004 "MuM GR Pro. W. Rcpt. Line API"
 {
     PageType = API;

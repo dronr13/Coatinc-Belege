@@ -1,4 +1,3 @@
-
 page 60000 "MuM GR Whse. Receipts API"
 {
     PageType = API;

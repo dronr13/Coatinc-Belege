@@ -1,4 +1,3 @@
-
 page 60001 "MuM GR Pro. W. Receipts API"
 {
     PageType = API;

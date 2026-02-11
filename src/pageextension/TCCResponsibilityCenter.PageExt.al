@@ -4,7 +4,6 @@ pageextension 60150 TCCResponsibilityCenter extends "Responsibility Center Card"
     {
         addlast(General)
         {
-
             field("User Name for User Tasks"; Rec."User Name for User Tasks")
             {
                 ApplicationArea = All;
