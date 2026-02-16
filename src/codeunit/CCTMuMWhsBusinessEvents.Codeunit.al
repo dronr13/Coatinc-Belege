@@ -9,7 +9,7 @@ Codeunit 60000 "CCT MuM Whs. Business Events"
         BusinessEventMuMGRProWhseRcptHeaderInsert(Rec.SystemId, Rec."No.");
     end;
 
-    [ExternalBusinessEvent('MuMGRProWhseRcptHeader', 'MuM goods receipt processed', 'This business event is triggered when a MuM GR Pro. Whse. Rcpt. Header Record is inserted', Enum::EventCategory::"CCT MuM GR Pro. Whse. Rcpt. Events", '1.0')]
+    [ExternalBusinessEvent('MuMGRProWhseRcptHeader', 'MuM goods receipt processed', 'This business event is triggered when a MuM GR Pro. Whse. Rcpt. Header Record is inserted', Enum::EventCategory::"CCT MuM GR Pro. Whse. Rcpt. Events", '1.1')]
     local procedure BusinessEventMuMGRProWhseRcptHeaderInsert(MuMGRProWhseRcptHeaderId: Guid; MuMGRProWhseRcptHeaderNo: Code[20])
     begin
     end;
@@ -21,10 +21,10 @@ Codeunit 60000 "CCT MuM Whs. Business Events"
         if Rec.IsTemporary then
             exit;
 
-        BusinessEventMuMGRProWhseRcptHeaderInsert(Rec.SystemId, Rec."No.");
+        BusinessEventMuMGRWhseReceiptHeaderInsert(Rec.SystemId, Rec."No.");
     end;
 
-    [ExternalBusinessEvent('MuMGRWhseReceiptHeader', 'MuM goods receipt created', 'This business event is triggered when a MuM GR Whse. Receipt Header Record is inserted', Enum::EventCategory::"CCT MuM GR Whse. Receipt Events", '1.0')]
+    [ExternalBusinessEvent('MuMGRWhseReceiptHeader', 'MuM goods receipt created', 'This business event is triggered when a MuM GR Whse. Receipt Header Record is inserted', Enum::EventCategory::"CCT MuM GR Whse. Receipt Events", '1.1')]
     local procedure BusinessEventMuMGRWhseReceiptHeaderInsert(MuMGRWhseReceiptHeaderId: Guid; MuMGRWhseReceiptHeaderNo: Code[20])
     begin
     end;
