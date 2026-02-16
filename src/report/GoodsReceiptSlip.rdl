@@ -11,7 +11,7 @@
       <am:Name>MSRB</am:Name>
       <am:Version>15.1.30001.02</am:Version>
     </am:UpdatedBy>
-    <am:LastModifiedTimestamp>2026-01-28T09:59:42.0065216Z</am:LastModifiedTimestamp>
+    <am:LastModifiedTimestamp>2026-02-11T10:21:32.5808464Z</am:LastModifiedTimestamp>
   </am:AuthoringMetadata>
   <AutoRefresh>0</AutoRefresh>
   <DataSources>
@@ -581,7 +581,7 @@
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value>=Parameters!ConfirmationNoLbl.Value</Value>
+                                                    <Value>=Parameters!GoodReceiptNoLbl.Value</Value>
                                                     <Style>
                                                       <FontSize>12pt</FontSize>
                                                       <FontWeight>ExtraBold</FontWeight>
@@ -946,7 +946,7 @@
                                     <Width>1.85446cm</Width>
                                   </TablixColumn>
                                   <TablixColumn>
-                                    <Width>8.53974cm</Width>
+                                    <Width>10.72177cm</Width>
                                   </TablixColumn>
                                   <TablixColumn>
                                     <Width>2.11312cm</Width>
@@ -959,9 +959,6 @@
                                   </TablixColumn>
                                   <TablixColumn>
                                     <Width>1.07976cm</Width>
-                                  </TablixColumn>
-                                  <TablixColumn>
-                                    <Width>2.18203cm</Width>
                                   </TablixColumn>
                                 </TablixColumns>
                                 <TablixRows>
@@ -1186,43 +1183,6 @@
                                           </Textbox>
                                         </CellContents>
                                       </TablixCell>
-                                      <TablixCell>
-                                        <CellContents>
-                                          <Textbox Name="Textbox38">
-                                            <rd:DefaultName>Textbox38</rd:DefaultName>
-                                            <CanGrow>true</CanGrow>
-                                            <KeepTogether>true</KeepTogether>
-                                            <Paragraphs>
-                                              <Paragraph>
-                                                <TextRuns>
-                                                  <TextRun>
-                                                    <Value>=Parameters!OperationsLbl.Value</Value>
-                                                    <Style>
-                                                      <FontWeight>Bold</FontWeight>
-                                                    </Style>
-                                                  </TextRun>
-                                                </TextRuns>
-                                                <Style>
-                                                  <TextAlign>Right</TextAlign>
-                                                </Style>
-                                              </Paragraph>
-                                            </Paragraphs>
-                                            <Style>
-                                              <Border>
-                                                <Style>None</Style>
-                                              </Border>
-                                              <BottomBorder>
-                                                <Style>Solid</Style>
-                                                <Width>1pt</Width>
-                                              </BottomBorder>
-                                              <PaddingLeft>2pt</PaddingLeft>
-                                              <PaddingRight>2pt</PaddingRight>
-                                              <PaddingTop>2pt</PaddingTop>
-                                              <PaddingBottom>2pt</PaddingBottom>
-                                            </Style>
-                                          </Textbox>
-                                        </CellContents>
-                                      </TablixCell>
                                     </TablixCells>
                                   </TablixRow>
                                   <TablixRow>
@@ -1415,44 +1375,12 @@
                                           </Textbox>
                                         </CellContents>
                                       </TablixCell>
-                                      <TablixCell>
-                                        <CellContents>
-                                          <Textbox Name="Operations">
-                                            <rd:DefaultName>Operations</rd:DefaultName>
-                                            <CanGrow>true</CanGrow>
-                                            <KeepTogether>true</KeepTogether>
-                                            <Paragraphs>
-                                              <Paragraph>
-                                                <TextRuns>
-                                                  <TextRun>
-                                                    <Value>=Fields!Operations.Value</Value>
-                                                    <Style />
-                                                  </TextRun>
-                                                </TextRuns>
-                                                <Style>
-                                                  <TextAlign>Right</TextAlign>
-                                                </Style>
-                                              </Paragraph>
-                                            </Paragraphs>
-                                            <Style>
-                                              <Border>
-                                                <Style>None</Style>
-                                              </Border>
-                                              <PaddingLeft>2pt</PaddingLeft>
-                                              <PaddingRight>2pt</PaddingRight>
-                                              <PaddingTop>2pt</PaddingTop>
-                                              <PaddingBottom>2pt</PaddingBottom>
-                                            </Style>
-                                          </Textbox>
-                                        </CellContents>
-                                      </TablixCell>
                                     </TablixCells>
                                   </TablixRow>
                                 </TablixRows>
                               </TablixBody>
                               <TablixColumnHierarchy>
                                 <TablixMembers>
-                                  <TablixMember />
                                   <TablixMember />
                                   <TablixMember />
                                   <TablixMember />
@@ -2119,14 +2047,14 @@
     </ReportSection>
   </ReportSections>
   <ReportParameters>
-    <ReportParameter Name="ConfirmationNoLbl">
+    <ReportParameter Name="GoodReceiptNoLbl">
       <DataType>String</DataType>
       <DefaultValue>
         <Values>
-          <Value>ConfirmationNoLbl</Value>
+          <Value>GoodReceiptNoLbl</Value>
         </Values>
       </DefaultValue>
-      <Prompt>ConfirmationNoLbl</Prompt>
+      <Prompt>GoodReceiptNoLbl</Prompt>
     </ReportParameter>
     <ReportParameter Name="YourRefLbl">
       <DataType>String</DataType>
@@ -2317,7 +2245,7 @@
         <CellDefinition>
           <ColumnIndex>0</ColumnIndex>
           <RowIndex>0</RowIndex>
-          <ParameterName>ConfirmationNoLbl</ParameterName>
+          <ParameterName>GoodReceiptNoLbl</ParameterName>
         </CellDefinition>
         <CellDefinition>
           <ColumnIndex>0</ColumnIndex>

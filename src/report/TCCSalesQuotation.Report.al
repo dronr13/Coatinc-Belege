@@ -133,6 +133,9 @@ report 60126 "TCC Sales Quotation"
                 column(UnitPrice; "Unit Price")
                 {
                 }
+                column(SalesQuoteLineText; SalesQuoteLineText)
+                {
+                }
             }
             trigger OnAfterGetRecord()
             var
@@ -173,6 +176,7 @@ report 60126 "TCC Sales Quotation"
                     RCIBAN := ResponsebilityCenter.IBAN;
                     RCBIC := ResponsebilityCenter.BIC;
                 end;
+
                 if DocumentTextHeader.Get(Database::"Sales Header", "MuM ET Document Type"::Quote, DocumentTextHeader."Document Type"::Quote, SalesHeader."No.") then begin
                     SalesQuoteText := MUMEtExtendedTextMgt.GetDocumentMediaAsText(DocumentTextHeader, PrintType::Report, SubPrintType::Header);
                 end;
@@ -181,6 +185,8 @@ report 60126 "TCC Sales Quotation"
                     SalesQuoteTextFooter := MUMEtExtendedTextMgt.GetDocumentMediaAsText(DocumentTextHeader, PrintType::Report, SubPrintType::Footer);
 
                 end;
+
+                SalesQuoteLineText := MuMETExtendedTextMgt.GetDocumentMediaAsText(SalesLine, Enum::"MuM ET Printing Type"::Report, Enum::"MuM ET Sub-Printing Type"::"After Position");
             end;
         }
     }
@@ -234,4 +240,5 @@ report 60126 "TCC Sales Quotation"
         Annotation: text;
         SalesQuoteText: Text;
         SalesQuoteTextFooter: Text;
+        SalesQuoteLineText: text;
 }

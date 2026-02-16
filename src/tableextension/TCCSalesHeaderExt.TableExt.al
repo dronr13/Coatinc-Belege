@@ -24,6 +24,7 @@ tableextension 60136 "TCC Sales Header Ext" extends "Sales Header"
     trigger OnModify()
     begin
         "Modified By Name" := GetUserNameFromSecurityId(SystemModifiedBy);
+        // "Created By Name" := GetUserNameFromSecurityId(SystemCreatedBy);
     end;
 
     local procedure GetUserNameFromSecurityId(UserSecurityID: Guid): Text[100]

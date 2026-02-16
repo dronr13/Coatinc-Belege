@@ -3,8 +3,7 @@ Codeunit 60000 "TCC MuM Whs. Business Events"
 {
     [EventSubscriber(ObjectType::Table, Database::"MuM GR Pro. W. Rcpt. Header", 'OnAfterInsertEvent', '', false, false)]
     local procedure MuMGRProWhseRcptHeader_OnAfterInsertEventRec(var Rec: Record "MuM GR Pro. W. Rcpt. Header"; RunTrigger: Boolean)
-    var
-        Customer: Record Customer;
+
     begin
         if Rec.IsTemporary then
             exit;
@@ -30,12 +29,19 @@ Codeunit 60000 "TCC MuM Whs. Business Events"
         if Rec.IsTemporary then
             exit;
 
-        BusinessEventMuMGRWhseReceiptHeaderInsert(Rec.SystemId, Rec."No.");
+        Customer.SetLoadFields("E-Mail", "Language Code");
+        if Not Customer.get(Rec."Sell-to Customer No.") then
+            Customer.Init;
+
+        BusinessEventMuMGRWhseReceiptHeaderInsert(Rec.SystemId, Rec."No.", Customer."E-Mail", Customer."Language Code");
     end;
 
-    [ExternalBusinessEvent('MuMGRWhseReceiptHeader', 'MuM goods receipt created', 'This business event is triggered when a MuM GR Whse. Receipt Header Record is inserted', Enum::EventCategory::"CCT MuM GR Whse. Receipt Events", '1.1')]
-    local procedure BusinessEventMuMGRWhseReceiptHeaderInsert(MuMGRWhseReceiptHeaderId: Guid; MuMGRWhseReceiptHeaderNo: Code[20])
+    [ExternalBusinessEvent('MuMGRWhseReceiptHeader', 'MuM goods receipt created', 'This business event is triggered when a MuM GR Whse. Receipt Header Record is inserted', Enum::EventCategory::"CCT MuM GR Whse. Receipt Events", '1.2')]
+    local procedure BusinessEventMuMGRWhseReceiptHeaderInsert(MuMGRWhseReceiptHeaderId: Guid; MuMGRWhseReceiptHeaderNo: Code[20]; CustomerEMail: Text[80]; CustomerLanguageCode: Code[10])
     begin
     end;
+
+    var
+        Customer: Record Customer;
 }
 

@@ -1489,13 +1489,6 @@
           <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Report TCC Goods Receipt Slip - ReportLabel ColorLbl</note>
         </trans-unit>
-        <trans-unit id="Report 820218778 - ReportLabel 3490088608" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Confirmation Number</source>
-          <target>[NAB: SUGGESTION]Bevestigingsnummer</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Goods Receipt Slip - ReportLabel ConfirmationNoLbl</note>
-        </trans-unit>
         <trans-unit id="Report 820218778 - ReportLabel 1126961196" size-unit="char" translate="yes" xml:space="preserve">
           <source>Date Delivery</source>
           <target>Aanlever datum</target>
@@ -1535,6 +1528,13 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Report TCC Goods Receipt Slip - ReportLabel EstimatedDeliceryDateLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 820218778 - ReportLabel 983219472" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Good Receipt Number</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Goods Receipt Slip - ReportLabel GoodReceiptNoLbl</note>
         </trans-unit>
         <trans-unit id="Report 820218778 - ReportLabel 2963208439" size-unit="char" translate="yes" xml:space="preserve">
           <source>H</source>

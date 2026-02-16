@@ -125,7 +125,7 @@ report 60129 "TCC Goods Receipt Slip"
                     RCBIC := ResponsibilityCenter.BIC;
                 end;
 
-                
+
             end;
         }
     }
@@ -136,7 +136,7 @@ report 60129 "TCC Goods Receipt Slip"
 
     labels
     {
-        ConfirmationNoLbl = 'Confirmation Number';
+        GoodReceiptNoLbl = 'Good Receipt Number';
         YourRefLbl = 'Your Reference';
         DateInLbl = 'Date goods in';
         WeightCartNoLbl = 'Weight Card No';

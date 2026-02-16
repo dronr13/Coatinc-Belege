@@ -7,7 +7,6 @@
           <source>The parts list for goods receipt %1 is incomplete.</source>
           <target>Die Stückliste für Wareneingang %1 ist unvollständig.</target>
           <note from="Developer" annotates="general" priority="2">%1 = MuM GR Whse. Receipt Header No.</note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit TCC Create User Task - Method CreateUserTask - NamedType PartsListIsIncompleteLbl</note>
         </trans-unit>
         <trans-unit id="Page 1711083623 - Property 3446740159" size-unit="char" translate="yes" xml:space="preserve">
@@ -1334,12 +1333,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report TCC Goods Receipt Slip - ReportLabel ColorLbl</note>
         </trans-unit>
-        <trans-unit id="Report 820218778 - ReportLabel 3490088608" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Confirmation Number</source>
-          <target>Bestätigungsnr.</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Goods Receipt Slip - ReportLabel ConfirmationNoLbl</note>
-        </trans-unit>
         <trans-unit id="Report 820218778 - ReportLabel 1126961196" size-unit="char" translate="yes" xml:space="preserve">
           <source>Date Delivery</source>
           <target>Anliefer Datum</target>
@@ -1375,6 +1368,13 @@
           <target>Erwarte Leiferdatum:</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report TCC Goods Receipt Slip - ReportLabel EstimatedDeliceryDateLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 820218778 - ReportLabel 983219472" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Good Receipt Number</source>
+          <target>Warenannahem nr.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Goods Receipt Slip - ReportLabel GoodReceiptNoLbl</note>
         </trans-unit>
         <trans-unit id="Report 820218778 - ReportLabel 2963208439" size-unit="char" translate="yes" xml:space="preserve">
           <source>H</source>
@@ -1908,7 +1908,7 @@
         <trans-unit id="PageExtension 1247649385 - Control 598818045 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1673401186">
           <source>Warehouse receipt reference for this sales order.</source>
           <target>Warenannahmen nr für dieses Auftrag</target>
-          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Developer" annotates="general" priority="2"></note>f
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension TCC Sales Order CO Whse - Control CO Whse. Receip - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 1247649385 - Control 598818045 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1673401186">
@@ -1937,14 +1937,14 @@
         </trans-unit>
         <trans-unit id="TableExtension 4007689046 - Field 3818038736 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1192395785">
           <source>Created By</source>
-          <target>[NAB: SUGGESTION]Erstellt von</target>
+          <target>Erstellt von</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension TCC Sales Header Ext - Field Created By Name - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 4007689046 - Field 3545580527 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1192395785">
           <source>Modified By</source>
-          <target>[NAB: SUGGESTION]Geändert von</target>
+          <target>Geändert von</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension TCC Sales Header Ext - Field Modified By Name - Property Caption</note>

@@ -11,7 +11,7 @@
       <am:Name>MSRB</am:Name>
       <am:Version>15.1.30001.02</am:Version>
     </am:UpdatedBy>
-    <am:LastModifiedTimestamp>2026-02-05T14:30:22.6913978Z</am:LastModifiedTimestamp>
+    <am:LastModifiedTimestamp>2026-02-11T12:21:06.7688719Z</am:LastModifiedTimestamp>
   </am:AuthoringMetadata>
   <AutoRefresh>0</AutoRefresh>
   <DataSources>
@@ -41,6 +41,7 @@
                   <TablixCells>
                     <TablixCell>
                       <CellContents>
+                        <rd:Selected>true</rd:Selected>
                         <Rectangle Name="Rectangle1">
                           <ReportItems>
                             <Tablix Name="Tablix2">
@@ -1177,7 +1178,12 @@
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value>=Fields!Description.Value</Value>
+                                                    <Value>= CStr(Fields!Description.Value)
+  &amp; IIF(
+        Trim(CStr(First(Fields!SalesQuoteLineText.Value, "DataSet_Result"))) &lt;&gt; "",
+        "&lt;br/&gt;" &amp; CStr(First(Fields!SalesQuoteLineText.Value, "DataSet_Result")),
+        ""
+    )</Value>
                                                     <MarkupType>HTML</MarkupType>
                                                     <Style />
                                                   </TextRun>
@@ -1342,6 +1348,7 @@
                                   <TextRuns>
                                     <TextRun>
                                       <Value>=First(Fields!SalesQuoteTextFooter.Value)</Value>
+                                      <MarkupType>HTML</MarkupType>
                                       <Style />
                                     </TextRun>
                                   </TextRuns>
@@ -2295,6 +2302,9 @@ End Function
         </Field>
         <Field Name="UnitPriceFormat">
           <DataField>UnitPriceFormat</DataField>
+        </Field>
+        <Field Name="SalesQuoteLineText">
+          <DataField>SalesQuoteLineText</DataField>
         </Field>
       </Fields>
       <Query>
