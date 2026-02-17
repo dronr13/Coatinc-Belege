@@ -8,11 +8,13 @@ tableextension 60136 "TCC Sales Header Ext" extends "Sales Header"
             DataClassification = CustomerContent;
         }
 
-        field(60101; "Modified By Name"; Text[100])
+        field(60110; "Modified By Name"; Text[100])
         {
             Caption = 'Modified By';
             DataClassification = CustomerContent;
         }
+    
+
     }
 
     trigger OnInsert()

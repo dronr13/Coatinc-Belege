@@ -56,6 +56,10 @@ page 60000 "MuM GR Whse. Receipts API"
                 {
                     Caption = 'Sell-to Customer Name';
                 }
+                field(sellToLanguageCode; Rec."Sell-to Language Code")
+                {
+                    Caption = 'Sell-to Language Code';
+                }
                 field(shipToCode; Rec."Ship-to Code")
                 {
                     Caption = 'Ship-to Code';

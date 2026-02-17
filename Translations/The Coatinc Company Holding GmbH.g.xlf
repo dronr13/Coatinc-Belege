@@ -888,6 +888,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page MuM GR Whse. Receipts API - Control sellToCustomerNo - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 1922438980 - Control 1086164582 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sell-to Language Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MuM GR Whse. Receipts API - Control sellToLanguageCode - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 1922438980 - Control 1999593414 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Shipment Method Code</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1488,6 +1493,26 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report TCC Weight Cart - ReportLabel YourRefLbl</note>
         </trans-unit>
+        <trans-unit id="PageExtension 755654411 - Action 3081267114 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2294815237">
+          <source>Update Barcodes on Lines</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension MuM PC Prod. Camp. Ext - Action UpdateCampaignLinesBarcode - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3828954390 - Control 4248625095 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 734185571">
+          <source>Opportunity Status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension TCC Extended Sales Quotes - Control Opportunity Status - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 544509171 - Control 1650050144 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3689328652">
+          <source>Barcode</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension TCC MuM PC Prod. Cam. Sub Ext - Control Barcode - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2684120854 - Control 529058337 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3205680057">
+          <source>Warehouse Activity No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension TCC MuM ShpPln Page Ext - Control Warehouse Activity No. - Property Caption</note>
+        </trans-unit>
         <trans-unit id="PageExtension 2687291263 - Action 485918120 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3413085212">
           <source>Order Confirmation</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1543,10 +1568,20 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension TCCResponsibilityCenter - Control User Name for User Tasks - Method OnAssistEdit - NamedType AssistLbl</note>
         </trans-unit>
+        <trans-unit id="TableExtension 2661194641 - Field 1658279497 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2508466544">
+          <source>"Sell-to Language Code"</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension TCC MuM GR Whse. Rcpt. Header - Field Sell-to Language Code - Property Caption</note>
+        </trans-unit>
         <trans-unit id="TableExtension 3664236174 - Field 2292030083 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3442823154">
           <source>User Task ID</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension TCC MuM MS Media Storage - Field User Task ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2995489615 - Field 1650050144 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3481075867">
+          <source>Barcode</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension TCC MuM PC Prod. Campaign Line - Field Barcode - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 4007689046 - Field 3818038736 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1192395785">
           <source>Created By</source>

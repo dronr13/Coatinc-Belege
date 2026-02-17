@@ -1148,6 +1148,13 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page MuM GR Whse. Receipts API - Control sellToCustomerNo - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 1922438980 - Control 1086164582 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sell-to Language Code</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MuM GR Whse. Receipts API - Control sellToLanguageCode - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 1922438980 - Control 1999593414 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Shipment Method Code</source>
           <target>Lieferungsmethodencode</target>
@@ -1373,7 +1380,6 @@
           <source>Good Receipt Number</source>
           <target>Warenannahem nr.</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Report TCC Goods Receipt Slip - ReportLabel GoodReceiptNoLbl</note>
         </trans-unit>
         <trans-unit id="Report 820218778 - ReportLabel 2963208439" size-unit="char" translate="yes" xml:space="preserve">
@@ -1881,6 +1887,19 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report TCC Weight Cart - ReportLabel YourRefLbl</note>
         </trans-unit>
+        <trans-unit id="PageExtension 3828954390 - Control 4248625095 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 734185571">
+          <source>Opportunity Status</source>
+          <target>Verkaufschancenstatus</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension TCC Extended Sales Quotes - Control Opportunity Status - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2684120854 - Control 529058337 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3205680057">
+          <source>Warehouse Activity No.</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension TCC MuM ShpPln Page Ext - Control Warehouse Activity No. - Property Caption</note>
+        </trans-unit>
         <trans-unit id="PageExtension 2687291263 - Action 485918120 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3413085212">
           <source>Order Confirmation</source>
           <target>Auftragsbestätigung</target>
@@ -1908,7 +1927,7 @@
         <trans-unit id="PageExtension 1247649385 - Control 598818045 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1673401186">
           <source>Warehouse receipt reference for this sales order.</source>
           <target>Warenannahmen nr für dieses Auftrag</target>
-          <note from="Developer" annotates="general" priority="2"></note>f
+          <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension TCC Sales Order CO Whse - Control CO Whse. Receip - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 1247649385 - Control 598818045 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1673401186">
@@ -1916,6 +1935,20 @@
           <target>Warenannahmen nr.</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension TCC Sales Order CO Whse - Control CO Whse. Receip - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1800422648 - Action 1692211685 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 9309876">
+          <source>Take Picture</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension TCC User Task Card - Action MuM GRD Take Picture - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1800422648 - Control 2352445403 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 9309876">
+          <source>DropZone</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension TCC User Task Card - Control MuM DZ DropZone Factbox - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 3415156606 - Control 3056029483 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 225437410">
           <source>Warehouse Receipt</source>
@@ -1935,18 +1968,37 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension TCCResponsibilityCenter - Control User Name for User Tasks - Method OnAssistEdit - NamedType AssistLbl</note>
         </trans-unit>
+        <trans-unit id="TableExtension 2661194641 - Field 1658279497 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2508466544">
+          <source>"Sell-to Language Code"</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension TCC MuM GR Whse. Rcpt. Header - Field Sell-to Language Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3664236174 - Field 2292030083 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3442823154">
+          <source>User Task ID</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension TCC MuM MS Media Storage - Field User Task ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2995489615 - Field 1650050144 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3481075867">
+          <source>Barcode</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension TCC MuM PC Prod. Campaign Line - Field Barcode - Property Caption</note>
+        </trans-unit>
         <trans-unit id="TableExtension 4007689046 - Field 3818038736 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1192395785">
           <source>Created By</source>
           <target>Erstellt von</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension TCC Sales Header Ext - Field Created By Name - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 4007689046 - Field 3545580527 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1192395785">
           <source>Modified By</source>
           <target>Geändert von</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension TCC Sales Header Ext - Field Modified By Name - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 3415156606 - Field 3588303830 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 225437410">
@@ -2016,6 +2068,20 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">EnumExtension TCC Event Category - EnumValue CCT MuM GR Whse. Receipt Events - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="EnumExtension 2236776217 - EnumValue 1137425740 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Enum 683993445">
+          <source>User Task</source>
+          <target>Benutzeraufgabe</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">EnumExtension TCC MuM MS MediaStorage Source - EnumValue TCC User Task - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3947562618 - Control 1650050144 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3689328652">
+          <source>Barcode</source>
+          <target>Barcode</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension MuM PC Prod. Cam. Subpage Ext - Control Barcode - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 821216785 - Change 747683197 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1566602949">
           <source>Release</source>
