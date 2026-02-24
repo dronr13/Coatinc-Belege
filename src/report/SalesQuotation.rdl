@@ -139,7 +139,7 @@
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value>=Fields!contact.Value</Value>
+                                                    <Value>=Fields!Contact.Value</Value>
                                                     <Style />
                                                   </TextRun>
                                                 </TextRuns>
@@ -2210,8 +2210,8 @@ End Function
         <Field Name="QuoteDate">
           <DataField>QuoteDate</DataField>
         </Field>
-        <Field Name="contact">
-          <DataField>contact</DataField>
+        <Field Name="Contact">
+          <DataField>Contact</DataField>
         </Field>
         <Field Name="Annotation">
           <DataField>Annotation</DataField>
@@ -2282,8 +2282,8 @@ End Function
         <Field Name="ArtikelCode">
           <DataField>ArtikelCode</DataField>
         </Field>
-        <Field Name="Artikel">
-          <DataField>Artikel</DataField>
+        <Field Name="ArtikelType">
+          <DataField>ArtikelType</DataField>
         </Field>
         <Field Name="Description">
           <DataField>Description</DataField>

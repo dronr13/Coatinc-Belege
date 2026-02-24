@@ -12,187 +12,172 @@ report 60126 "TCC Sales Quotation"
             DataItemTableView = sorting("Document Type", "No.") where("Document Type" = const(Quote));
             RequestFilterFields = "No.";
 
-            column(Logo; Company.Picture)
-            {
-            }
-            column(Sender; Sender)
-            {
-            }
-            column(DocNo; "No.")
-            {
-            }
-            column(ResponsibilityCenter; "Responsibility Center")
-            {
-            }
-            column(SalespersonCode; "Salesperson Code")
-            {
-            }
-            column(CustomerName; "Bill-to Name")
-            {
-            }
-            column(CustomerAddress; "Bill-to Address")
-            {
-            }
-            column(CustomerPostCodeCity; "Bill-to Post Code" + ' ' + "Bill-to City")
-            {
-            }
-            column("QuotationNo"; "No.")
-            {
-            }
-            column(Ref; "Your Reference")
-            {
-            }
-            column(QuoteDate; "Prepmt. Pmt. Discount Date")
-            {
-            }
-            column(contact; "Bill-to Contact")
-            {
-            }
-            column(Annotation; 'Sehr geehrter Herr/Frau ' + "Bill-to Contact" + ',')
-            {
-            }
-            column(SalesPersonName; PurchasePerson)
-            {
-            }
-            column(SalesPersonPhone; PurchasePhone)
-            {
-            }
-            column(SalesPersonEmail; PurchaseEmail)
-            {
-            }
-            column(RCName; RCName)
-            {
-            }
-            column(RCAddress; RCAddress)
-            {
-            }
-            column(RCPostCode; RCPostCode)
-            {
-            }
-            column(RCCity; RCCity)
-            {
-            }
-            column(RCPhoneNo; RCPhoneNo)
-            {
-            }
-            column(RCFaxNo; RCFaxno)
-            {
-            }
-            column(RCEmail; RCEmail)
-            {
-            }
-            column(RCTaxNo; RCTaxNo)
-            {
-            }
-            column(RCWebsite; RCWebsite)
-            {
-            }
-            column(RCManager; "RCManager")
-            {
-            }
-            column(RCTradereg; "RCTradeReg")
-            {
-            }
-            column(RCBank; "RCBank")
-            {
-            }
-            column(RCBankAccount; "RCBankAccount")
-            {
-            }
-            column(RCIBAN; "RCIBAN")
-            {
-            }
-            column(RCBIC; "RCBIC")
-            {
-            }
+            column(Logo; Company.Picture) { }
+            column(Sender; Sender) { }
+            column(DocNo; "No.") { }
+            column(ResponsibilityCenter; "Responsibility Center") { }
+            column(SalespersonCode; "Salesperson Code") { }
+            column(CustomerName; "Bill-to Name") { }
+            column(CustomerAddress; "Bill-to Address") { }
+            column(CustomerPostCodeCity; "Bill-to Post Code" + ' ' + "Bill-to City") { }
+            column(QuotationNo; "No.") { }
+            column(Ref; "Your Reference") { }
+            column(QuoteDate; "Prepmt. Pmt. Discount Date") { }
+            column(Contact; "Bill-to Contact") { }
+            column(Annotation; Annotation) { }
+            column(SalesPersonName; PurchasePerson) { }
+            column(SalesPersonPhone; PurchasePhone) { }
+            column(SalesPersonEmail; PurchaseEmail) { }
+            column(RCName; RCName) { }
+            column(RCAddress; RCAddress) { }
+            column(RCPostCode; RCPostCode) { }
+            column(RCCity; RCCity) { }
+            column(RCPhoneNo; RCPhoneNo) { }
+            column(RCFaxNo; RCFaxNo) { }
+            column(RCEmail; RCEmail) { }
+            column(RCTaxNo; RCTaxNo) { }
+            column(RCWebsite; RCWebsite) { }
+            column(RCManager; RCManager) { }
+            column(RCTradereg; RCTradereg) { }
+            column(RCBank; RCBank) { }
+            column(RCBankAccount; RCBankAccount) { }
+            column(RCIBAN; RCIBAN) { }
+            column(RCBIC; RCBIC) { }
             column(SalesQuoteText; SalesQuoteText) { }
             column(SalesQuoteTextFooter; SalesQuoteTextFooter) { }
 
             dataitem(SalesLine; "Sales Line")
             {
-                DataItemLink = "Document Type" = field("Document Type"), "Document No." = field("No.");
+                DataItemLink = "Document Type" = field("Document Type"),
+                               "Document No." = field("No.");
 
-                column(LineNo; "Line No.")
-                {
-                }
-                column("ArtikelCode"; "No.")
-                {
-                }
-                column(Artikel; "Type")
-                {
-                }
-                column(Description; Description)
-                {
-                }
-                column(Quantity; Quantity)
-                {
-                }
-                column(UnitOfMeasure; "Unit of Measure")
-                {
-                }
-                column(UnitPrice; "Unit Price")
-                {
-                }
-                column(SalesQuoteLineText; SalesQuoteLineText)
-                {
-                }
+                column(LineNo; "Line No.") { }
+                column(ArtikelCode; "No.") { }
+                column(ArtikelType; "Type") { }
+                column(Description; Description) { }
+                column(Quantity; Quantity) { }
+                column(UnitOfMeasure; "Unit of Measure") { }
+                column(UnitPrice; "Unit Price") { }
+                column(SalesQuoteLineText; SalesQuoteLineText) { }
             }
+
+            trigger OnPreDataItem()
+            begin
+                // Reset stored values for new run
+                StoredQuoteNo := '';
+                StoredBillToCustomerNo := '';
+                StoredSellToCustomerNo := '';
+            end;
+
             trigger OnAfterGetRecord()
             var
                 SalesPerson: Record "Salesperson/Purchaser";
-                ResponsebilityCenter: Record "Responsibility Center";
+                ResponsibilityCenterRec: Record "Responsibility Center";
                 MuMETExtendedTextMgt: Codeunit "MuM ET Extended Text Mgt.";
                 DocumentTextHeader: Record "MuM ET Document Text Header";
                 PrintType: Enum "MuM ET Printing Type";
                 SubPrintType: Enum "MuM ET Sub-Printing Type";
-
-
             begin
-                // Haal het Responsibility Center record expliciet op
+                // Store first quotation number and customer info for PDF filename
+                if StoredQuoteNo = '' then begin
+                    StoredQuoteNo := "No.";
+                    StoredBillToCustomerNo := "Bill-to Customer No.";
+                    StoredSellToCustomerNo := "Sell-to Customer No.";
+                end;
+
+                // Sender based on Responsibility Center
                 if Firma.Get("Responsibility Center") then
                     Sender := Firma.Name + ' ' + Firma.Address + ', ' + Firma."Post Code" + ' ' + Firma.City
                 else
                     Sender := '';
-                if SalesPerson.get(SalesHeader."Salesperson Code") then begin
+
+                // Salesperson info
+                if SalesPerson.Get(SalesHeader."Salesperson Code") then begin
                     PurchasePerson := SalesPerson.Name;
                     PurchasePhone := SalesPerson."Phone No.";
                     PurchaseEmail := SalesPerson."E-Mail";
                 end;
-                if Company.Get() then Company.CalcFields(Picture);
-                if ResponsebilityCenter.Get(SalesHeader."Responsibility Center") then begin
-                    RCName := ResponsebilityCenter.Name;
-                    RCAddress := ResponsebilityCenter.Address;
-                    RCPostCode := ResponsebilityCenter."Post Code";
-                    RCCity := ResponsebilityCenter.City;
-                    RCPhoneNo := ResponsebilityCenter."Phone No.";
-                    RCFaxNo := ResponsebilityCenter."Fax No.";
-                    RCEmail := ResponsebilityCenter."E-Mail";
-                    RCTaxNo := ResponsebilityCenter."CO VAT-ID";
-                    RCWebsite := ResponsebilityCenter."Home Page";
-                    RCManager := ResponsebilityCenter."CO Manager";
-                    RCTradereg := ResponsebilityCenter."CO Trade Register";
-                    RCBank := ResponsebilityCenter.Bank;
-                    RCBankAccount := ResponsebilityCenter.Account;
-                    RCIBAN := ResponsebilityCenter.IBAN;
-                    RCBIC := ResponsebilityCenter.BIC;
+
+                // Company logo
+                if Company.Get() then
+                    Company.CalcFields(Picture);
+
+                // Responsibility center details
+                if ResponsibilityCenterRec.Get(SalesHeader."Responsibility Center") then begin
+                    RCName := ResponsibilityCenterRec.Name;
+                    RCAddress := ResponsibilityCenterRec.Address;
+                    RCPostCode := ResponsibilityCenterRec."Post Code";
+                    RCCity := ResponsibilityCenterRec.City;
+                    RCPhoneNo := ResponsibilityCenterRec."Phone No.";
+                    RCFaxNo := ResponsibilityCenterRec."Fax No.";
+                    RCEmail := ResponsibilityCenterRec."E-Mail";
+                    RCTaxNo := ResponsibilityCenterRec."CO VAT-ID";
+                    RCWebsite := ResponsibilityCenterRec."Home Page";
+                    RCManager := ResponsibilityCenterRec."CO Manager";
+                    RCTradereg := ResponsibilityCenterRec."CO Trade Register";
+                    RCBank := ResponsibilityCenterRec.Bank;
+                    RCBankAccount := ResponsibilityCenterRec.Account;
+                    RCIBAN := ResponsibilityCenterRec.IBAN;
+                    RCBIC := ResponsibilityCenterRec.BIC;
                 end;
 
-                if DocumentTextHeader.Get(Database::"Sales Header", "MuM ET Document Type"::Quote, DocumentTextHeader."Document Type"::Quote, SalesHeader."No.") then begin
-                    SalesQuoteText := MUMEtExtendedTextMgt.GetDocumentMediaAsText(DocumentTextHeader, PrintType::Report, SubPrintType::Header);
-                end;
+                // Annotation text
+                Annotation := 'Sehr geehrter Herr/Frau ' + "Bill-to Contact" + ',';
 
-                if DocumentTextHeader.Get(Database::"Sales Header", "MuM ET Document Type"::Quote, DocumentTextHeader."Document Type"::Quote, SalesHeader."No.") then begin
-                    SalesQuoteTextFooter := MUMEtExtendedTextMgt.GetDocumentMediaAsText(DocumentTextHeader, PrintType::Report, SubPrintType::Footer);
+                // Header extended text
+                if DocumentTextHeader.Get(
+                     Database::"Sales Header",
+                     "MuM ET Document Type"::Quote,
+                     DocumentTextHeader."Document Type"::Quote,
+                     SalesHeader."No.")
+                then
+                    SalesQuoteText :=
+                      MuMETExtendedTextMgt.GetDocumentMediaAsText(
+                        DocumentTextHeader,
+                        PrintType::Report,
+                        SubPrintType::Header);
 
-                end;
+                // Footer extended text
+                if DocumentTextHeader.Get(
+                     Database::"Sales Header",
+                     "MuM ET Document Type"::Quote,
+                     DocumentTextHeader."Document Type"::Quote,
+                     SalesHeader."No.")
+                then
+                    SalesQuoteTextFooter :=
+                      MuMETExtendedTextMgt.GetDocumentMediaAsText(
+                        DocumentTextHeader,
+                        PrintType::Report,
+                        SubPrintType::Footer);
 
-                SalesQuoteLineText := MuMETExtendedTextMgt.GetDocumentMediaAsText(SalesLine, Enum::"MuM ET Printing Type"::Report, Enum::"MuM ET Sub-Printing Type"::"After Position");
+                // Line extended text
+                SalesQuoteLineText :=
+                  MuMETExtendedTextMgt.GetDocumentMediaAsText(
+                    SalesLine,
+                    Enum::"MuM ET Printing Type"::Report,
+                    Enum::"MuM ET Sub-Printing Type"::"After Position");
             end;
         }
     }
+
     requestpage
     {
+        layout
+        {
+            area(content)
+            {
+                group(Options)
+                {
+                    field(PrintToPDF; PrintToPDF)
+                    {
+                        ApplicationArea = All;
+                        Caption = 'Print to PDF';
+                    }
+                }
+            }
+        }
     }
+
     labels
     {
         QuotationNoLbl = 'Quotation Number';
@@ -214,31 +199,162 @@ report 60126 "TCC Sales Quotation"
         PageLbl = 'Page';
         AnnotationLbl = 'Dear sir/madam ';
     }
+
     var
         Firma: Record "Responsibility Center";
         Company: Record "Company Information";
         Sender: Text;
-        Salutation: Text;
-        PurchasePerson: text;
-        PurchasePhone: text;
-        PurchaseEmail: text;
-        RCName: text;
-        RCAddress: text;
-        RCPostCode: text;
-        RCCity: text;
-        RCPhoneNo: text;
-        RCFaxNo: text;
-        RCEmail: text;
-        RCTaxNo: text;
-        RCWebsite: text;
-        RCManager: text;
-        RCTradereg: text;
-        RCBank: text;
+        Annotation: Text;
+        PurchasePerson: Text;
+        PurchasePhone: Text;
+        PurchaseEmail: Text;
+        RCName: Text;
+        RCAddress: Text;
+        RCPostCode: Text;
+        RCCity: Text;
+        RCPhoneNo: Text;
+        RCFaxNo: Text;
+        RCEmail: Text;
+        RCTaxNo: Text;
+        RCWebsite: Text;
+        RCManager: Text;
+        RCTradereg: Text;
+        RCBank: Text;
         RCBankAccount: Text;
-        RCIBAN: text;
-        RCBIC: text;
-        Annotation: text;
+        RCIBAN: Text;
+        RCBIC: Text;
         SalesQuoteText: Text;
         SalesQuoteTextFooter: Text;
-        SalesQuoteLineText: text;
+        SalesQuoteLineText: Text;
+        PrintToPDF: Boolean;
+        ReportParameters: Text;
+        StoredQuoteNo: Code[20];
+        StoredBillToCustomerNo: Code[20];
+        StoredSellToCustomerNo: Code[20];
+
+    trigger OnPostReport()
+    begin
+        // Only generate PDF when option is selected
+        if not PrintToPDF then
+            exit;
+
+        // Get request page parameters for this report (filters, options, etc.)
+        ReportParameters := Report.RunRequestPage(Report::"TCC Sales Quotation");
+        if ReportParameters = '' then
+            exit; // User cancelled the request page
+
+        DownloadAsPdf();
+    end;
+
+    procedure DownloadAsPdf()
+    var
+        TempBlob: Codeunit "Temp Blob";
+        OutStr: OutStream;
+        InStr: InStream;
+        RecRef: RecordRef;
+        FileName: Text[250];
+    begin
+        FileName := BuildPdfFileName();
+
+        TempBlob.CreateOutStream(OutStr);
+        RecRef.GetTable(SalesHeader);
+
+        Report.SaveAs(
+            Report::"TCC Sales Quotation",
+            ReportParameters,
+            ReportFormat::Pdf,
+            OutStr,
+            RecRef);
+
+        TempBlob.CreateInStream(InStr);
+        DownloadFromStream(
+            InStr,
+            'Download quotation as PDF',
+            '',
+            'PDF Files (*.pdf)|*.pdf',
+            FileName);
+    end;
+
+    procedure DirectDownloadAsPdf()
+    var
+        TempBlob: Codeunit "Temp Blob";
+        OutStr: OutStream;
+        InStr: InStream;
+        RecRef: RecordRef;
+        FileName: Text[250];
+        LocalHeader: Record "Sales Header";
+    begin
+        // Neem de huidige TableView van het report en lees eerste header
+        LocalHeader.SetView(SalesHeader.GetView);
+        if LocalHeader.FindFirst() then begin
+            StoredQuoteNo := LocalHeader."No.";
+            StoredBillToCustomerNo := LocalHeader."Bill-to Customer No.";
+            StoredSellToCustomerNo := LocalHeader."Sell-to Customer No.";
+        end;
+
+        FileName := BuildPdfFileName();
+
+        TempBlob.CreateOutStream(OutStr);
+        RecRef.GetTable(SalesHeader);
+
+        // Run without request page, direct PDF
+        Report.SaveAs(
+            Report::"TCC Sales Quotation",
+            '',
+            ReportFormat::Pdf,
+            OutStr,
+            RecRef);
+
+        TempBlob.CreateInStream(InStr);
+        DownloadFromStream(
+            InStr,
+            'Download quotation as PDF',
+            '',
+            'PDF Files (*.pdf)|*.pdf',
+            FileName);
+    end;
+
+    local procedure BuildPdfFileName(): Text[250]
+    var
+        Cust: Record Customer;
+        LangCode: Code[10];
+        PrefixTxt: Text[50];
+        QuoteNo: Code[20];
+    begin
+        QuoteNo := StoredQuoteNo;
+        if QuoteNo = '' then
+            QuoteNo := 'Unknown';
+
+        if StoredBillToCustomerNo <> '' then
+            if Cust.Get(StoredBillToCustomerNo) then
+                LangCode := Cust."Language Code";
+
+        if (LangCode = '') and (StoredSellToCustomerNo <> '') then
+            if Cust.Get(StoredSellToCustomerNo) then
+                LangCode := Cust."Language Code";
+
+        PrefixTxt := GetQuotationPrefixFromLanguage(LangCode);
+
+        exit(StrSubstNo('%1 %2.pdf', PrefixTxt, QuoteNo));
+    end;
+
+    local procedure GetQuotationPrefixFromLanguage(LanguageCode: Code[10]): Text[50]
+    var
+        UpperLang: Code[10];
+    begin
+        UpperLang := UpperCase(LanguageCode);
+
+        case UpperLang of
+            'DEU', 'DE', 'DE-DE':
+                exit('Angebot');     // German
+            'NLD', 'NL', 'NL-NL':
+                exit('Offerte');     // Dutch
+            'FRA', 'FR', 'FR-FR':
+                exit('Offre');       // French
+            'ENU', 'EN', 'EN-US', 'EN-GB':
+                exit('Quotation');   // English
+        else
+            exit('Quotation');
+        end;
+    end;
 }

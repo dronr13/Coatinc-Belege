@@ -728,6 +728,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page MuM GR Whse. Receipts API - Control blockedLocationCode - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 1922438980 - Control 2454043758 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CO Initial Weight</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MuM GR Whse. Receipts API - Control coInitialWeight - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 1922438980 - Control 633495604 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>CO Pickup</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -772,6 +777,26 @@
           <source>CO Responsibility Center</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page MuM GR Whse. Receipts API - Control coResponsibilityCenter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1922438980 - Control 419083792 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CO Second Weight</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MuM GR Whse. Receipts API - Control coSecondWeight - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1922438980 - Control 2466651354 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CO Theoretical Weight</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MuM GR Whse. Receipts API - Control coTheoreticalWeight - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1922438980 - Control 2469250698 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CO Total Weight</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MuM GR Whse. Receipts API - Control coTotalWeight - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1922438980 - Control 1282029563 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CO Weighed Weight</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MuM GR Whse. Receipts API - Control coWeighedWeight - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 1922438980 - Control 943136216 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Create Assembly Order</source>
@@ -1338,6 +1363,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report TCC Sales Quotation - ReportLabel YourRefLbl</note>
         </trans-unit>
+        <trans-unit id="Report 1388557178 - Control 499259196 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Print to PDF</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Sales Quotation - Control PrintToPDF - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Report 3353495132 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Weight Card</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1493,11 +1523,6 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report TCC Weight Cart - ReportLabel YourRefLbl</note>
         </trans-unit>
-        <trans-unit id="PageExtension 755654411 - Action 3081267114 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2294815237">
-          <source>Update Barcodes on Lines</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension MuM PC Prod. Camp. Ext - Action UpdateCampaignLinesBarcode - Property Caption</note>
-        </trans-unit>
         <trans-unit id="PageExtension 3828954390 - Control 4248625095 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 734185571">
           <source>Opportunity Status</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1552,6 +1577,11 @@
           <source>DropZone</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension TCC User Task Card - Control MuM DZ DropZone Factbox - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1534031652 - Control 529058337 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4284303991">
+          <source>Warehouse Activity No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension TCC Whse. Shipment Subform ext - Control Warehouse Activity No. - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 3415156606 - Control 3056029483 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 225437410">
           <source>Warehouse Receipt</source>
@@ -1637,6 +1667,11 @@
           <source>User Name for User Tasks</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension TCCResponsibilityCenter - Field User Name for User Tasks - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 876234987 - Field 529058337 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3659122181">
+          <source>Warehouse Activity No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension WhseShptLineExt - Field Warehouse Activity No. - Property Caption</note>
         </trans-unit>
         <trans-unit id="EnumExtension 2337007556 - EnumValue 1517649600 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Enum 1178123344">
           <source>MuM GR Pro. Wharehouse Receipt</source>

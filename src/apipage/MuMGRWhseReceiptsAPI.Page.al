@@ -236,6 +236,26 @@ page 60000 "MuM GR Whse. Receipts API"
                 {
                     Caption = 'CO Responsibility Center';
                 }
+                field(coTotalWeight; Rec."CO Total Weight")
+                {
+                    Caption = 'CO Total Weight';
+                }
+                field(coTheoreticalWeight; Rec."CO Theoretical Weight")
+                {
+                    Caption = 'CO Theoretical Weight';
+                }
+                field(coWeighedWeight; Rec."CO Weighed Weight")
+                {
+                    Caption = 'CO Weighed Weight';
+                }
+                field(coInitialWeight; Rec."CO Initial Weight")
+                {
+                    Caption = 'CO Initial Weight';
+                }
+                field(coSecondWeight; Rec."CO Second Weight")
+                {
+                    Caption = 'CO Second Weight';
+                }
             }
         }
     }
