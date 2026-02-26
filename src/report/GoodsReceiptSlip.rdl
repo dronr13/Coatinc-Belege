@@ -11,7 +11,7 @@
       <am:Name>MSRB</am:Name>
       <am:Version>15.1.30001.02</am:Version>
     </am:UpdatedBy>
-    <am:LastModifiedTimestamp>2026-02-11T10:21:32.5808464Z</am:LastModifiedTimestamp>
+    <am:LastModifiedTimestamp>2026-02-25T12:26:43.4309637Z</am:LastModifiedTimestamp>
   </am:AuthoringMetadata>
   <AutoRefresh>0</AutoRefresh>
   <DataSources>
@@ -37,7 +37,7 @@
               </TablixColumns>
               <TablixRows>
                 <TablixRow>
-                  <Height>14.37338cm</Height>
+                  <Height>11.5688cm</Height>
                   <TablixCells>
                     <TablixCell>
                       <CellContents>
@@ -909,15 +909,15 @@
                                 </Border>
                               </Style>
                             </Tablix>
-                            <Textbox Name="ReceiptHeaderTxt">
-                              <rd:DefaultName>ReceiptHeaderTxt</rd:DefaultName>
+                            <Textbox Name="ReceiptText">
+                              <rd:DefaultName>ReceiptText</rd:DefaultName>
                               <CanGrow>true</CanGrow>
                               <KeepTogether>true</KeepTogether>
                               <Paragraphs>
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value>=First(Fields!ReceiptHeaderTxt.Value)</Value>
+                                      <Value>=First(Fields!ReceiptText.Value)</Value>
                                       <Style />
                                     </TextRun>
                                   </TextRuns>
@@ -1423,16 +1423,16 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value>Erweiterte text vorlage functionieren noch nicht guht in Business Centeral.</Value>
+                                      <Value>=First(Fields!ReceiptTextFooter.Value)</Value>
                                       <Style />
                                     </TextRun>
                                   </TextRuns>
                                   <Style />
                                 </Paragraph>
                               </Paragraphs>
-                              <Top>9.28427cm</Top>
+                              <Top>9.24899cm</Top>
                               <Left>0.19708cm</Left>
-                              <Height>2.32833cm</Height>
+                              <Height>0.60854cm</Height>
                               <Width>18.19796cm</Width>
                               <ZIndex>5</ZIndex>
                               <Style>
@@ -1462,7 +1462,7 @@
                                   <Style />
                                 </Paragraph>
                               </Paragraphs>
-                              <Top>12.19953cm</Top>
+                              <Top>10.63849cm</Top>
                               <Left>0.19708cm</Left>
                               <Height>0.6cm</Height>
                               <Width>6.07188cm</Width>
@@ -1494,7 +1494,7 @@
                                   <Style />
                                 </Paragraph>
                               </Paragraphs>
-                              <Top>12.19953cm</Top>
+                              <Top>10.63849cm</Top>
                               <Left>7.71341cm</Left>
                               <Height>0.6cm</Height>
                               <Width>3.38879cm</Width>
@@ -1526,7 +1526,7 @@
                                   <Style />
                                 </Paragraph>
                               </Paragraphs>
-                              <Top>12.19953cm</Top>
+                              <Top>10.63849cm</Top>
                               <Left>12.32316cm</Left>
                               <Height>0.6cm</Height>
                               <Width>6.07188cm</Width>
@@ -1572,7 +1572,7 @@
               </TablixMembers>
             </TablixRowHierarchy>
             <DataSetName>DataSet_Result</DataSetName>
-            <Height>14.37338cm</Height>
+            <Height>11.5688cm</Height>
             <Width>18.42151cm</Width>
             <Style>
               <Border>
@@ -1581,7 +1581,7 @@
             </Style>
           </Tablix>
         </ReportItems>
-        <Height>14.37338cm</Height>
+        <Height>11.70109cm</Height>
         <Style />
       </Body>
       <Width>18.42151cm</Width>
@@ -2432,9 +2432,6 @@ End Function
         <Field Name="Ref">
           <DataField>Ref</DataField>
         </Field>
-        <Field Name="ReceiptHeaderTxt">
-          <DataField>ReceiptHeaderTxt</DataField>
-        </Field>
         <Field Name="RCName">
           <DataField>RCName</DataField>
         </Field>
@@ -2480,6 +2477,12 @@ End Function
         <Field Name="RCBIC">
           <DataField>RCBIC</DataField>
         </Field>
+        <Field Name="ReceiptText">
+          <DataField>ReceiptText</DataField>
+        </Field>
+        <Field Name="ReceiptTextFooter">
+          <DataField>ReceiptTextFooter</DataField>
+        </Field>
         <Field Name="LineNo">
           <DataField>LineNo</DataField>
         </Field>
@@ -2509,6 +2512,9 @@ End Function
         </Field>
         <Field Name="Operations">
           <DataField>Operations</DataField>
+        </Field>
+        <Field Name="SalesQuoteLineText">
+          <DataField>SalesQuoteLineText</DataField>
         </Field>
       </Fields>
       <Query>

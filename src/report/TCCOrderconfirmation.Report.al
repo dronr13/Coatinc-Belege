@@ -7,7 +7,7 @@ report 60127 "TCC Order confirmation"
 
     dataset
     {
-        dataitem(ReceiptHeader; "MuM GR Whse. Receipt Header")
+        dataitem(ReceiptHeader; "MuM GR Pro. W. Rcpt. Header")
         {
             //DataItemTableView = sorting("Document Type", "No.")
             //                    where("Document Type" = const(Quote));
@@ -50,12 +50,12 @@ report 60127 "TCC Order confirmation"
             column(Sanding; "CO Name GRH Property 4")
             {
             }
-            column(Color; "CO Name GRH Property 5")
-            {
-            }
-            column(Warrenty; "CO Name GRH Property 6")
-            {
-            }
+            //column(Color; "CO Name GRH Property 5")
+            //{
+            //}
+            //column(Warrenty; "CO Name GRH Property 6")
+            //{
+            //}
             column(Ref; "External Order No.")
             {
             }

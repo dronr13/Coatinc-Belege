@@ -1,6 +1,0 @@
-= CStr(Fields!Description.Value)
-  & IIF(
-        Trim(CStr(Fields!SalesQuoteLineText.Value)) <> "",
-        Environment.NewLine() & CStr(Fields!SalesQuoteLineText.Value),
-        ""
-    )

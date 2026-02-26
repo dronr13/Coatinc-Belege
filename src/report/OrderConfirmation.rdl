@@ -2261,12 +2261,6 @@ End Function
         <Field Name="Sanding">
           <DataField>Sanding</DataField>
         </Field>
-        <Field Name="Color">
-          <DataField>Color</DataField>
-        </Field>
-        <Field Name="Warrenty">
-          <DataField>Warrenty</DataField>
-        </Field>
         <Field Name="Ref">
           <DataField>Ref</DataField>
         </Field>

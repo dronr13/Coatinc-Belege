@@ -61,14 +61,6 @@ report 60126 "TCC Sales Quotation"
                 column(SalesQuoteLineText; SalesQuoteLineText) { }
             }
 
-            trigger OnPreDataItem()
-            begin
-                // Reset stored values for new run
-                StoredQuoteNo := '';
-                StoredBillToCustomerNo := '';
-                StoredSellToCustomerNo := '';
-            end;
-
             trigger OnAfterGetRecord()
             var
                 SalesPerson: Record "Salesperson/Purchaser";
@@ -78,13 +70,6 @@ report 60126 "TCC Sales Quotation"
                 PrintType: Enum "MuM ET Printing Type";
                 SubPrintType: Enum "MuM ET Sub-Printing Type";
             begin
-                // Store first quotation number and customer info for PDF filename
-                if StoredQuoteNo = '' then begin
-                    StoredQuoteNo := "No.";
-                    StoredBillToCustomerNo := "Bill-to Customer No.";
-                    StoredSellToCustomerNo := "Sell-to Customer No.";
-                end;
-
                 // Sender based on Responsibility Center
                 if Firma.Get("Responsibility Center") then
                     Sender := Firma.Name + ' ' + Firma.Address + ', ' + Firma."Post Code" + ' ' + Firma.City
@@ -160,24 +145,6 @@ report 60126 "TCC Sales Quotation"
         }
     }
 
-    requestpage
-    {
-        layout
-        {
-            area(content)
-            {
-                group(Options)
-                {
-                    field(PrintToPDF; PrintToPDF)
-                    {
-                        ApplicationArea = All;
-                        Caption = 'Print to PDF';
-                    }
-                }
-            }
-        }
-    }
-
     labels
     {
         QuotationNoLbl = 'Quotation Number';
@@ -226,135 +193,4 @@ report 60126 "TCC Sales Quotation"
         SalesQuoteText: Text;
         SalesQuoteTextFooter: Text;
         SalesQuoteLineText: Text;
-        PrintToPDF: Boolean;
-        ReportParameters: Text;
-        StoredQuoteNo: Code[20];
-        StoredBillToCustomerNo: Code[20];
-        StoredSellToCustomerNo: Code[20];
-
-    trigger OnPostReport()
-    begin
-        // Only generate PDF when option is selected
-        if not PrintToPDF then
-            exit;
-
-        // Get request page parameters for this report (filters, options, etc.)
-        ReportParameters := Report.RunRequestPage(Report::"TCC Sales Quotation");
-        if ReportParameters = '' then
-            exit; // User cancelled the request page
-
-        DownloadAsPdf();
-    end;
-
-    procedure DownloadAsPdf()
-    var
-        TempBlob: Codeunit "Temp Blob";
-        OutStr: OutStream;
-        InStr: InStream;
-        RecRef: RecordRef;
-        FileName: Text[250];
-    begin
-        FileName := BuildPdfFileName();
-
-        TempBlob.CreateOutStream(OutStr);
-        RecRef.GetTable(SalesHeader);
-
-        Report.SaveAs(
-            Report::"TCC Sales Quotation",
-            ReportParameters,
-            ReportFormat::Pdf,
-            OutStr,
-            RecRef);
-
-        TempBlob.CreateInStream(InStr);
-        DownloadFromStream(
-            InStr,
-            'Download quotation as PDF',
-            '',
-            'PDF Files (*.pdf)|*.pdf',
-            FileName);
-    end;
-
-    procedure DirectDownloadAsPdf()
-    var
-        TempBlob: Codeunit "Temp Blob";
-        OutStr: OutStream;
-        InStr: InStream;
-        RecRef: RecordRef;
-        FileName: Text[250];
-        LocalHeader: Record "Sales Header";
-    begin
-        // Neem de huidige TableView van het report en lees eerste header
-        LocalHeader.SetView(SalesHeader.GetView);
-        if LocalHeader.FindFirst() then begin
-            StoredQuoteNo := LocalHeader."No.";
-            StoredBillToCustomerNo := LocalHeader."Bill-to Customer No.";
-            StoredSellToCustomerNo := LocalHeader."Sell-to Customer No.";
-        end;
-
-        FileName := BuildPdfFileName();
-
-        TempBlob.CreateOutStream(OutStr);
-        RecRef.GetTable(SalesHeader);
-
-        // Run without request page, direct PDF
-        Report.SaveAs(
-            Report::"TCC Sales Quotation",
-            '',
-            ReportFormat::Pdf,
-            OutStr,
-            RecRef);
-
-        TempBlob.CreateInStream(InStr);
-        DownloadFromStream(
-            InStr,
-            'Download quotation as PDF',
-            '',
-            'PDF Files (*.pdf)|*.pdf',
-            FileName);
-    end;
-
-    local procedure BuildPdfFileName(): Text[250]
-    var
-        Cust: Record Customer;
-        LangCode: Code[10];
-        PrefixTxt: Text[50];
-        QuoteNo: Code[20];
-    begin
-        QuoteNo := StoredQuoteNo;
-        if QuoteNo = '' then
-            QuoteNo := 'Unknown';
-
-        if StoredBillToCustomerNo <> '' then
-            if Cust.Get(StoredBillToCustomerNo) then
-                LangCode := Cust."Language Code";
-
-        if (LangCode = '') and (StoredSellToCustomerNo <> '') then
-            if Cust.Get(StoredSellToCustomerNo) then
-                LangCode := Cust."Language Code";
-
-        PrefixTxt := GetQuotationPrefixFromLanguage(LangCode);
-
-        exit(StrSubstNo('%1 %2.pdf', PrefixTxt, QuoteNo));
-    end;
-
-    local procedure GetQuotationPrefixFromLanguage(LanguageCode: Code[10]): Text[50]
-    var
-        UpperLang: Code[10];
-    begin
-        UpperLang := UpperCase(LanguageCode);
-
-        case UpperLang of
-            'DEU', 'DE', 'DE-DE':
-                exit('Angebot');     // German
-            'NLD', 'NL', 'NL-NL':
-                exit('Offerte');     // Dutch
-            'FRA', 'FR', 'FR-FR':
-                exit('Offre');       // French
-            'ENU', 'EN', 'EN-US', 'EN-GB':
-                exit('Quotation');   // English
-        else
-            exit('Quotation');
-        end;
-    end;
 }

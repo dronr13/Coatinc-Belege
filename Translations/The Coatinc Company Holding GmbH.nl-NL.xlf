@@ -2147,6 +2147,223 @@
           <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Report TCC Weight Cart - ReportLabel YourRefLbl</note>
         </trans-unit>
+        <trans-unit id="Report 4125413524 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Weight Card Exit</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Weight Cart Exit - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 4125413524 - ReportLabel 2910675959" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Dear sir/madam </source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Weight Cart Exit - ReportLabel AnnotationLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4125413524 - ReportLabel 3048460138" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Article</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Weight Cart Exit - ReportLabel ArticleLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4125413524 - ReportLabel 3122609273" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Color</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Weight Cart Exit - ReportLabel ColorLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4125413524 - ReportLabel 3534265827" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Comment</source>
+          <target>[NAB: SUGGESTION]Opmerking</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Weight Cart Exit - ReportLabel CommentLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4125413524 - ReportLabel 3490088608" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Confirmation Number</source>
+          <target>[NAB: SUGGESTION]Bevestigingsnummer</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Weight Cart Exit - ReportLabel ConfirmationNoLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4125413524 - ReportLabel 3910937446" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date Delivery</source>
+          <target>[NAB: SUGGESTION]Aanlever datum</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Weight Cart Exit - ReportLabel DateDeliveryLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4125413524 - ReportLabel 3849054664" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date First Weight</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Weight Cart Exit - ReportLabel DateFirstWeightLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4125413524 - ReportLabel 3063662051" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date goods in</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Weight Cart Exit - ReportLabel DateInLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4125413524 - ReportLabel 1111484458" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date Second Weight</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Weight Cart Exit - ReportLabel DateSecondWeightLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4125413524 - ReportLabel 2954366404" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Delivery Address</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Weight Cart Exit - ReportLabel DeliveryAddressLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4125413524 - ReportLabel 602986266" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Singature Delivery</source>
+          <target>[NAB: SUGGESTION]Handtekening leverant</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Weight Cart Exit - ReportLabel DeliverySignageLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4125413524 - ReportLabel 2031087404" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Discription</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Weight Cart Exit - ReportLabel DiscriptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4125413524 - ReportLabel 3353220415" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Estimated Delivery Date</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Weight Cart Exit - ReportLabel EstimatedDeliceryDateLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4125413524 - ReportLabel 915548396" size-unit="char" translate="yes" xml:space="preserve">
+          <source>First Weight</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Weight Cart Exit - ReportLabel FirstWeightLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4125413524 - ReportLabel 983219472" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Good Receipt Number</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Weight Cart Exit - ReportLabel GoodReceiptNoLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4125413524 - ReportLabel 2963208439" size-unit="char" translate="yes" xml:space="preserve">
+          <source>H</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Weight Cart Exit - ReportLabel HeightLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4125413524 - ReportLabel 4280004770" size-unit="char" translate="yes" xml:space="preserve">
+          <source>L</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Weight Cart Exit - ReportLabel LengthLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4125413524 - ReportLabel 1311008961" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Signature Plant</source>
+          <target>[NAB: SUGGESTION]Handtekening locatie</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Weight Cart Exit - ReportLabel LocationSignageLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4125413524 - ReportLabel 477454936" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Operations</source>
+          <target>[NAB: SUGGESTION]Bewerkingen</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Weight Cart Exit - ReportLabel OperationsLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4125413524 - ReportLabel 1877187315" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Page</source>
+          <target>[NAB: SUGGESTION]Pagina</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Weight Cart Exit - ReportLabel PageLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4125413524 - ReportLabel 1700094357" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Pieces</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Weight Cart Exit - ReportLabel PiecesLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4125413524 - ReportLabel 2409218073" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Registration plate</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Weight Cart Exit - ReportLabel RegistrationPlateLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4125413524 - ReportLabel 1885488289" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Second Weight</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Weight Cart Exit - ReportLabel SecondeWeightLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4125413524 - ReportLabel 4002367168" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Warrenty order</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Weight Cart Exit - ReportLabel WarentyOrder</note>
+        </trans-unit>
+        <trans-unit id="Report 4125413524 - ReportLabel 265833505" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Weight Card No</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Weight Cart Exit - ReportLabel WeightCartNoLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4125413524 - ReportLabel 2188438293" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Weighted Weight</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Weight Cart Exit - ReportLabel WeightedWeightLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4125413524 - ReportLabel 238383578" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Weight Master</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Weight Cart Exit - ReportLabel WeightMasterLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4125413524 - ReportLabel 1354974198" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Weight Type</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Weight Cart Exit - ReportLabel WeightTypeLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4125413524 - ReportLabel 1154098152" size-unit="char" translate="yes" xml:space="preserve">
+          <source>W</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Weight Cart Exit - ReportLabel WidthLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4125413524 - ReportLabel 1757598358" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Your Reference</source>
+          <target>[NAB: SUGGESTION]Uw referentie</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Weight Cart Exit - ReportLabel YourRefLbl</note>
+        </trans-unit>
         <trans-unit id="PageExtension 3828954390 - Control 4248625095 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 734185571">
           <source>Opportunity Status</source>
           <target>[NAB: SUGGESTION]Verkoopkansstatus</target>
@@ -2223,6 +2440,13 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension TCC User Task Card - Control MuM DZ DropZone Factbox - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1534031652 - Control 529058337 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4284303991">
+          <source>Warehouse Activity No.</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension TCC Whse. Shipment Subform ext - Control Warehouse Activity No. - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 3415156606 - Control 3056029483 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 225437410">
           <source>Warehouse Receipt</source>
@@ -2339,6 +2563,20 @@
           <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension TCCResponsibilityCenter - Field User Name for User Tasks - Property Caption</note>
         </trans-unit>
+        <trans-unit id="TableExtension 1752136655 - Field 779816775 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3880947038">
+          <source>TCC Resp. Center</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension WhseShptHdr TCC Ext - Field TCC Resp. Center - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 876234987 - Field 529058337 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3659122181">
+          <source>Warehouse Activity No.</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension WhseShptLineExt - Field Warehouse Activity No. - Property Caption</note>
+        </trans-unit>
         <trans-unit id="EnumExtension 2337007556 - EnumValue 1517649600 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Enum 1178123344">
           <source>MuM GR Pro. Wharehouse Receipt</source>
           <target>[NAB: NOT TRANSLATED]</target>
@@ -2360,25 +2598,18 @@
           <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
           <note from="Xliff Generator" annotates="general" priority="3">EnumExtension TCC MuM MS MediaStorage Source - EnumValue TCC User Task - Property Caption</note>
         </trans-unit>
-        <trans-unit id="PageExtension 1534031652 - Control 529058337 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 4284303991">
-          <source>Warehouse Activity No.</source>
-          <target>[NAB: NOT TRANSLATED]</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension TCC Whse. Shipment Subform ext - Control Warehouse Activity No. - Property Caption</note>
-        </trans-unit>
         <trans-unit id="PageExtension 821216785 - Change 747683197 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1566602949">
           <source>Release</source>
           <target>Vrijgeven</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension TCCMuM GR Whse. Receipt - Change Notify - Property Caption</note>
         </trans-unit>
-        <trans-unit id="TableExtension 876234987 - Field 529058337 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3659122181">
-          <source>Warehouse Activity No.</source>
+        <trans-unit id="PageExtension 626773269 - Action 3353495132 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2938519335">
+          <source>Weight Cart Exit</source>
           <target>[NAB: NOT TRANSLATED]</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
-          <note from="Xliff Generator" annotates="general" priority="3">TableExtension WhseShptLineExt - Field Warehouse Activity No. - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension WhseShpt TCC Ext - Action TCC Weight Cart - Property Caption</note>
         </trans-unit>
       </group>
     </body>

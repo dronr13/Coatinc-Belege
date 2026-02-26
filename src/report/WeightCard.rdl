@@ -11,7 +11,7 @@
       <am:Name>MSRB</am:Name>
       <am:Version>15.1.30001.02</am:Version>
     </am:UpdatedBy>
-    <am:LastModifiedTimestamp>2026-02-06T18:31:50.6878650Z</am:LastModifiedTimestamp>
+    <am:LastModifiedTimestamp>2026-02-25T15:17:56.6224368Z</am:LastModifiedTimestamp>
   </am:AuthoringMetadata>
   <AutoRefresh>0</AutoRefresh>
   <DataSources>
@@ -41,13 +41,14 @@
                   <TablixCells>
                     <TablixCell>
                       <CellContents>
+                        <rd:Selected>true</rd:Selected>
                         <Rectangle Name="Rectangle1">
                           <ReportItems>
                             <Tablix Name="Tablix2">
                               <TablixBody>
                                 <TablixColumns>
                                   <TablixColumn>
-                                    <Width>7.52208cm</Width>
+                                    <Width>10.0795cm</Width>
                                   </TablixColumn>
                                 </TablixColumns>
                                 <TablixRows>
@@ -250,7 +251,7 @@
                               <Top>0.26142cm</Top>
                               <Left>0.12312cm</Left>
                               <Height>2.88812cm</Height>
-                              <Width>7.52208cm</Width>
+                              <Width>10.0795cm</Width>
                               <Style>
                                 <Border>
                                   <Color>White</Color>
@@ -614,7 +615,7 @@
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value>Doc No</Value>
+                                                    <Value />
                                                     <Style>
                                                       <FontSize>12pt</FontSize>
                                                       <FontWeight>ExtraBold</FontWeight>
@@ -786,7 +787,7 @@
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value>=Parameters!SecondeWeightLbl.Value</Value>
+                                                    <Value>=Parameters!DateSecondWeightLbl.Value</Value>
                                                     <Style />
                                                   </TextRun>
                                                 </TextRuns>
@@ -939,36 +940,6 @@
                                 <PaddingBottom>2pt</PaddingBottom>
                               </Style>
                             </Textbox>
-                            <Textbox Name="Textbox28">
-                              <rd:DefaultName>Textbox4</rd:DefaultName>
-                              <CanGrow>true</CanGrow>
-                              <KeepTogether>true</KeepTogether>
-                              <Paragraphs>
-                                <Paragraph>
-                                  <TextRuns>
-                                    <TextRun>
-                                      <Value>Erweiterte text vorlage functionieren noch nicht guht in Business Centeral.</Value>
-                                      <Style />
-                                    </TextRun>
-                                  </TextRuns>
-                                  <Style />
-                                </Paragraph>
-                              </Paragraphs>
-                              <Top>11.59981cm</Top>
-                              <Left>0.12312cm</Left>
-                              <Height>1.29645cm</Height>
-                              <Width>18.19796cm</Width>
-                              <ZIndex>4</ZIndex>
-                              <Style>
-                                <Border>
-                                  <Style>None</Style>
-                                </Border>
-                                <PaddingLeft>2pt</PaddingLeft>
-                                <PaddingRight>2pt</PaddingRight>
-                                <PaddingTop>2pt</PaddingTop>
-                                <PaddingBottom>2pt</PaddingBottom>
-                              </Style>
-                            </Textbox>
                             <Textbox Name="Textbox30">
                               <rd:DefaultName>Textbox4</rd:DefaultName>
                               <CanGrow>true</CanGrow>
@@ -990,7 +961,7 @@
                               <Left>12.2492cm</Left>
                               <Height>0.6cm</Height>
                               <Width>6.07188cm</Width>
-                              <ZIndex>5</ZIndex>
+                              <ZIndex>4</ZIndex>
                               <Style>
                                 <Border>
                                   <Style>None</Style>
@@ -1009,9 +980,6 @@
                                   </TablixColumn>
                                   <TablixColumn>
                                     <Width>3.55718cm</Width>
-                                  </TablixColumn>
-                                  <TablixColumn>
-                                    <Width>1.75917cm</Width>
                                   </TablixColumn>
                                 </TablixColumns>
                                 <TablixRows>
@@ -1064,38 +1032,6 @@
                                                 </TextRuns>
                                                 <Style>
                                                   <TextAlign>Right</TextAlign>
-                                                </Style>
-                                              </Paragraph>
-                                            </Paragraphs>
-                                            <Style>
-                                              <Border>
-                                                <Color>LightGrey</Color>
-                                                <Style>Solid</Style>
-                                              </Border>
-                                              <PaddingLeft>2pt</PaddingLeft>
-                                              <PaddingRight>2pt</PaddingRight>
-                                              <PaddingTop>2pt</PaddingTop>
-                                              <PaddingBottom>2pt</PaddingBottom>
-                                            </Style>
-                                          </Textbox>
-                                        </CellContents>
-                                      </TablixCell>
-                                      <TablixCell>
-                                        <CellContents>
-                                          <Textbox Name="CO_Initial_WeightFormat">
-                                            <rd:DefaultName>CO_Initial_WeightFormat</rd:DefaultName>
-                                            <CanGrow>true</CanGrow>
-                                            <KeepTogether>true</KeepTogether>
-                                            <Paragraphs>
-                                              <Paragraph>
-                                                <TextRuns>
-                                                  <TextRun>
-                                                    <Value>=Fields!CO_Initial_WeightFormat.Value</Value>
-                                                    <Style />
-                                                  </TextRun>
-                                                </TextRuns>
-                                                <Style>
-                                                  <TextAlign>Left</TextAlign>
                                                 </Style>
                                               </Paragraph>
                                             </Paragraphs>
@@ -1179,38 +1115,6 @@
                                           </Textbox>
                                         </CellContents>
                                       </TablixCell>
-                                      <TablixCell>
-                                        <CellContents>
-                                          <Textbox Name="CO_Second_WeightFormat">
-                                            <rd:DefaultName>CO_Second_WeightFormat</rd:DefaultName>
-                                            <CanGrow>true</CanGrow>
-                                            <KeepTogether>true</KeepTogether>
-                                            <Paragraphs>
-                                              <Paragraph>
-                                                <TextRuns>
-                                                  <TextRun>
-                                                    <Value>=Fields!CO_Second_WeightFormat.Value</Value>
-                                                    <Style />
-                                                  </TextRun>
-                                                </TextRuns>
-                                                <Style>
-                                                  <TextAlign>Left</TextAlign>
-                                                </Style>
-                                              </Paragraph>
-                                            </Paragraphs>
-                                            <Style>
-                                              <Border>
-                                                <Color>LightGrey</Color>
-                                                <Style>Solid</Style>
-                                              </Border>
-                                              <PaddingLeft>2pt</PaddingLeft>
-                                              <PaddingRight>2pt</PaddingRight>
-                                              <PaddingTop>2pt</PaddingTop>
-                                              <PaddingBottom>2pt</PaddingBottom>
-                                            </Style>
-                                          </Textbox>
-                                        </CellContents>
-                                      </TablixCell>
                                     </TablixCells>
                                   </TablixRow>
                                   <TablixRow>
@@ -1278,45 +1182,12 @@
                                           </Textbox>
                                         </CellContents>
                                       </TablixCell>
-                                      <TablixCell>
-                                        <CellContents>
-                                          <Textbox Name="CO_Weighed_WeightFormat">
-                                            <rd:DefaultName>CO_Weighed_WeightFormat</rd:DefaultName>
-                                            <CanGrow>true</CanGrow>
-                                            <KeepTogether>true</KeepTogether>
-                                            <Paragraphs>
-                                              <Paragraph>
-                                                <TextRuns>
-                                                  <TextRun>
-                                                    <Value>=Fields!CO_Weighed_WeightFormat.Value</Value>
-                                                    <Style />
-                                                  </TextRun>
-                                                </TextRuns>
-                                                <Style>
-                                                  <TextAlign>Left</TextAlign>
-                                                </Style>
-                                              </Paragraph>
-                                            </Paragraphs>
-                                            <Style>
-                                              <Border>
-                                                <Color>LightGrey</Color>
-                                                <Style>Solid</Style>
-                                              </Border>
-                                              <PaddingLeft>2pt</PaddingLeft>
-                                              <PaddingRight>2pt</PaddingRight>
-                                              <PaddingTop>2pt</PaddingTop>
-                                              <PaddingBottom>2pt</PaddingBottom>
-                                            </Style>
-                                          </Textbox>
-                                        </CellContents>
-                                      </TablixCell>
                                     </TablixCells>
                                   </TablixRow>
                                 </TablixRows>
                               </TablixBody>
                               <TablixColumnHierarchy>
                                 <TablixMembers>
-                                  <TablixMember />
                                   <TablixMember />
                                   <TablixMember />
                                 </TablixMembers>
@@ -1332,8 +1203,8 @@
                               <Top>7.91328cm</Top>
                               <Left>0.12312cm</Left>
                               <Height>1.8cm</Height>
-                              <Width>9.28125cm</Width>
-                              <ZIndex>6</ZIndex>
+                              <Width>7.52208cm</Width>
+                              <ZIndex>5</ZIndex>
                               <Style>
                                 <Border>
                                   <Style>None</Style>
@@ -1359,7 +1230,7 @@
                               <Left>0.12312cm</Left>
                               <Height>0.6cm</Height>
                               <Width>9.28125cm</Width>
-                              <ZIndex>7</ZIndex>
+                              <ZIndex>6</ZIndex>
                               <Style>
                                 <Border>
                                   <Style>None</Style>
@@ -1529,7 +1400,7 @@
               </Paragraphs>
               <Top>0.46772cm</Top>
               <Left>7.14419cm</Left>
-              <Height>0.36187cm</Height>
+              <Height>0.72374cm</Height>
               <Width>4.80188cm</Width>
               <ZIndex>2</ZIndex>
               <Style>
@@ -1811,7 +1682,7 @@
                   <Style />
                 </Paragraph>
               </Paragraphs>
-              <Top>1.65915cm</Top>
+              <Top>1.69446cm</Top>
               <Height>0.36188cm</Height>
               <Width>4.80188cm</Width>
               <ZIndex>11</ZIndex>

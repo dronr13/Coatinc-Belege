@@ -28,9 +28,6 @@ report 60129 "TCC Goods Receipt Slip"
             column(Warrenty; "CO Name GRH Property 7") { }
             column(Ref; "External Order No.") { }
 
-            // Header text (base English + optional country-specific translation from Media)
-            column(ReceiptHeaderTxt; ReceiptHeaderTxt) { }
-
             // Footer info
             column(RCName; RCName) { }
             column(RCAddress; RCAddress) { }
@@ -47,6 +44,8 @@ report 60129 "TCC Goods Receipt Slip"
             column(RCBankAccount; RCBankAccount) { }
             column(RCIBAN; RCIBAN) { }
             column(RCBIC; RCBIC) { }
+            column(ReceiptText; ReceiptTextText) { }
+            column(ReceiptTextFooter; ReceiptTextFooter) { }
 
             dataitem(ReceiptLine; "MuM GR Whse. Receipt Line")
             {
@@ -61,6 +60,7 @@ report 60129 "TCC Goods Receipt Slip"
                 column(Widht; "CO Name GRL Property 3") { }
                 column(Height; "CO Name GRL Property 4") { }
                 column(Operations; "Routing No.") { }
+                column(SalesQuoteLineText; SalesQuoteLineText) { }
             }
 
             trigger OnAfterGetRecord()
@@ -80,6 +80,10 @@ report 60129 "TCC Goods Receipt Slip"
 
                 InStr: InStream;
                 LineTxt: Text;
+                MuMETExtendedTextMgt: Codeunit "MuM ET Extended Text Mgt.";
+                DocumentTextHeader: Record "MuM ET Document Text Header";
+                PrintType: Enum "MuM ET Printing Type";
+                SubPrintType: Enum "MuM ET Sub-Printing Type";
             begin
                 // Sender based on Responsibility Center
                 if Firma.Get(ReceiptHeader."CO Responsibility Center") then
@@ -125,6 +129,38 @@ report 60129 "TCC Goods Receipt Slip"
                     RCBIC := ResponsibilityCenter.BIC;
                 end;
 
+                // Header extended text
+                if DocumentTextHeader.Get(
+                     Database::"MuM GR Whse. Receipt Header",
+                     "MuM ET Document Type"::"Whse. Receipt",
+                     DocumentTextHeader."Document Type"::"Whse. Receipt",
+                     ReceiptHeader."No.")
+                then
+                    ReceiptTextText :=
+                      MuMETExtendedTextMgt.GetDocumentMediaAsText(
+                        DocumentTextHeader,
+                        PrintType::Report,
+                        SubPrintType::Header);
+
+                // Footer extended text
+                if DocumentTextHeader.Get(
+                     Database::"MuM GR Whse. Receipt Header",
+                     "MuM ET Document Type"::"Whse. Receipt",
+                     DocumentTextHeader."Document Type"::"Whse. Receipt",
+                     ReceiptHeader."No.")
+                then
+                    ReceiptTextFooter :=
+                      MuMETExtendedTextMgt.GetDocumentMediaAsText(
+                        DocumentTextHeader,
+                        PrintType::Report,
+                        SubPrintType::Footer);
+
+                // Line extended text
+                SalesQuoteLineText :=
+                  MuMETExtendedTextMgt.GetDocumentMediaAsText(
+                    ReceiptLine,
+                    Enum::"MuM ET Printing Type"::Report,
+                    Enum::"MuM ET Sub-Printing Type"::"After Position");
 
             end;
         }
@@ -186,6 +222,7 @@ report 60129 "TCC Goods Receipt Slip"
         Annotation: Text;
 
         // Header text
-        ReceiptHeaderTxt: Text;
-        RecieptFooterTxt: Text;
+        ReceiptTextText: Text;
+        ReceiptTextFooter: Text;
+        SalesQuoteLineText: Text;
 }
