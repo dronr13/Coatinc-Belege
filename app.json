@@ -85,6 +85,13 @@
             "publisher": "Markmann + Müller Datensysteme GmbH",
             "version": "27.0.0.0"
         }
+        ,
+        {
+            "id": "9aa09646-00d1-4fc8-9f92-21fcb07f1406",
+            "name": "m+m Package Management",
+            "publisher": "Markmann + Müller Datensysteme GmbH",
+            "version": "27.0.0.0"
+        }
   ],
   
   

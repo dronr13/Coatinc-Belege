@@ -1,4 +1,4 @@
-pageextension 60131 "WhseShpt TCC Ext" extends "Warehouse Shipment"
+pageextension 60135 "TCC WhseShpt Ext" extends "Warehouse Shipment"
 {
 
     layout

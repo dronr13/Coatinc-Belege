@@ -14,10 +14,7 @@ report 60131 "TCC Weight Cart Exit"
 
             column(Logo; Company.Picture) { }
             column(Sender; Sender) { }
-            column(CustomerName; CustomerName) { }
             column(CustomerContact; CustomerContact) { }
-            column(CustomerAddress; CustomerAddress) { }
-            column(CustomerPostcodeCity; CustomerPostcodeCity) { }
             column(DocNo; "No.") { }
             column(OrderNo; OrderNo) { }
             column(Datein; "Posting Date") { }
@@ -27,10 +24,10 @@ report 60131 "TCC Weight Cart Exit"
             column(CO_Second_Weight; "CO Second Weight") { }
             column(CO_Weighed_Weight; "CO Weighed Weight") { }
             column(CO_comment; "CO Comment") { }
-            // column(DeliveryAddress; "Ship-to Address") { }
-            // column(expectedDeliveryDate; "Requested Delivery Date") { }
+            column(DeliveryAddress; Empty) { }
+            column(expectedDeliveryDate; Empty) { }
             column(Warrenty; "Warrenty") { }
-            // column(Ref; "External Order No.") { }
+            column(Ref; Empty) { }
 
             // Header text (base English + optional country-specific translation from Media)
             column(ReceiptHeaderTxt; ReceiptHeaderTxt) { }
@@ -40,6 +37,15 @@ report 60131 "TCC Weight Cart Exit"
                 DataItemLink = "No." = field("No.");
 
                 column(Ordernr; "Source No.") { }
+
+                dataitem(customerdata; "Sales Header")
+                {
+                    DataItemLink = "No." = field("Source No.");
+                    column(CustomerName; "bill-to Name") { }
+                    column(CustomerAddress; "Ship-to Address") { }
+                    column(CustomerPostcodeCity; "Ship-to Post Code" + ' ' + "Ship-to City") { }
+
+                }
             }
 
             // Footer info
@@ -78,35 +84,16 @@ report 60131 "TCC Weight Cart Exit"
 
                 InStr: InStream;
                 LineTxt: Text;
-              
-
-                
+ 
             begin
                 // Shotcut values
-                  Warrenty := 'No';
+                Empty := '';
 
                 // Sender based on Responsibility Center
                 if Firma.Get(ShipmentHeader."TCC Resp. Center") then
                     Sender := Firma.Name + ' ' + Firma.Address + ', ' + Firma."Post Code" + ' ' + Firma.City
                 else
                     Sender := '';
-
-                // Get OrderNo from Sales Line
-                SalesHeader.Reset();
-                SalesHeader.SetRange("No.", WarehouseLine."No.");
-                if SalesHeader.FindFirst() then
-                    CustomerName := SalesHeader."Bill-to name";
-                    CustomerAddress := SalesHeader."Ship-to Address";
-                    CustomerPostcodeCity := SalesHeader."Ship-to Post Code" + ' ' + SalesHeader."Ship-to City";
-
-                // Get customer details and 3-letter country code (e.g. NLD, DEU)
-/*                 if CustomerDetails.Get(ShipmentHeader."Sell-to Customer No.") then begin
-                    CustomerContact := CustomerDetails.Contact;
-                    CustomerAddress := CustomerDetails.Address;
-                    CustomerPostcodeCity := CustomerDetails."Post Code" + ' ' + CustomerDetails.City;
-                    CustCountryCode3 := CustomerDetails."Country/Region Code";
-                end else
-                    CustCountryCode3 := ''; */
 
                 // Company logo
                 if Company.Get() then
@@ -198,12 +185,10 @@ report 60131 "TCC Weight Cart Exit"
         RCIBAN: Text;
         RCBIC: Text;
         Annotation: Text;
-
+        Empty: text;
         Warrenty: text;
 
         // Header text
         ReceiptHeaderTxt: Text;
         ReceiptFooterTxt: Text;
-
-
 }

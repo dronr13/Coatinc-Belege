@@ -1,4 +1,4 @@
-pageextension 60157 "MuM PC Prod. Camp. Ext" extends "MuM PC Production Campaign"
+pageextension 60157 "TCC MuM PC Prod. Camp. Ext" extends "MuM PC Production Campaign"
 {
     layout
     {

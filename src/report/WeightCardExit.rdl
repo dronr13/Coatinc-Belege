@@ -2222,17 +2222,8 @@ End Function
         <Field Name="Sender">
           <DataField>Sender</DataField>
         </Field>
-        <Field Name="CustomerName">
-          <DataField>CustomerName</DataField>
-        </Field>
         <Field Name="CustomerContact">
           <DataField>CustomerContact</DataField>
-        </Field>
-        <Field Name="CustomerAddress">
-          <DataField>CustomerAddress</DataField>
-        </Field>
-        <Field Name="CustomerPostcodeCity">
-          <DataField>CustomerPostcodeCity</DataField>
         </Field>
         <Field Name="DocNo">
           <DataField>DocNo</DataField>
@@ -2270,8 +2261,20 @@ End Function
         <Field Name="CO_comment">
           <DataField>CO_comment</DataField>
         </Field>
+        <Field Name="DeliveryAddress">
+          <DataField>DeliveryAddress</DataField>
+        </Field>
+        <Field Name="expectedDeliveryDate">
+          <DataField>expectedDeliveryDate</DataField>
+        </Field>
         <Field Name="Warrenty">
           <DataField>Warrenty</DataField>
+        </Field>
+        <Field Name="Ref">
+          <DataField>Ref</DataField>
+        </Field>
+        <Field Name="ReceiptHeaderTxt">
+          <DataField>ReceiptHeaderTxt</DataField>
         </Field>
         <Field Name="RCName">
           <DataField>RCName</DataField>
@@ -2320,6 +2323,15 @@ End Function
         </Field>
         <Field Name="Ordernr">
           <DataField>Ordernr</DataField>
+        </Field>
+        <Field Name="CustomerName">
+          <DataField>CustomerName</DataField>
+        </Field>
+        <Field Name="CustomerAddress">
+          <DataField>CustomerAddress</DataField>
+        </Field>
+        <Field Name="CustomerPostcodeCity">
+          <DataField>CustomerPostcodeCity</DataField>
         </Field>
       </Fields>
       <Query>
