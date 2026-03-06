@@ -99,6 +99,8 @@ report 60128 "TCC Goods receipt label"
     ReferenceLbl='Reference:';
     DateInLbl='Date in:';
     }
-    var EncodedText: Text;
+    
+    var 
+    EncodedText: Text;
     NumberOfLabels: Integer;
 }

@@ -12,12 +12,12 @@ Codeunit 60000 "TCC MuM Whs. Business Events"
             Customer.Init;
 
         BusinessEventMuMGRProWhseRcptHeaderInsert(Rec.SystemId, Rec."No.", Rec."Sell-to Customer No.",
-                    Rec."External Order No.", Customer."E-Mail", Customer."Language Code");
+                    Rec."External Order No.", Customer."E-Mail", Customer."Language Code", rec."CO Responsibility Center");
     end;
 
     [ExternalBusinessEvent('MuMGRProWhseRcptHeader', 'MuM goods receipt processed', 'This business event is triggered when a MuM GR Pro. Whse. Rcpt. Header Record is inserted', Enum::EventCategory::"CCT MuM GR Pro. Whse. Rcpt. Events", '1.2')]
     local procedure BusinessEventMuMGRProWhseRcptHeaderInsert(MuMGRProWhseRcptHeaderId: Guid; MuMGRProWhseRcptHeaderNo: Code[20]; MuMGRProWhseRcptHeaderSellToCustomerNo: Code[20];
-            MuMGRProWhseRcptHeaderExternalOrderNo: Code[35]; CustomerEMail: Text[80]; CustomerLanguageCode: Code[10])
+            MuMGRProWhseRcptHeaderExternalOrderNo: Code[35]; CustomerEMail: Text[80]; CustomerLanguageCode: Code[10]; coResponsibilityCenter: Code[10] )
     begin
     end;
 

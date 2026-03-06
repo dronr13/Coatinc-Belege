@@ -11,7 +11,7 @@
       <am:Name>MSRB</am:Name>
       <am:Version>15.1.30001.02</am:Version>
     </am:UpdatedBy>
-    <am:LastModifiedTimestamp>2026-01-20T09:04:14.5063181Z</am:LastModifiedTimestamp>
+    <am:LastModifiedTimestamp>2026-03-06T11:00:01.7404198Z</am:LastModifiedTimestamp>
   </am:AuthoringMetadata>
   <AutoRefresh>0</AutoRefresh>
   <DataSources>
@@ -59,14 +59,14 @@
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
-                                          <Textbox Name="Caption1">
-                                            <rd:DefaultName>Caption1</rd:DefaultName>
+                                          <Textbox Name="CustomerNo">
+                                            <rd:DefaultName>CustomerNo</rd:DefaultName>
                                             <KeepTogether>true</KeepTogether>
                                             <Paragraphs>
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value>=Parameters!ReceiptNoLbl.Value</Value>
+                                                    <Value>=Parameters!CustomerNoLbl.Value</Value>
                                                     <Style>
                                                       <FontSize>8pt</FontSize>
                                                     </Style>
@@ -86,25 +86,55 @@
                                               <PaddingBottom>2pt</PaddingBottom>
                                             </Style>
                                           </Textbox>
-                                          <ColSpan>2</ColSpan>
                                         </CellContents>
                                       </TablixCell>
-                                      <TablixCell />
-                                    </TablixCells>
-                                  </TablixRow>
-                                  <TablixRow>
-                                    <Height>0.6cm</Height>
-                                    <TablixCells>
                                       <TablixCell>
                                         <CellContents>
-                                          <Textbox Name="Value1">
-                                            <rd:DefaultName>Value1</rd:DefaultName>
+                                          <Textbox Name="CustomerNo1">
+                                            <rd:DefaultName>CustomerNo1</rd:DefaultName>
+                                            <CanGrow>true</CanGrow>
                                             <KeepTogether>true</KeepTogether>
                                             <Paragraphs>
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value>=Fields!No.Value</Value>
+                                                    <Value>=Fields!CustomerNo.Value</Value>
+                                                    <Style>
+                                                      <FontSize>8pt</FontSize>
+                                                    </Style>
+                                                  </TextRun>
+                                                </TextRuns>
+                                                <Style />
+                                              </Paragraph>
+                                            </Paragraphs>
+                                            <Style>
+                                              <Border>
+                                                <Color>LightGrey</Color>
+                                                <Style>None</Style>
+                                              </Border>
+                                              <PaddingLeft>2pt</PaddingLeft>
+                                              <PaddingRight>2pt</PaddingRight>
+                                              <PaddingTop>2pt</PaddingTop>
+                                              <PaddingBottom>2pt</PaddingBottom>
+                                            </Style>
+                                          </Textbox>
+                                        </CellContents>
+                                      </TablixCell>
+                                    </TablixCells>
+                                  </TablixRow>
+                                  <TablixRow>
+                                    <Height>0.73229cm</Height>
+                                    <TablixCells>
+                                      <TablixCell>
+                                        <CellContents>
+                                          <Textbox Name="CustomerName">
+                                            <rd:DefaultName>CustomerName</rd:DefaultName>
+                                            <KeepTogether>true</KeepTogether>
+                                            <Paragraphs>
+                                              <Paragraph>
+                                                <TextRuns>
+                                                  <TextRun>
+                                                    <Value>=Fields!CustomerName.Value</Value>
                                                     <Style>
                                                       <FontSize>12pt</FontSize>
                                                       <FontWeight>Bold</FontWeight>
@@ -143,7 +173,7 @@
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value>=Parameters!CustomerNoLbl.Value</Value>
+                                                    <Value />
                                                     <Style>
                                                       <FontSize>8pt</FontSize>
                                                     </Style>
@@ -174,18 +204,15 @@
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
-                                          <Textbox Name="Value2">
-                                            <rd:DefaultName>Value2</rd:DefaultName>
+                                          <Textbox Name="GoodsReceiptNo">
+                                            <rd:DefaultName>GoodsReceiptNo</rd:DefaultName>
                                             <KeepTogether>true</KeepTogether>
                                             <Paragraphs>
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value>=Fields!CustomerNo.Value</Value>
-                                                    <Style>
-                                                      <FontSize>12pt</FontSize>
-                                                      <FontWeight>Bold</FontWeight>
-                                                    </Style>
+                                                    <Value>=Parameters!GoodsReceiptNoLbl.Value</Value>
+                                                    <Style />
                                                   </TextRun>
                                                 </TextRuns>
                                                 <Style />
@@ -202,28 +229,119 @@
                                               <PaddingBottom>2pt</PaddingBottom>
                                             </Style>
                                           </Textbox>
-                                          <ColSpan>2</ColSpan>
                                         </CellContents>
                                       </TablixCell>
-                                      <TablixCell />
-                                    </TablixCells>
-                                  </TablixRow>
-                                  <TablixRow>
-                                    <Height>0.44125cm</Height>
-                                    <TablixCells>
                                       <TablixCell>
                                         <CellContents>
-                                          <Textbox Name="Caption31">
-                                            <rd:DefaultName>Caption31</rd:DefaultName>
+                                          <Textbox Name="GoodsReceiptNo1">
+                                            <rd:DefaultName>GoodsReceiptNo1</rd:DefaultName>
+                                            <CanGrow>true</CanGrow>
                                             <KeepTogether>true</KeepTogether>
                                             <Paragraphs>
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value>=Parameters!CustomerNameLbl.Value</Value>
-                                                    <Style>
-                                                      <FontSize>8pt</FontSize>
-                                                    </Style>
+                                                    <Value>=Fields!GoodsReceiptNo.Value</Value>
+                                                    <Style />
+                                                  </TextRun>
+                                                </TextRuns>
+                                                <Style />
+                                              </Paragraph>
+                                            </Paragraphs>
+                                            <Style>
+                                              <Border>
+                                                <Color>LightGrey</Color>
+                                                <Style>None</Style>
+                                              </Border>
+                                              <PaddingLeft>2pt</PaddingLeft>
+                                              <PaddingRight>2pt</PaddingRight>
+                                              <PaddingTop>2pt</PaddingTop>
+                                              <PaddingBottom>2pt</PaddingBottom>
+                                            </Style>
+                                          </Textbox>
+                                        </CellContents>
+                                      </TablixCell>
+                                    </TablixCells>
+                                  </TablixRow>
+                                  <TablixRow>
+                                    <Height>0.6cm</Height>
+                                    <TablixCells>
+                                      <TablixCell>
+                                        <CellContents>
+                                          <Textbox Name="Textbox1">
+                                            <rd:DefaultName>Textbox1</rd:DefaultName>
+                                            <CanGrow>true</CanGrow>
+                                            <KeepTogether>true</KeepTogether>
+                                            <Paragraphs>
+                                              <Paragraph>
+                                                <TextRuns>
+                                                  <TextRun>
+                                                    <Value>=Parameters!SalesOrderNoLbl.Value</Value>
+                                                    <Style />
+                                                  </TextRun>
+                                                </TextRuns>
+                                                <Style />
+                                              </Paragraph>
+                                            </Paragraphs>
+                                            <Style>
+                                              <Border>
+                                                <Color>LightGrey</Color>
+                                                <Style>None</Style>
+                                              </Border>
+                                              <PaddingLeft>2pt</PaddingLeft>
+                                              <PaddingRight>2pt</PaddingRight>
+                                              <PaddingTop>2pt</PaddingTop>
+                                              <PaddingBottom>2pt</PaddingBottom>
+                                            </Style>
+                                          </Textbox>
+                                        </CellContents>
+                                      </TablixCell>
+                                      <TablixCell>
+                                        <CellContents>
+                                          <Textbox Name="SalesOrderNo">
+                                            <rd:DefaultName>SalesOrderNo</rd:DefaultName>
+                                            <CanGrow>true</CanGrow>
+                                            <KeepTogether>true</KeepTogether>
+                                            <Paragraphs>
+                                              <Paragraph>
+                                                <TextRuns>
+                                                  <TextRun>
+                                                    <Value>=Fields!SalesOrderNo.Value</Value>
+                                                    <Style />
+                                                  </TextRun>
+                                                </TextRuns>
+                                                <Style />
+                                              </Paragraph>
+                                            </Paragraphs>
+                                            <Style>
+                                              <Border>
+                                                <Color>LightGrey</Color>
+                                                <Style>None</Style>
+                                              </Border>
+                                              <PaddingLeft>2pt</PaddingLeft>
+                                              <PaddingRight>2pt</PaddingRight>
+                                              <PaddingTop>2pt</PaddingTop>
+                                              <PaddingBottom>2pt</PaddingBottom>
+                                            </Style>
+                                          </Textbox>
+                                        </CellContents>
+                                      </TablixCell>
+                                    </TablixCells>
+                                  </TablixRow>
+                                  <TablixRow>
+                                    <Height>0.6cm</Height>
+                                    <TablixCells>
+                                      <TablixCell>
+                                        <CellContents>
+                                          <Textbox Name="OrderReference">
+                                            <rd:DefaultName>OrderReference</rd:DefaultName>
+                                            <KeepTogether>true</KeepTogether>
+                                            <Paragraphs>
+                                              <Paragraph>
+                                                <TextRuns>
+                                                  <TextRun>
+                                                    <Value>=Fields!OrderReference.Value</Value>
+                                                    <Style />
                                                   </TextRun>
                                                 </TextRuns>
                                                 <Style />
@@ -251,18 +369,15 @@
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
-                                          <Textbox Name="Value3">
-                                            <rd:DefaultName>Value3</rd:DefaultName>
+                                          <Textbox Name="ProdOrderNo">
+                                            <rd:DefaultName>ProdOrderNo</rd:DefaultName>
                                             <KeepTogether>true</KeepTogether>
                                             <Paragraphs>
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value>=Fields!Customer.Value</Value>
-                                                    <Style>
-                                                      <FontSize>12pt</FontSize>
-                                                      <FontWeight>Bold</FontWeight>
-                                                    </Style>
+                                                    <Value>=Parameters!ColloNoLbl.Value</Value>
+                                                    <Style />
                                                   </TextRun>
                                                 </TextRuns>
                                                 <Style />
@@ -279,14 +394,43 @@
                                               <PaddingBottom>2pt</PaddingBottom>
                                             </Style>
                                           </Textbox>
-                                          <ColSpan>2</ColSpan>
                                         </CellContents>
                                       </TablixCell>
-                                      <TablixCell />
+                                      <TablixCell>
+                                        <CellContents>
+                                          <rd:Selected>true</rd:Selected>
+                                          <Textbox Name="ColloNo">
+                                            <rd:DefaultName>ColloNo</rd:DefaultName>
+                                            <CanGrow>true</CanGrow>
+                                            <KeepTogether>true</KeepTogether>
+                                            <Paragraphs>
+                                              <Paragraph>
+                                                <TextRuns>
+                                                  <TextRun>
+                                                    <Value>=Fields!ColloNo.Value</Value>
+                                                    <Style />
+                                                  </TextRun>
+                                                </TextRuns>
+                                                <Style />
+                                              </Paragraph>
+                                            </Paragraphs>
+                                            <Style>
+                                              <Border>
+                                                <Color>LightGrey</Color>
+                                                <Style>None</Style>
+                                              </Border>
+                                              <PaddingLeft>2pt</PaddingLeft>
+                                              <PaddingRight>2pt</PaddingRight>
+                                              <PaddingTop>2pt</PaddingTop>
+                                              <PaddingBottom>2pt</PaddingBottom>
+                                            </Style>
+                                          </Textbox>
+                                        </CellContents>
+                                      </TablixCell>
                                     </TablixCells>
                                   </TablixRow>
                                   <TablixRow>
-                                    <Height>0.46771cm</Height>
+                                    <Height>0.65292cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -297,10 +441,8 @@
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value>=Parameters!DateInLbl.Value</Value>
-                                                    <Style>
-                                                      <FontSize>8pt</FontSize>
-                                                    </Style>
+                                                    <Value />
+                                                    <Style />
                                                   </TextRun>
                                                 </TextRuns>
                                                 <Style />
@@ -328,14 +470,14 @@
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
-                                          <Textbox Name="Value4">
-                                            <rd:DefaultName>Value4</rd:DefaultName>
+                                          <Textbox Name="Item_Description">
+                                            <rd:DefaultName>Item_Description</rd:DefaultName>
                                             <KeepTogether>true</KeepTogether>
                                             <Paragraphs>
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value>=Fields!DateIn.Value</Value>
+                                                    <Value>=Fields!Item_Description.Value</Value>
                                                     <Style>
                                                       <FontSize>12pt</FontSize>
                                                       <FontWeight>Bold</FontWeight>
@@ -366,7 +508,7 @@
                                     </TablixCells>
                                   </TablixRow>
                                   <TablixRow>
-                                    <Height>0.44125cm</Height>
+                                    <Height>0.67938cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -377,9 +519,75 @@
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value>=Parameters!ReferenceLbl.Value</Value>
+                                                    <Value>=Parameters!ProdOrderNoLbl.Value</Value>
+                                                    <Style />
+                                                  </TextRun>
+                                                </TextRuns>
+                                                <Style />
+                                              </Paragraph>
+                                            </Paragraphs>
+                                            <Style>
+                                              <Border>
+                                                <Color>LightGrey</Color>
+                                                <Style>None</Style>
+                                              </Border>
+                                              <PaddingLeft>2pt</PaddingLeft>
+                                              <PaddingRight>2pt</PaddingRight>
+                                              <PaddingTop>2pt</PaddingTop>
+                                              <PaddingBottom>2pt</PaddingBottom>
+                                            </Style>
+                                          </Textbox>
+                                        </CellContents>
+                                      </TablixCell>
+                                      <TablixCell>
+                                        <CellContents>
+                                          <Textbox Name="ProdOrderNo1">
+                                            <rd:DefaultName>ProdOrderNo1</rd:DefaultName>
+                                            <CanGrow>true</CanGrow>
+                                            <KeepTogether>true</KeepTogether>
+                                            <Paragraphs>
+                                              <Paragraph>
+                                                <TextRuns>
+                                                  <TextRun>
+                                                    <Value>=Fields!ProdOrderNo.Value</Value>
+                                                    <Style />
+                                                  </TextRun>
+                                                </TextRuns>
+                                                <Style />
+                                              </Paragraph>
+                                            </Paragraphs>
+                                            <Style>
+                                              <Border>
+                                                <Color>LightGrey</Color>
+                                                <Style>None</Style>
+                                              </Border>
+                                              <PaddingLeft>2pt</PaddingLeft>
+                                              <PaddingRight>2pt</PaddingRight>
+                                              <PaddingTop>2pt</PaddingTop>
+                                              <PaddingBottom>2pt</PaddingBottom>
+                                            </Style>
+                                          </Textbox>
+                                        </CellContents>
+                                      </TablixCell>
+                                    </TablixCells>
+                                  </TablixRow>
+                                  <TablixRow>
+                                    <Height>0.6cm</Height>
+                                    <TablixCells>
+                                      <TablixCell>
+                                        <CellContents>
+                                          <Textbox Name="OrderReference1">
+                                            <rd:DefaultName>OrderReference1</rd:DefaultName>
+                                            <KeepTogether>true</KeepTogether>
+                                            <Paragraphs>
+                                              <Paragraph>
+                                                <TextRuns>
+                                                  <TextRun>
+                                                    <Value />
+                                                    <MarkupType>HTML</MarkupType>
                                                     <Style>
-                                                      <FontSize>8pt</FontSize>
+                                                      <FontSize>12pt</FontSize>
+                                                      <FontWeight>Bold</FontWeight>
                                                     </Style>
                                                   </TextRun>
                                                 </TextRuns>
@@ -408,15 +616,15 @@
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
-                                          <Textbox Name="Value5">
-                                            <rd:DefaultName>Value5</rd:DefaultName>
+                                          <Textbox Name="Textbox14">
+                                            <rd:DefaultName>Textbox14</rd:DefaultName>
+                                            <CanGrow>true</CanGrow>
                                             <KeepTogether>true</KeepTogether>
                                             <Paragraphs>
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value>=Fields!Reference.Value</Value>
-                                                    <MarkupType>HTML</MarkupType>
+                                                    <Value />
                                                     <Style>
                                                       <FontSize>12pt</FontSize>
                                                       <FontWeight>Bold</FontWeight>
@@ -437,10 +645,183 @@
                                               <PaddingBottom>2pt</PaddingBottom>
                                             </Style>
                                           </Textbox>
-                                          <ColSpan>2</ColSpan>
                                         </CellContents>
                                       </TablixCell>
-                                      <TablixCell />
+                                      <TablixCell>
+                                        <CellContents>
+                                          <Textbox Name="Textbox15">
+                                            <rd:DefaultName>Textbox15</rd:DefaultName>
+                                            <CanGrow>true</CanGrow>
+                                            <KeepTogether>true</KeepTogether>
+                                            <Paragraphs>
+                                              <Paragraph>
+                                                <TextRuns>
+                                                  <TextRun>
+                                                    <Value />
+                                                    <Style>
+                                                      <FontSize>12pt</FontSize>
+                                                      <FontWeight>Bold</FontWeight>
+                                                    </Style>
+                                                  </TextRun>
+                                                </TextRuns>
+                                                <Style />
+                                              </Paragraph>
+                                            </Paragraphs>
+                                            <Style>
+                                              <Border>
+                                                <Color>LightGrey</Color>
+                                                <Style>None</Style>
+                                              </Border>
+                                              <PaddingLeft>2pt</PaddingLeft>
+                                              <PaddingRight>2pt</PaddingRight>
+                                              <PaddingTop>2pt</PaddingTop>
+                                              <PaddingBottom>2pt</PaddingBottom>
+                                            </Style>
+                                          </Textbox>
+                                        </CellContents>
+                                      </TablixCell>
+                                    </TablixCells>
+                                  </TablixRow>
+                                  <TablixRow>
+                                    <Height>0.6cm</Height>
+                                    <TablixCells>
+                                      <TablixCell>
+                                        <CellContents>
+                                          <Textbox Name="Textbox16">
+                                            <rd:DefaultName>Textbox16</rd:DefaultName>
+                                            <CanGrow>true</CanGrow>
+                                            <KeepTogether>true</KeepTogether>
+                                            <Paragraphs>
+                                              <Paragraph>
+                                                <TextRuns>
+                                                  <TextRun>
+                                                    <Value>=Parameters!WeightLbl.Value</Value>
+                                                    <Style>
+                                                      <FontSize>12pt</FontSize>
+                                                      <FontWeight>Bold</FontWeight>
+                                                    </Style>
+                                                  </TextRun>
+                                                </TextRuns>
+                                                <Style />
+                                              </Paragraph>
+                                            </Paragraphs>
+                                            <Style>
+                                              <Border>
+                                                <Color>LightGrey</Color>
+                                                <Style>None</Style>
+                                              </Border>
+                                              <PaddingLeft>2pt</PaddingLeft>
+                                              <PaddingRight>2pt</PaddingRight>
+                                              <PaddingTop>2pt</PaddingTop>
+                                              <PaddingBottom>2pt</PaddingBottom>
+                                            </Style>
+                                          </Textbox>
+                                        </CellContents>
+                                      </TablixCell>
+                                      <TablixCell>
+                                        <CellContents>
+                                          <Textbox Name="Textbox17">
+                                            <rd:DefaultName>Textbox17</rd:DefaultName>
+                                            <CanGrow>true</CanGrow>
+                                            <KeepTogether>true</KeepTogether>
+                                            <Paragraphs>
+                                              <Paragraph>
+                                                <TextRuns>
+                                                  <TextRun>
+                                                    <Value>=Str(Fields!Weight.Value) + " Kg"</Value>
+                                                    <Style>
+                                                      <FontSize>12pt</FontSize>
+                                                      <FontWeight>Bold</FontWeight>
+                                                    </Style>
+                                                  </TextRun>
+                                                </TextRuns>
+                                                <Style />
+                                              </Paragraph>
+                                            </Paragraphs>
+                                            <Style>
+                                              <Border>
+                                                <Color>LightGrey</Color>
+                                                <Style>None</Style>
+                                              </Border>
+                                              <PaddingLeft>2pt</PaddingLeft>
+                                              <PaddingRight>2pt</PaddingRight>
+                                              <PaddingTop>2pt</PaddingTop>
+                                              <PaddingBottom>2pt</PaddingBottom>
+                                            </Style>
+                                          </Textbox>
+                                        </CellContents>
+                                      </TablixCell>
+                                    </TablixCells>
+                                  </TablixRow>
+                                  <TablixRow>
+                                    <Height>0.6cm</Height>
+                                    <TablixCells>
+                                      <TablixCell>
+                                        <CellContents>
+                                          <Textbox Name="Textbox12">
+                                            <rd:DefaultName>Textbox12</rd:DefaultName>
+                                            <CanGrow>true</CanGrow>
+                                            <KeepTogether>true</KeepTogether>
+                                            <Paragraphs>
+                                              <Paragraph>
+                                                <TextRuns>
+                                                  <TextRun>
+                                                    <Value>=Parameters!CoFinishedWhseBinCodeLbl.Value</Value>
+                                                    <Style>
+                                                      <FontSize>12pt</FontSize>
+                                                      <FontWeight>Bold</FontWeight>
+                                                    </Style>
+                                                  </TextRun>
+                                                </TextRuns>
+                                                <Style />
+                                              </Paragraph>
+                                            </Paragraphs>
+                                            <Style>
+                                              <Border>
+                                                <Color>LightGrey</Color>
+                                                <Style>None</Style>
+                                              </Border>
+                                              <PaddingLeft>2pt</PaddingLeft>
+                                              <PaddingRight>2pt</PaddingRight>
+                                              <PaddingTop>2pt</PaddingTop>
+                                              <PaddingBottom>2pt</PaddingBottom>
+                                            </Style>
+                                          </Textbox>
+                                        </CellContents>
+                                      </TablixCell>
+                                      <TablixCell>
+                                        <CellContents>
+                                          <Textbox Name="CoFinishedWhseBinCode">
+                                            <rd:DefaultName>CoFinishedWhseBinCode</rd:DefaultName>
+                                            <CanGrow>true</CanGrow>
+                                            <KeepTogether>true</KeepTogether>
+                                            <Paragraphs>
+                                              <Paragraph>
+                                                <TextRuns>
+                                                  <TextRun>
+                                                    <Value>=Fields!CoFinishedWhseBinCode.Value</Value>
+                                                    <Style>
+                                                      <FontSize>12pt</FontSize>
+                                                      <FontWeight>Bold</FontWeight>
+                                                    </Style>
+                                                  </TextRun>
+                                                </TextRuns>
+                                                <Style />
+                                              </Paragraph>
+                                            </Paragraphs>
+                                            <Style>
+                                              <Border>
+                                                <Color>LightGrey</Color>
+                                                <Style>None</Style>
+                                              </Border>
+                                              <PaddingLeft>2pt</PaddingLeft>
+                                              <PaddingRight>2pt</PaddingRight>
+                                              <PaddingTop>2pt</PaddingTop>
+                                              <PaddingBottom>2pt</PaddingBottom>
+                                            </Style>
+                                          </Textbox>
+                                        </CellContents>
+                                      </TablixCell>
                                     </TablixCells>
                                   </TablixRow>
                                 </TablixRows>
@@ -463,11 +844,15 @@
                                   <TablixMember />
                                   <TablixMember />
                                   <TablixMember />
+                                  <TablixMember />
+                                  <TablixMember />
+                                  <TablixMember />
+                                  <TablixMember />
                                 </TablixMembers>
                               </TablixRowHierarchy>
                               <DataSetName>DataSet_Result</DataSetName>
-                              <Top>0.33237cm</Top>
-                              <Height>5.28563cm</Height>
+                              <Top>3.08402cm</Top>
+                              <Height>8.40001cm</Height>
                               <Width>9.00812cm</Width>
                               <Style>
                                 <Border>
@@ -476,38 +861,150 @@
                                 </Border>
                               </Style>
                             </Tablix>
-                            <Textbox Name="Textbox36">
-                              <rd:DefaultName>Textbox36</rd:DefaultName>
-                              <CanGrow>true</CanGrow>
-                              <KeepTogether>true</KeepTogether>
-                              <Paragraphs>
-                                <Paragraph>
-                                  <TextRuns>
-                                    <TextRun>
-                                      <Value>=Fields!QRCode.Value</Value>
-                                      <Style>
-                                        <FontFamily>IDAutomation2D</FontFamily>
-                                      </Style>
-                                    </TextRun>
-                                  </TextRuns>
-                                  <Style />
-                                </Paragraph>
-                              </Paragraphs>
-                              <Top>9.23396cm</Top>
-                              <Left>0cm</Left>
-                              <Height>4cm</Height>
-                              <Width>4cm</Width>
+                            <Tablix Name="Tablix1">
+                              <TablixBody>
+                                <TablixColumns>
+                                  <TablixColumn>
+                                    <Width>6.32222cm</Width>
+                                  </TablixColumn>
+                                </TablixColumns>
+                                <TablixRows>
+                                  <TablixRow>
+                                    <Height>0.6cm</Height>
+                                    <TablixCells>
+                                      <TablixCell>
+                                        <CellContents>
+                                          <Textbox Name="RespCenterName">
+                                            <rd:DefaultName>RespCenterName</rd:DefaultName>
+                                            <CanGrow>true</CanGrow>
+                                            <KeepTogether>true</KeepTogether>
+                                            <Paragraphs>
+                                              <Paragraph>
+                                                <TextRuns>
+                                                  <TextRun>
+                                                    <Value>=Fields!RespCenterName.Value</Value>
+                                                    <Style>
+                                                      <FontSize>8pt</FontSize>
+                                                    </Style>
+                                                  </TextRun>
+                                                </TextRuns>
+                                                <Style />
+                                              </Paragraph>
+                                            </Paragraphs>
+                                            <Style>
+                                              <Border>
+                                                <Color>LightGrey</Color>
+                                                <Style>None</Style>
+                                              </Border>
+                                              <PaddingLeft>2pt</PaddingLeft>
+                                              <PaddingRight>2pt</PaddingRight>
+                                              <PaddingTop>2pt</PaddingTop>
+                                              <PaddingBottom>2pt</PaddingBottom>
+                                            </Style>
+                                          </Textbox>
+                                        </CellContents>
+                                      </TablixCell>
+                                    </TablixCells>
+                                  </TablixRow>
+                                  <TablixRow>
+                                    <Height>0.6cm</Height>
+                                    <TablixCells>
+                                      <TablixCell>
+                                        <CellContents>
+                                          <Textbox Name="RespCenterAddress">
+                                            <rd:DefaultName>RespCenterAddress</rd:DefaultName>
+                                            <CanGrow>true</CanGrow>
+                                            <KeepTogether>true</KeepTogether>
+                                            <Paragraphs>
+                                              <Paragraph>
+                                                <TextRuns>
+                                                  <TextRun>
+                                                    <Value>=Fields!RespCenterAddress.Value</Value>
+                                                    <Style>
+                                                      <FontSize>8pt</FontSize>
+                                                    </Style>
+                                                  </TextRun>
+                                                </TextRuns>
+                                                <Style />
+                                              </Paragraph>
+                                            </Paragraphs>
+                                            <Style>
+                                              <Border>
+                                                <Color>LightGrey</Color>
+                                                <Style>None</Style>
+                                              </Border>
+                                              <PaddingLeft>2pt</PaddingLeft>
+                                              <PaddingRight>2pt</PaddingRight>
+                                              <PaddingTop>2pt</PaddingTop>
+                                              <PaddingBottom>2pt</PaddingBottom>
+                                            </Style>
+                                          </Textbox>
+                                        </CellContents>
+                                      </TablixCell>
+                                    </TablixCells>
+                                  </TablixRow>
+                                  <TablixRow>
+                                    <Height>0.6cm</Height>
+                                    <TablixCells>
+                                      <TablixCell>
+                                        <CellContents>
+                                          <Textbox Name="RespCenterPostCodeCity">
+                                            <rd:DefaultName>RespCenterPostCodeCity</rd:DefaultName>
+                                            <CanGrow>true</CanGrow>
+                                            <KeepTogether>true</KeepTogether>
+                                            <Paragraphs>
+                                              <Paragraph>
+                                                <TextRuns>
+                                                  <TextRun>
+                                                    <Value>=Fields!RespCenterPostCodeCity.Value</Value>
+                                                    <Style>
+                                                      <FontSize>8pt</FontSize>
+                                                    </Style>
+                                                  </TextRun>
+                                                </TextRuns>
+                                                <Style />
+                                              </Paragraph>
+                                            </Paragraphs>
+                                            <Style>
+                                              <Border>
+                                                <Color>LightGrey</Color>
+                                                <Style>None</Style>
+                                              </Border>
+                                              <PaddingLeft>2pt</PaddingLeft>
+                                              <PaddingRight>2pt</PaddingRight>
+                                              <PaddingTop>2pt</PaddingTop>
+                                              <PaddingBottom>2pt</PaddingBottom>
+                                            </Style>
+                                          </Textbox>
+                                        </CellContents>
+                                      </TablixCell>
+                                    </TablixCells>
+                                  </TablixRow>
+                                </TablixRows>
+                              </TablixBody>
+                              <TablixColumnHierarchy>
+                                <TablixMembers>
+                                  <TablixMember />
+                                </TablixMembers>
+                              </TablixColumnHierarchy>
+                              <TablixRowHierarchy>
+                                <TablixMembers>
+                                  <TablixMember />
+                                  <TablixMember />
+                                  <TablixMember />
+                                </TablixMembers>
+                              </TablixRowHierarchy>
+                              <DataSetName>DataSet_Result</DataSetName>
+                              <Left>0.03528cm</Left>
+                              <Height>1.8cm</Height>
+                              <Width>6.32222cm</Width>
                               <ZIndex>1</ZIndex>
                               <Style>
                                 <Border>
                                   <Style>None</Style>
                                 </Border>
-                                <PaddingLeft>2pt</PaddingLeft>
-                                <PaddingRight>2pt</PaddingRight>
-                                <PaddingTop>2pt</PaddingTop>
-                                <PaddingBottom>2pt</PaddingBottom>
                               </Style>
-                            </Textbox>
+                            </Tablix>
                           </ReportItems>
                           <KeepTogether>true</KeepTogether>
                           <Style>
@@ -543,6 +1040,38 @@
               </Border>
             </Style>
           </Tablix>
+          <Textbox Name="Textbox36">
+            <rd:DefaultName>Textbox36</rd:DefaultName>
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>=Fields!QRCode.Value</Value>
+                    <Style>
+                      <FontFamily>IDAutomation2D</FontFamily>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <Top>0.96724cm</Top>
+            <Left>6.64536cm</Left>
+            <Height>2.54479cm</Height>
+            <Width>2.59771cm</Width>
+            <ZIndex>1</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
         </ReportItems>
         <Height>15.02708cm</Height>
         <Style />
@@ -557,14 +1086,50 @@
     </ReportSection>
   </ReportSections>
   <ReportParameters>
-    <ReportParameter Name="ReceiptNoLbl">
+    <ReportParameter Name="CampaignNoLbl">
       <DataType>String</DataType>
       <DefaultValue>
         <Values>
-          <Value>ReceiptNoLbl</Value>
+          <Value>CampaignNoLbl</Value>
         </Values>
       </DefaultValue>
-      <Prompt>ReceiptNoLbl</Prompt>
+      <Prompt>CampaignNoLbl</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="LineNoLbl">
+      <DataType>String</DataType>
+      <DefaultValue>
+        <Values>
+          <Value>LineNoLbl</Value>
+        </Values>
+      </DefaultValue>
+      <Prompt>LineNoLbl</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="PackageCodeLbl">
+      <DataType>String</DataType>
+      <DefaultValue>
+        <Values>
+          <Value>PackageCodeLbl</Value>
+        </Values>
+      </DefaultValue>
+      <Prompt>PackageCodeLbl</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="ColloNoLbl">
+      <DataType>String</DataType>
+      <DefaultValue>
+        <Values>
+          <Value>ColloNoLbl</Value>
+        </Values>
+      </DefaultValue>
+      <Prompt>ColloNoLbl</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="WeightLbl">
+      <DataType>String</DataType>
+      <DefaultValue>
+        <Values>
+          <Value>WeightLbl</Value>
+        </Values>
+      </DefaultValue>
+      <Prompt>WeightLbl</Prompt>
     </ReportParameter>
     <ReportParameter Name="CustomerNoLbl">
       <DataType>String</DataType>
@@ -584,54 +1149,200 @@
       </DefaultValue>
       <Prompt>CustomerNameLbl</Prompt>
     </ReportParameter>
-    <ReportParameter Name="ReferenceLbl">
+    <ReportParameter Name="OrderReferenceLbl">
       <DataType>String</DataType>
       <DefaultValue>
         <Values>
-          <Value>ReferenceLbl</Value>
+          <Value>OrderReferenceLbl</Value>
         </Values>
       </DefaultValue>
-      <Prompt>ReferenceLbl</Prompt>
+      <Prompt>OrderReferenceLbl</Prompt>
     </ReportParameter>
-    <ReportParameter Name="DateInLbl">
+    <ReportParameter Name="GoodsReceiptNoLbl">
       <DataType>String</DataType>
       <DefaultValue>
         <Values>
-          <Value>DateInLbl</Value>
+          <Value>GoodsReceiptNoLbl</Value>
         </Values>
       </DefaultValue>
-      <Prompt>DateInLbl</Prompt>
+      <Prompt>GoodsReceiptNoLbl</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="ProdOrderNoLbl">
+      <DataType>String</DataType>
+      <DefaultValue>
+        <Values>
+          <Value>ProdOrderNoLbl</Value>
+        </Values>
+      </DefaultValue>
+      <Prompt>ProdOrderNoLbl</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="PackageGroupNoLbl">
+      <DataType>String</DataType>
+      <DefaultValue>
+        <Values>
+          <Value>PackageGroupNoLbl</Value>
+        </Values>
+      </DefaultValue>
+      <Prompt>PackageGroupNoLbl</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="CoFinishedWhseBinCodeLbl">
+      <DataType>String</DataType>
+      <DefaultValue>
+        <Values>
+          <Value>CoFinishedWhseBinCodeLbl</Value>
+        </Values>
+      </DefaultValue>
+      <Prompt>CoFinishedWhseBinCodeLbl</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="RespCenterNameLbl">
+      <DataType>String</DataType>
+      <DefaultValue>
+        <Values>
+          <Value>RespCenterNameLbl</Value>
+        </Values>
+      </DefaultValue>
+      <Prompt>RespCenterNameLbl</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="RespCenterAddressLbl">
+      <DataType>String</DataType>
+      <DefaultValue>
+        <Values>
+          <Value>RespCenterAddressLbl</Value>
+        </Values>
+      </DefaultValue>
+      <Prompt>RespCenterAddressLbl</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="RespCenterPostCodeCityLbl">
+      <DataType>String</DataType>
+      <DefaultValue>
+        <Values>
+          <Value>RespCenterPostCodeCityLbl</Value>
+        </Values>
+      </DefaultValue>
+      <Prompt>RespCenterPostCodeCityLbl</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="ItemDescriptionLbl">
+      <DataType>String</DataType>
+      <DefaultValue>
+        <Values>
+          <Value>ItemDescriptionLbl</Value>
+        </Values>
+      </DefaultValue>
+      <Prompt>ItemDescriptionLbl</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="SalesOrderNoLbl">
+      <DataType>String</DataType>
+      <DefaultValue>
+        <Values>
+          <Value>SalesOrderNoLbl</Value>
+        </Values>
+      </DefaultValue>
+      <Prompt>SalesOrderNoLbl</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="DebugTextLbl">
+      <DataType>String</DataType>
+      <DefaultValue>
+        <Values>
+          <Value>DebugTextLbl</Value>
+        </Values>
+      </DefaultValue>
+      <Prompt>DebugTextLbl</Prompt>
     </ReportParameter>
   </ReportParameters>
   <ReportParametersLayout>
     <GridLayoutDefinition>
       <NumberOfColumns>1</NumberOfColumns>
-      <NumberOfRows>5</NumberOfRows>
+      <NumberOfRows>18</NumberOfRows>
       <CellDefinitions>
         <CellDefinition>
           <ColumnIndex>0</ColumnIndex>
           <RowIndex>0</RowIndex>
-          <ParameterName>ReceiptNoLbl</ParameterName>
+          <ParameterName>CampaignNoLbl</ParameterName>
         </CellDefinition>
         <CellDefinition>
           <ColumnIndex>0</ColumnIndex>
           <RowIndex>1</RowIndex>
-          <ParameterName>CustomerNoLbl</ParameterName>
+          <ParameterName>LineNoLbl</ParameterName>
         </CellDefinition>
         <CellDefinition>
           <ColumnIndex>0</ColumnIndex>
           <RowIndex>2</RowIndex>
-          <ParameterName>CustomerNameLbl</ParameterName>
+          <ParameterName>PackageCodeLbl</ParameterName>
         </CellDefinition>
         <CellDefinition>
           <ColumnIndex>0</ColumnIndex>
           <RowIndex>3</RowIndex>
-          <ParameterName>ReferenceLbl</ParameterName>
+          <ParameterName>ColloNoLbl</ParameterName>
         </CellDefinition>
         <CellDefinition>
           <ColumnIndex>0</ColumnIndex>
           <RowIndex>4</RowIndex>
-          <ParameterName>DateInLbl</ParameterName>
+          <ParameterName>WeightLbl</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>0</ColumnIndex>
+          <RowIndex>5</RowIndex>
+          <ParameterName>CustomerNoLbl</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>0</ColumnIndex>
+          <RowIndex>6</RowIndex>
+          <ParameterName>CustomerNameLbl</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>0</ColumnIndex>
+          <RowIndex>7</RowIndex>
+          <ParameterName>OrderReferenceLbl</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>0</ColumnIndex>
+          <RowIndex>8</RowIndex>
+          <ParameterName>GoodsReceiptNoLbl</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>0</ColumnIndex>
+          <RowIndex>9</RowIndex>
+          <ParameterName>ProdOrderNoLbl</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>0</ColumnIndex>
+          <RowIndex>10</RowIndex>
+          <ParameterName>PackageGroupNoLbl</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>0</ColumnIndex>
+          <RowIndex>11</RowIndex>
+          <ParameterName>CoFinishedWhseBinCodeLbl</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>0</ColumnIndex>
+          <RowIndex>12</RowIndex>
+          <ParameterName>RespCenterNameLbl</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>0</ColumnIndex>
+          <RowIndex>13</RowIndex>
+          <ParameterName>RespCenterAddressLbl</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>0</ColumnIndex>
+          <RowIndex>14</RowIndex>
+          <ParameterName>RespCenterPostCodeCityLbl</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>0</ColumnIndex>
+          <RowIndex>15</RowIndex>
+          <ParameterName>ItemDescriptionLbl</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>0</ColumnIndex>
+          <RowIndex>16</RowIndex>
+          <ParameterName>SalesOrderNoLbl</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>0</ColumnIndex>
+          <RowIndex>17</RowIndex>
+          <ParameterName>DebugTextLbl</ParameterName>
         </CellDefinition>
       </CellDefinitions>
     </GridLayoutDefinition>
@@ -676,26 +1387,65 @@ End Function
   <DataSets>
     <DataSet Name="DataSet_Result">
       <Fields>
-        <Field Name="No">
-          <DataField>No</DataField>
+        <Field Name="CampaignNo">
+          <DataField>CampaignNo</DataField>
         </Field>
-        <Field Name="Customer">
-          <DataField>Customer</DataField>
+        <Field Name="LineNo">
+          <DataField>LineNo</DataField>
+        </Field>
+        <Field Name="PackageCode">
+          <DataField>PackageCode</DataField>
+        </Field>
+        <Field Name="ColloNo">
+          <DataField>ColloNo</DataField>
+        </Field>
+        <Field Name="Weight">
+          <DataField>Weight</DataField>
+        </Field>
+        <Field Name="WeightFormat">
+          <DataField>WeightFormat</DataField>
         </Field>
         <Field Name="CustomerNo">
           <DataField>CustomerNo</DataField>
         </Field>
-        <Field Name="Reference">
-          <DataField>Reference</DataField>
+        <Field Name="CustomerName">
+          <DataField>CustomerName</DataField>
         </Field>
-        <Field Name="DateIn">
-          <DataField>DateIn</DataField>
+        <Field Name="OrderReference">
+          <DataField>OrderReference</DataField>
+        </Field>
+        <Field Name="GoodsReceiptNo">
+          <DataField>GoodsReceiptNo</DataField>
+        </Field>
+        <Field Name="ProdOrderNo">
+          <DataField>ProdOrderNo</DataField>
+        </Field>
+        <Field Name="PackageGroupNo">
+          <DataField>PackageGroupNo</DataField>
+        </Field>
+        <Field Name="CoFinishedWhseBinCode">
+          <DataField>CoFinishedWhseBinCode</DataField>
+        </Field>
+        <Field Name="RespCenterName">
+          <DataField>RespCenterName</DataField>
+        </Field>
+        <Field Name="RespCenterAddress">
+          <DataField>RespCenterAddress</DataField>
+        </Field>
+        <Field Name="RespCenterPostCodeCity">
+          <DataField>RespCenterPostCodeCity</DataField>
+        </Field>
+        <Field Name="Item_Description">
+          <DataField>Item_Description</DataField>
+        </Field>
+        <Field Name="SalesOrderNo">
+          <DataField>SalesOrderNo</DataField>
+        </Field>
+        <Field Name="DebugText">
+          <DataField>DebugText</DataField>
         </Field>
         <Field Name="QRCode">
           <DataField>QRCode</DataField>
-        </Field>
-        <Field Name="CopyIndex">
-          <DataField>CopyIndex</DataField>
         </Field>
       </Fields>
       <Query>

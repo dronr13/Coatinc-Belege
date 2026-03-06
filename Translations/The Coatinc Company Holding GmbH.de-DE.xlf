@@ -3,6 +3,139 @@
   <file datatype="xml" source-language="en-US" target-language="de-DE" original="The Coatinc Company Holding GmbH.g.xlf">
     <body>
       <group id="body">
+        <trans-unit id="Table 4287621124 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Package Label</source>
+          <target>Warenausgang label</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table TCC Package Label - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4287621124 - Field 3048556483 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Campaign No.</source>
+          <target>Kampagnennr.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table TCC Package Label - Field Campaign No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4287621124 - Field 1601023435 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Co Finished Whse. Bin Code</source>
+          <target>Lagerplatz</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table TCC Package Label - Field Co Finished Whse. Bin Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4287621124 - Field 380913200 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Collo No.</source>
+          <target>Packmittel No.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table TCC Package Label - Field Collo No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4287621124 - Field 1171137197 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer Name</source>
+          <target>Kunde Name</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table TCC Package Label - Field Customer Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4287621124 - Field 4190130733 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer No.</source>
+          <target>Kunde No.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table TCC Package Label - Field Customer No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4287621124 - Field 4008729824 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Debug Text</source>
+          <target>Debug Text</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table TCC Package Label - Field Debug Text - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4287621124 - Field 3107111189 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Goods Receipt No.</source>
+          <target>Warenanhname No.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table TCC Package Label - Field Goods Receipt No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4287621124 - Field 2842094365 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Description</source>
+          <target>Artikelbeschreibung</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table TCC Package Label - Field Item Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4287621124 - Field 3320823955 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Line No.</source>
+          <target>Zeilennr.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table TCC Package Label - Field Line No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4287621124 - Field 1251713815 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Order Reference</source>
+          <target>Aurftrage Ref.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table TCC Package Label - Field Order Reference - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4287621124 - Field 4253581577 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Package Code</source>
+          <target>Paketcode</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table TCC Package Label - Field Package Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4287621124 - Field 1303964638 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Package Group No.</source>
+          <target>Packet groupe no.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table TCC Package Label - Field Package Group No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4287621124 - Field 1668868500 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Printed</source>
+          <target>Gedruckt</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table TCC Package Label - Field Printed - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4287621124 - Field 3312570397 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Printed By</source>
+          <target>Gedruck am</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table TCC Package Label - Field Printed By - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4287621124 - Field 1100798555 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Printed Date/Time</source>
+          <target>Gedruck datum/zeit</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table TCC Package Label - Field Printed DateTime - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4287621124 - Field 851830778 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Prod. Order No.</source>
+          <target>FA-Nr.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table TCC Package Label - Field Prod. Order No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4287621124 - Field 3396467769 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Resp. Center Address</source>
+          <target>Zustandigkeit</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table TCC Package Label - Field Resp. Center Address - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4287621124 - Field 4173292210 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Resp. Center Name</source>
+          <target>Zust. Name</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table TCC Package Label - Field Resp. Center Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4287621124 - Field 2878443408 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Resp. Center PostCode/City</source>
+          <target>Zust, Postzahl.ort</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table TCC Package Label - Field Resp. Center PostCode/City - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4287621124 - Field 1475490283 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Order No.</source>
+          <target>[NAB: SUGGESTION]Verkaufsauftragsnr.</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table TCC Package Label - Field Sales Order No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4287621124 - Field 2854289444 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Weight</source>
+          <target>Gewicht</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table TCC Package Label - Field Weight - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Codeunit 3332149376 - Method 257122436 - NamedType 2312779700" size-unit="char" translate="yes" xml:space="preserve">
           <source>The parts list for goods receipt %1 is incomplete.</source>
           <target>Die Stückliste für Wareneingang %1 ist unvollständig.</target>
@@ -425,6 +558,13 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Page MuM GR Pro. W. Receipts API - Control coPickupToCtryRegCode - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2488227719 - Control 749568357 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CO Responsibility Center</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MuM GR Pro. W. Receipts API - Control coResponsibilityCenter - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 2488227719 - Control 326003978 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Correction</source>
@@ -1122,9 +1262,6 @@
         <trans-unit id="Page 1922438980 - Control 1048998478 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>No. Series</source>
           <target>Nummernserie</target>
-          <target>Anz. Serie</target>
-          <target>Nr.-Serie</target>
-          <target>Nummernserien</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page MuM GR Whse. Receipts API - Control noSeries - Property Caption</note>
         </trans-unit>
@@ -1308,6 +1445,32 @@
           <target>Status Gesetst beim</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page MuM GR Whse. Receipts API - Control statusSetByUserId - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1975801238 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Package Labels</source>
+          <target>Packmittel Labels</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TCC Package Label List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1975801238 - NamedType 3945176725" size-unit="char" translate="yes" xml:space="preserve">
+          <source>At least one selected label has already been printed. Only unprinted labels can be printed.</source>
+          <target>Mindestens ein ausgewähltes Etikett wurde bereits gedruckt. Nur nicht gedruckte Etiketten können gedruckt werden.</target>
+          <note from="Developer" annotates="general" priority="2">Error when user selects labels that are already printed.</note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TCC Package Label List - NamedType AlreadyPrintedErr</note>
+        </trans-unit>
+        <trans-unit id="Page 1975801238 - NamedType 3170215844" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No labels selected.</source>
+          <target>Keine Etiketten ausgewählt.</target>
+          <note from="Developer" annotates="general" priority="2">Error when user tries to print without selecting any labels.</note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TCC Package Label List - NamedType NoLabelsSelectedErr</note>
+        </trans-unit>
+        <trans-unit id="Page 1975801238 - Action 3762069748 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Print Labels</source>
+          <target>Warenausgang Label</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page TCC Package Label List - Action TCC Print Labels - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 1439077842 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Goods receipt label</source>
@@ -1734,6 +1897,126 @@
           <target>Ihre Referenz :</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report TCC Sales Quotation - ReportLabel YourRefLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2944031193 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Warehouse Label</source>
+          <target>Warenausgang label</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Warehouse Label - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 2944031193 - ReportLabel 2349252575" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Campaign No.</source>
+          <target>Kampagnennr.:</target>
+          <note from="Developer" annotates="general" priority="2">Caption for Campaign No.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Warehouse Label - ReportLabel CampaignNoLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2944031193 - ReportLabel 2012528023" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Co Finished Whse. Bin Code</source>
+          <target>Lagerplatz:</target>
+          <note from="Developer" annotates="general" priority="2">Caption for Finished Warehouse Bin Code.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Warehouse Label - ReportLabel CoFinishedWhseBinCodeLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2944031193 - ReportLabel 2279753084" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Collo No.</source>
+          <target>Packet No.:</target>
+          <note from="Developer" annotates="general" priority="2">Caption for Collo No.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Warehouse Label - ReportLabel ColloNoLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2944031193 - ReportLabel 873438131" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer Name</source>
+          <target>Kunde Name:</target>
+          <note from="Developer" annotates="general" priority="2">Caption for Customer Name.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Warehouse Label - ReportLabel CustomerNameLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2944031193 - ReportLabel 2898685577" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer No.</source>
+          <target>Kunde No.:</target>
+          <note from="Developer" annotates="general" priority="2">Caption for Customer No.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Warehouse Label - ReportLabel CustomerNoLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2944031193 - ReportLabel 2103541114" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Debug Text</source>
+          <target>Debug Text:</target>
+          <note from="Developer" annotates="general" priority="2">Caption for Debug Text.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Warehouse Label - ReportLabel DebugTextLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2944031193 - ReportLabel 3111407401" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Goods Receipt No.</source>
+          <target>WAN No.:</target>
+          <note from="Developer" annotates="general" priority="2">Caption for Goods Receipt No.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Warehouse Label - ReportLabel GoodsReceiptNoLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2944031193 - ReportLabel 3120216939" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Description</source>
+          <target>Artikelbeschreibung:</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Warehouse Label - ReportLabel ItemDescriptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2944031193 - ReportLabel 4172508015" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Line No.</source>
+          <target>Zeilennr.:</target>
+          <note from="Developer" annotates="general" priority="2">Caption for Line No.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Warehouse Label - ReportLabel LineNoLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2944031193 - ReportLabel 3852391153" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Order Reference</source>
+          <target>Aurftage Ref.:</target>
+          <note from="Developer" annotates="general" priority="2">Caption for Order Reference.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Warehouse Label - ReportLabel OrderReferenceLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2944031193 - ReportLabel 432967887" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Package Code</source>
+          <target>Paketcode:</target>
+          <note from="Developer" annotates="general" priority="2">Caption for Package Code.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Warehouse Label - ReportLabel PackageCodeLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2944031193 - ReportLabel 3528861210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Package Group No.</source>
+          <target>Packet Groupe No.:</target>
+          <note from="Developer" annotates="general" priority="2">Caption for Package Group No.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Warehouse Label - ReportLabel PackageGroupNoLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2944031193 - ReportLabel 2899232312" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Prod. Order No.</source>
+          <target>FA-Nr.:</target>
+          <note from="Developer" annotates="general" priority="2">Caption for Prod. Order No.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Warehouse Label - ReportLabel ProdOrderNoLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2944031193 - ReportLabel 3278056373" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Responsibility Center Address</source>
+          <target>Zus. Adresse:</target>
+          <note from="Developer" annotates="general" priority="2">Caption for Responsibility Center Address.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Warehouse Label - ReportLabel RespCenterAddressLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2944031193 - ReportLabel 4184957398" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Responsibility Center Name</source>
+          <target>Zust. Name:</target>
+          <note from="Developer" annotates="general" priority="2">Caption for Responsibility Center Name.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Warehouse Label - ReportLabel RespCenterNameLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2944031193 - ReportLabel 2262406161" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Responsibility Center PostCode/City</source>
+          <target>Zust. Postzahl/Ort:</target>
+          <note from="Developer" annotates="general" priority="2">Caption for Responsibility Center PostCode and City.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Warehouse Label - ReportLabel RespCenterPostCodeCityLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2944031193 - ReportLabel 1464485599" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Order No.</source>
+          <target>Verkaufsauftrag:</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Warehouse Label - ReportLabel SalesOrderNoLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2944031193 - ReportLabel 2844867870" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Weight</source>
+          <target>Gewicht:</target>
+          <note from="Developer" annotates="general" priority="2">Caption for Weight.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Warehouse Label - ReportLabel WeightLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 2944031193 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Options</source>
+          <target>Optionen</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report TCC Warehouse Label - Control Options - Property Caption</note>
         </trans-unit>
         <trans-unit id="Report 3353495132 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Weight Card</source>
@@ -2182,6 +2465,12 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension TCC Whse. Shipment Subform ext - Control Warehouse Activity No. - Property Caption</note>
         </trans-unit>
+        <trans-unit id="PageExtension 1296800981 - Action 3353495132 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2938519335">
+          <source>Weight Cart Exit</source>
+          <target>Wiegekarte Ausgang</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension TCC WhseShpt Ext - Action TCC Weight Cart - Property Caption</note>
+        </trans-unit>
         <trans-unit id="PageExtension 3415156606 - Control 3056029483 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 225437410">
           <source>Warehouse Receipt</source>
           <target>Wareneingang</target>
@@ -2200,24 +2489,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension TCCResponsibilityCenter - Control User Name for User Tasks - Method OnAssistEdit - NamedType AssistLbl</note>
         </trans-unit>
-        <trans-unit id="PageExtension 626773269 - Action 3353495132 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2938519335">
-          <source>Weight Cart Exit</source>
-          <target>Wiegekarte Ausgang</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension WhseShpt TCC Ext - Action TCC Weight Cart - Property Caption</note>
-        </trans-unit>
         <trans-unit id="TableExtension 2661194641 - Field 1658279497 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2508466544">
           <source>"Sell-to Language Code"</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Kunde Sprache</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension TCC MuM GR Whse. Rcpt. Header - Field Sell-to Language Code - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 3664236174 - Field 2292030083 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3442823154">
           <source>User Task ID</source>
-          <target>[NAB: NOT TRANSLATED]</target>
+          <target>Benutzer ID</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension TCC MuM MS Media Storage - Field User Task ID - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 2995489615 - Field 1650050144 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3481075867">
@@ -2324,36 +2605,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">EnumExtension TCC MuM MS MediaStorage Source - EnumValue TCC User Task - Property Caption</note>
         </trans-unit>
-        <trans-unit id="PageExtension 2427123794 - Action 3353495132 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 319452331">
-          <source>Warehouse Label</source>
-          <target>Warenausgang Label</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension TCC Rel Order Line  Ext - Action TCC Weight Cart - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="PageExtension 1296800981 - Action 3353495132 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2938519335">
-          <source>Weight Cart Exit</source>
-          <target>Wiegekarte Ausgang</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension TCC WhseShpt Ext - Action TCC Weight Cart - Property Caption</note>
-        </trans-unit>
         <trans-unit id="PageExtension 821216785 - Change 747683197 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1566602949">
           <source>Release</source>
           <target>Freigeben</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension TCCMuM GR Whse. Receipt - Change Notify - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Report 1535877145 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Warehouse Label</source>
-          <target>Warenausgang label</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report TCC WarehouseLabel - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="PageExtension 2427123794 - Action 2944031193 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 319452331">
-          <source>Warehouse Label</source>
-          <target>Warenausgang Label</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension TCC Rel Order Line  Ext - Action TCC Warehouse Label - Property Caption</note>
         </trans-unit>
       </group>
     </body>

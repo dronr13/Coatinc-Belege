@@ -44,6 +44,10 @@ page 60001 "MuM GR Pro. W. Receipts API"
                 {
                     Caption = 'Requested Delivery Date';
                 }
+                field(coResponsibilityCenter; Rec."CO Responsibility Center")
+                {
+                    Caption = 'CO Responsibility Center';
+                }
                 field(sellToCustomerNo; Rec."Sell-to Customer No.")
                 {
                     Caption = 'Sell-to Customer No.';
