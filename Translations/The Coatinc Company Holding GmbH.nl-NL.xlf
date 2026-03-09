@@ -2811,12 +2811,13 @@
           <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension TCCCOCoatincSetup - Control WarehouseReceipt - Property Caption</note>
         </trans-unit>
-        <trans-unit id="PageExtension 3979214416 - Change 747683197 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1566602949">
+        <trans-unit id="PageExtension 3979214416 - Change 4032263875 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1566602949">
           <source>Release</source>
           <target>[NAB: SUGGESTION]Vrijgeven</target>
+          <target>[NAB: SUGGESTION]Vrijgave</target>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension TCCMuM GR Whse. Receipt - Change Notify - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension TCCMuM GR Whse. Receipt - Change Release - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 4072668533 - Control 3653774230 - Method 2699620902 - NamedType 2964318471" size-unit="char" translate="yes" xml:space="preserve" al-object-target="PageExtension 4072668533">
           <source>Select value,Empty</source>
@@ -2845,6 +2846,20 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension TCC MuM PC Prod. Campaign Line - Field Barcode - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2995489615 - Field 541296616 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3481075867">
+          <source>Debitor name</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension TCC MuM PC Prod. Campaign Line - Field Debitor Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 2995489615 - Field 3274197358 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3481075867">
+          <source>Your reference</source>
+          <target>[NAB: NOT TRANSLATED]</target>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">New translation.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension TCC MuM PC Prod. Campaign Line - Field Your reference - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 4007689046 - Field 3818038736 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1192395785">
           <source>Created By</source>
@@ -2954,11 +2969,12 @@
           <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
           <note from="Xliff Generator" annotates="general" priority="3">EnumExtension TCC MuM MS MediaStorage Source - EnumValue TCC User Task - Property Caption</note>
         </trans-unit>
-        <trans-unit id="PageExtension 821216785 - Change 747683197 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1566602949">
+        <trans-unit id="PageExtension 821216785 - Change 4032263875 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1566602949">
           <source>Release</source>
-          <target>Vrijgeven</target>
+          <target>[NAB: SUGGESTION]Vrijgeven</target>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PageExtension TCCMuM GR Whse. Receipt - Change Notify - Property Caption</note>
+          <note from="NAB AL Tool Refresh Xlf" annotates="general" priority="3">Suggested translation inserted.</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension TCCMuM GR Whse. Receipt - Change Release - Property Caption</note>
         </trans-unit>
       </group>
     </body>

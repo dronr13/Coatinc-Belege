@@ -4,16 +4,11 @@ pageextension 60158 "TCC Whse. Shipment Subform ext" extends "Whse. Shipment Sub
     {
         addafter("Source No.")
         {
-            field("Warehouse Activity No."; WarehouseActivityNoTxt)
+            field("Warehouse Activity No."; Rec."Warehouse Activity No.")
             {
-                Caption = 'Warehouse Activity No.';
                 ApplicationArea = All;
-                
+                Caption = 'Warehouse Activity No.';
             }
         }
     }
-
-    var
-        WarehouseActivityNoTxt: Code[20];
-
 }

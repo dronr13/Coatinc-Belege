@@ -11,6 +11,17 @@ pageextension 60156 "TCC MuM PC Prod. Cam. Sub Ext" extends "MuM PC Prod. Campai
                 Editable = false;
             }
         }
+        addafter(Barcode)
+        {
+            field("Debiteur Naam"; Rec."Debitor Name")
+            {
+                ApplicationArea = All;
+            }
+            field("Order Referentie"; Rec."Your Reference")
+            {
+                ApplicationArea = All;
+            }
+        }
     }
 
 }
