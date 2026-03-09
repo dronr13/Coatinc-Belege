@@ -5,5 +5,6 @@ pageextension 60140 "TCC Opportunity List Ext" extends "Opportunity List"
         moveafter("Contact Company No."; "Contact Company Name")
    
         moveafter("Contact Company Name"; "Contact Name")
+
     }
 }

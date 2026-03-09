@@ -1,5 +1,5 @@
 
-pageextension 60127 "TCCMuM GR Whse. Receipt" extends "MuM GR Whse. Receipt"
+pageextension 60127 "TCCMuM GR PWhse. Receipt" extends "MuM GR Whse. Receipt"
 {
 /*     layout
     {

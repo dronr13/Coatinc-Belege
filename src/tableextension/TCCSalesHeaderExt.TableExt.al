@@ -13,6 +13,13 @@ tableextension 60136 "TCC Sales Header Ext" extends "Sales Header"
             Caption = 'Modified By';
             DataClassification = CustomerContent;
         }
+        field(60120; "Salesperson Name"; Text[50])
+        {
+            Caption = 'Salesperson Name';
+            FieldClass = FlowField;
+            CalcFormula = lookup("Salesperson/Purchaser".Name
+                                 where(Code = field("Salesperson Code")));
+        }
     
 
     }
